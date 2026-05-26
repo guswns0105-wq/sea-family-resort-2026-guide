@@ -31,12 +31,12 @@
     "name": "오션스파/웰스파 계열",
     "price": "60~90분 1.5만~4만원",
     "transport": "숙소 위치 따라 10~45분",
-    "note": "네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨",
+    "note": "깜란 리조트 픽업형 스파 후보로 일정에 넣기 좋음",
     "dish": "식사 후 60~90분 발·전신 마사지로 마무리하기 좋은 코스",
     "parent_fit": "픽업 가능 여부, 계단 없는 룸, 강도 약하게 요청 가능 여부를 예약 전 확인",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
-    "image_alt": "동남아 마사지 예시",
-    "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+    "image_url": "assets/guide-images/spa-room.webp",
+    "image_alt": "차분한 스파룸 이미지",
+    "image_credit": "Wikimedia Commons · Massage room in Shanghai"
   },
   {
     "destination_id": "da-nang-non-nuoc",
@@ -73,9 +73,9 @@
     "note": "한시장·미케비치 동선에 배치하기 쉬움",
     "dish": "저녁 식사 전후 발마사지나 아로마 마사지로 한시장 동선과 묶기",
     "parent_fit": "쇼핑 후 바로 쉬는 일정으로 잡으면 부모님 피로 누적을 줄일 수 있음",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
-    "image_alt": "동남아 마사지 예시",
-    "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+    "image_url": "assets/guide-images/spa-room.webp",
+    "image_alt": "차분한 스파룸 이미지",
+    "image_credit": "Wikimedia Commons · Massage room in Shanghai"
   },
   {
     "destination_id": "bali-nusa-dua",
@@ -112,9 +112,9 @@
     "note": "누사두아 호텔존 픽업형 마사지 후보",
     "dish": "식사 후 2시간 발리니스 마사지 또는 아로마 마사지",
     "parent_fit": "호텔 픽업형으로 예약하면 밤 이동 부담이 줄어듦",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
-    "image_alt": "발리 마사지 예시",
-    "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+    "image_url": "assets/guide-images/spa-room.webp",
+    "image_alt": "차분한 스파룸 이미지",
+    "image_credit": "Wikimedia Commons · Massage room in Shanghai"
   },
   {
     "destination_id": "phuket-mai-khao",
@@ -138,9 +138,9 @@
     "note": "부모님 동반이면 장거리보다 리조트 스파 권장",
     "dish": "리조트 안에서 타이 마사지·아로마 마사지 중심으로 선택",
     "parent_fit": "빠통까지 이동은 길어 부모님 컨디션이 좋을 때만 추천",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
-    "image_alt": "스파 마사지 예시",
-    "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+    "image_url": "assets/guide-images/spa-room.webp",
+    "image_alt": "차분한 스파룸 이미지",
+    "image_credit": "Wikimedia Commons · Massage room in Shanghai"
   },
   {
     "destination_id": "phu-quoc",
@@ -164,8 +164,8 @@
     "note": "외부 이동보다 리조트 내 스파가 부모님 동선에 편함",
     "dish": "리조트 안에서 아로마 마사지 또는 발마사지 후 바로 객실 복귀",
     "parent_fit": "비 오는 날이나 장거리 이동 후 회복 일정으로 가장 편함",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
-    "image_alt": "리조트 스파 마사지 예시",
-    "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+    "image_url": "assets/guide-images/spa-room.webp",
+    "image_alt": "차분한 스파룸 이미지",
+    "image_credit": "Wikimedia Commons · Massage room in Shanghai"
   }
 ]
