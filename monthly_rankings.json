@@ -1,0 +1,74 @@
+[
+  {
+    "month": "2026-09",
+    "rank": 1,
+    "destination_id": "bali-nusa-dua",
+    "score": 94,
+    "headline": "9월은 발리 누사두아가 가장 안정적",
+    "reason": "발리 9월은 건기 후반이라 강우 리스크가 낮고, 누사두아는 부모님 동반 리조트 휴양에 안정적입니다."
+  },
+  {
+    "month": "2026-09",
+    "rank": 2,
+    "destination_id": "da-nang-non-nuoc",
+    "score": 88,
+    "headline": "9월 다낭은 접근성과 먹거리 최강",
+    "reason": "9월까지는 다낭 해변 리조트와 한시장·미케비치 맛집·마사지 동선을 묶기 좋습니다."
+  },
+  {
+    "month": "2026-09",
+    "rank": 3,
+    "destination_id": "cam-ranh-nha-trang",
+    "score": 86,
+    "headline": "9월 깜란은 풀빌라 휴양형으로 적합",
+    "reason": "우기 시작 변수는 있지만 공항-리조트 이동이 짧고 3베드룸 풀빌라 후보가 많습니다."
+  },
+  {
+    "month": "2026-10",
+    "rank": 1,
+    "destination_id": "bali-nusa-dua",
+    "score": 90,
+    "headline": "10월도 발리 누사두아 우선",
+    "reason": "10월은 건기에서 우기로 넘어가는 시기지만 다낭·나트랑보다 태풍 리스크가 낮아 가족 휴양에 낫습니다."
+  },
+  {
+    "month": "2026-10",
+    "rank": 2,
+    "destination_id": "phuket-mai-khao",
+    "score": 78,
+    "headline": "10월 말 푸켓은 조건부 2위",
+    "reason": "10월 초중순은 우기이나 하순부터 안다만 해안 상황이 개선됩니다. 풀 좋은 리조트를 전제로 둡니다."
+  },
+  {
+    "month": "2026-10",
+    "rank": 3,
+    "destination_id": "cam-ranh-nha-trang",
+    "score": 74,
+    "headline": "10월 깜란은 리조트 체류형이면 가능",
+    "reason": "강우·풍랑 변수가 있어 외부 관광보다 풀빌라·스파·리조트 식사 중심이면 검토 가능합니다."
+  },
+  {
+    "month": "2026-11",
+    "rank": 1,
+    "destination_id": "phuket-mai-khao",
+    "score": 89,
+    "headline": "11월은 푸켓이 1순위",
+    "reason": "푸켓은 11월부터 건기 전환으로 해변 리조트 만족도가 올라갑니다. 단 초반 비 변수는 남습니다."
+  },
+  {
+    "month": "2026-11",
+    "rank": 2,
+    "destination_id": "phu-quoc",
+    "score": 87,
+    "headline": "11월 푸꾸옥은 풀빌라 가족여행 강자",
+    "reason": "푸꾸옥은 11월부터 건기권이고 3~5베드룸 개인풀 빌라 리조트가 많아 4~6인 가족에 맞습니다."
+  },
+  {
+    "month": "2026-11",
+    "rank": 3,
+    "destination_id": "bali-nusa-dua",
+    "score": 78,
+    "headline": "11월 발리는 우기 시작이지만 리조트형 대안",
+    "reason": "비가 시작되는 달이라 9~10월보다 밀리지만, 누사두아 리조트 체류형이면 일정 실패 위험을 줄일 수 있습니다."
+  }
+]

@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 부모님 동반 동남아 휴양지 가이드</title>
+  <style>
+    :root { --ink:#162025; --muted:#60707a; --line:#d7e1e5; --bg:#f4f7f7; --panel:#fff; --sea:#007f8f; --leaf:#1f6d49; --gold:#c78316; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,"Noto Sans KR",sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+    header { min-height:72vh; display:grid; align-items:end; padding:8vw 6vw; color:white; background:linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.72)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg') center/cover; }
+    h1 { margin:0 0 16px; max-width:1100px; font-size:clamp(36px,7vw,84px); line-height:1.03; letter-spacing:0; }
+    header p { max-width:980px; margin:0; font-size:clamp(17px,2.1vw,24px); }
+    nav { position:sticky; top:0; z-index:5; display:flex; gap:8px; flex-wrap:wrap; padding:12px 6vw; background:rgba(255,255,255,.94); border-bottom:1px solid var(--line); }
+    nav a { color:var(--ink); text-decoration:none; font-weight:800; padding:8px 10px; border-radius:6px; }
+    nav a:hover { background:#e4f4f5; }
+    main { padding:34px 6vw 70px; }
+    section { max-width:1320px; margin:0 auto 46px; }
+    h2 { margin:0 0 16px; font-size:clamp(24px,3vw,38px); }
+    .lead { max-width:1050px; color:var(--muted); }
+    .rank-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+    .rank-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .rank-card > *:not(.card-image) { margin-left:18px; margin-right:18px; }
+    .rank-card small { display:block; margin-bottom:16px; color:var(--muted); }
+    .card-image { width:100%; height:210px; object-fit:cover; display:block; background:#dce7ea; }
+    .rank { font-size:24px; font-weight:900; color:var(--sea); }
+    .rank-card h3 { margin:6px 0; font-size:26px; }
+    .headline { font-weight:900; color:var(--leaf); }
+    dl { display:grid; gap:8px; }
+    dt { font-size:13px; font-weight:900; color:var(--muted); }
+    dd { margin:0; }
+    meter { width:100%; height:12px; }
+    .table-wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+    table { width:100%; min-width:980px; border-collapse:collapse; }
+    th,td { padding:13px; text-align:left; vertical-align:top; border-bottom:1px solid var(--line); }
+    th { background:#e8f3f4; font-size:13px; }
+    td span { color:var(--muted); font-size:13px; }
+    a { color:var(--sea); font-weight:800; }
+    .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
+    .route-grid,.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
+    .route-card div,.reference-card div { padding:16px 16px 16px 0; }
+    .route-card h3,.reference-card h3 { margin:0 0 6px; }
+    .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
+    .muted,.reference-card small { color:var(--muted); }
+    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>2026년 9·10·11월 부모님 동반 동남아 휴양지 가이드</h1>
+      <p>4~6인 가족 기준으로 날씨, 항공권, 숙소, 맛집, 마사지 동선을 한 번에 비교했습니다.</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#places">맛집·마사지</a><a href="#crawl">참고자료</a>
+  </nav>
+  <main>
+    <section id="summary">
+      <h2>결론</h2>
+      <p class="lead">9월은 발리 누사두아, 10월도 발리 누사두아, 11월은 푸켓과 푸꾸옥이 강합니다. 다낭은 먹거리와 마사지 접근성은 최고지만 10~11월 중부 베트남 날씨 리스크 때문에 9월 후보로 제한했습니다.</p>
+      <div class="method">
+        <div><strong>부모님 동선</strong><br>공항에서 숙소까지 짧고, 하루 한 번 외출해도 식사와 마사지가 해결되는 지역을 우선했습니다.</div>
+        <div><strong>예산 기준</strong><br>숙소는 1박 500,000~600,000원을 목표로 보되, 4~6인 풀빌라는 실제로 700,000원 이상도 자주 나옵니다.</div>
+        <div><strong>날씨 기준</strong><br>9월·10월은 발리, 11월은 푸켓과 푸꾸옥이 상대적으로 유리합니다. 다낭은 10~11월 우천 리스크가 큽니다.</div>
+      </div>
+    </section>
+    <section id='2026-09'><h2>09월 추천 1·2·3위</h2><div class='rank-grid'>
+                <article class="rank-card rank-1">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+                  <div class="rank">#1</div>
+                  <h3>발리 누사두아</h3>
+                  <p class="headline">9월은 발리 누사두아가 가장 안정적</p>
+                  <p>발리 9월은 건기 후반이라 강우 리스크가 낮고, 누사두아는 부모님 동반 리조트 휴양에 안정적입니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>DPS</dd></div>
+                    <div><dt>날씨</dt><dd>9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.</dd></div>
+                    <div><dt>주의</dt><dd>4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="94"></meter>
+                  <small>누사두아 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-2">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+                  <div class="rank">#2</div>
+                  <h3>다낭 논느억/미케</h3>
+                  <p class="headline">9월 다낭은 접근성과 먹거리 최강</p>
+                  <p>9월까지는 다낭 해변 리조트와 한시장·미케비치 맛집·마사지 동선을 묶기 좋습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>DAD</dd></div>
+                    <div><dt>날씨</dt><dd>9월은 가능하지만 10~11월 중부 베트남은 태풍·침수 리스크가 커서 후순위.</dd></div>
+                    <div><dt>주의</dt><dd>10~11월 출발이면 날씨 리스크 때문에 다른 지역 우선.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="88"></meter>
+                  <small>다낭 미케 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-3">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+                  <div class="rank">#3</div>
+                  <h3>나트랑/깜란</h3>
+                  <p class="headline">9월 깜란은 풀빌라 휴양형으로 적합</p>
+                  <p>우기 시작 변수는 있지만 공항-리조트 이동이 짧고 3베드룸 풀빌라 후보가 많습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>CXR</dd></div>
+                    <div><dt>날씨</dt><dd>9월부터 짧은 우기지만 깜란은 공항과 리조트가 가까워 휴양형 일정에 적합. 10~11월은 강우 변수 상승.</dd></div>
+                    <div><dt>주의</dt><dd>나트랑 시내 맛집은 리조트에서 차로 35~45분이라 외식일을 따로 잡는 편이 좋음.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="86"></meter>
+                  <small>나트랑 해변 · 위키미디어 공용</small>
+                </article>
+                </div></section><section id='2026-10'><h2>10월 추천 1·2·3위</h2><div class='rank-grid'>
+                <article class="rank-card rank-1">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+                  <div class="rank">#1</div>
+                  <h3>발리 누사두아</h3>
+                  <p class="headline">10월도 발리 누사두아 우선</p>
+                  <p>10월은 건기에서 우기로 넘어가는 시기지만 다낭·나트랑보다 태풍 리스크가 낮아 가족 휴양에 낫습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>DPS</dd></div>
+                    <div><dt>날씨</dt><dd>9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.</dd></div>
+                    <div><dt>주의</dt><dd>4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="90"></meter>
+                  <small>누사두아 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-2">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+                  <div class="rank">#2</div>
+                  <h3>푸켓 마이카오/나이양</h3>
+                  <p class="headline">10월 말 푸켓은 조건부 2위</p>
+                  <p>10월 초중순은 우기이나 하순부터 안다만 해안 상황이 개선됩니다. 풀 좋은 리조트를 전제로 둡니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>HKT</dd></div>
+                    <div><dt>날씨</dt><dd>9~10월은 우기, 11월부터 건기 전환. 11월도 초반에는 비 가능성이 있어 풀 좋은 리조트가 중요.</dd></div>
+                    <div><dt>주의</dt><dd>마이카오는 조용하지만 외부 맛집·쇼핑은 30~70분 이동.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="78"></meter>
+                  <small>푸켓 마이카오 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-3">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+                  <div class="rank">#3</div>
+                  <h3>나트랑/깜란</h3>
+                  <p class="headline">10월 깜란은 리조트 체류형이면 가능</p>
+                  <p>강우·풍랑 변수가 있어 외부 관광보다 풀빌라·스파·리조트 식사 중심이면 검토 가능합니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>CXR</dd></div>
+                    <div><dt>날씨</dt><dd>9월부터 짧은 우기지만 깜란은 공항과 리조트가 가까워 휴양형 일정에 적합. 10~11월은 강우 변수 상승.</dd></div>
+                    <div><dt>주의</dt><dd>나트랑 시내 맛집은 리조트에서 차로 35~45분이라 외식일을 따로 잡는 편이 좋음.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="74"></meter>
+                  <small>나트랑 해변 · 위키미디어 공용</small>
+                </article>
+                </div></section><section id='2026-11'><h2>11월 추천 1·2·3위</h2><div class='rank-grid'>
+                <article class="rank-card rank-1">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+                  <div class="rank">#1</div>
+                  <h3>푸켓 마이카오/나이양</h3>
+                  <p class="headline">11월은 푸켓이 1순위</p>
+                  <p>푸켓은 11월부터 건기 전환으로 해변 리조트 만족도가 올라갑니다. 단 초반 비 변수는 남습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>HKT</dd></div>
+                    <div><dt>날씨</dt><dd>9~10월은 우기, 11월부터 건기 전환. 11월도 초반에는 비 가능성이 있어 풀 좋은 리조트가 중요.</dd></div>
+                    <div><dt>주의</dt><dd>마이카오는 조용하지만 외부 맛집·쇼핑은 30~70분 이동.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="89"></meter>
+                  <small>푸켓 마이카오 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-2">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 해변" loading="lazy">
+                  <div class="rank">#2</div>
+                  <h3>푸꾸옥</h3>
+                  <p class="headline">11월 푸꾸옥은 풀빌라 가족여행 강자</p>
+                  <p>푸꾸옥은 11월부터 건기권이고 3~5베드룸 개인풀 빌라 리조트가 많아 4~6인 가족에 맞습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>PQC</dd></div>
+                    <div><dt>날씨</dt><dd>11월부터 건기권에 들어가 해변 휴양 적합도가 올라감. 9~10월은 우기라 후순위.</dd></div>
+                    <div><dt>주의</dt><dd>일부 지역은 해변 상태와 외부 상권 편차가 있어 리조트 선택이 중요.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="87"></meter>
+                  <small>푸꾸옥 해변 · 위키미디어 공용</small>
+                </article>
+                
+                <article class="rank-card rank-3">
+                  <img class="card-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+                  <div class="rank">#3</div>
+                  <h3>발리 누사두아</h3>
+                  <p class="headline">11월 발리는 우기 시작이지만 리조트형 대안</p>
+                  <p>비가 시작되는 달이라 9~10월보다 밀리지만, 누사두아 리조트 체류형이면 일정 실패 위험을 줄일 수 있습니다.</p>
+                  <dl>
+                    <div><dt>공항</dt><dd>DPS</dd></div>
+                    <div><dt>날씨</dt><dd>9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.</dd></div>
+                    <div><dt>주의</dt><dd>4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.</dd></div>
+                  </dl>
+                  <meter min="0" max="100" value="78"></meter>
+                  <small>누사두아 해변 · 위키미디어 공용</small>
+                </article>
+                </div></section>
+    <section id="flights"><h2>항공권 가격·출발 타이밍</h2><p class="lead">인천 출발 왕복 1인 기준입니다. 실제 결제 전에는 위탁수하물, 좌석, 결제 수수료, 새벽 도착 여부까지 포함해서 다시 비교하세요.</p><div class="table-wrap"><table><thead><tr><th>월/지역</th><th>노선/항공사</th><th>1인 왕복 예상</th><th>가장 저렴한 출발 패턴</th><th>가족 총액</th><th>판단 기준</th></tr></thead><tbody><tr><td>2026년 09월<br><span>다낭 논느억/미케</span></td><td><strong>인천-다낭</strong><br><span>제주항공, 티웨이, 에어서울, 베트남항공, 대한항공 등</span></td><td>약 378,000원<br><span>특가 목표: 310,000원~350,000원</span></td><td>9월 일요일 출발, 5~7박<br><span>출발 1.5~2개월 전부터 가격 알림, 특가면 즉시 결제</span></td><td>4명 약 1,510,000원~2,240,000원<br>6명 약 2,270,000원~3,370,000원</td><td>StubbyPlanner 2026년 9월 인천-다낭 평균/최저/요일 데이터</td></tr><tr><td>2026년 09월<br><span>나트랑/깜란</span></td><td><strong>인천-깜란</strong><br><span>제주항공, 진에어, 티웨이, 에어서울, 비엣젯, 베트남항공 등</span></td><td>200,000원~400,000원대<br><span>특가 목표: 220,000원~300,000원</span></td><td>9월 화~목 또는 일요일 출발, 추석/연휴 회피<br><span>출발 2~3개월 전 LCC 특가와 1개월 전 잔여석을 함께 감시</span></td><td>4명 약 880,000원~1,600,000원<br>6명 약 1,320,000원~2,400,000원</td><td>TripStore 나트랑 평균가/우기 특가 패턴 및 T&#x27;way 2026 특가 기사</td></tr><tr><td>2026년 09월<br><span>발리 누사두아</span></td><td><strong>인천-발리</strong><br><span>대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유</span></td><td>직항 550,000원~950,000원, 경유 300,000원~600,000원<br><span>특가 목표: 경유 300,000원~450,000원, 직항 600,000원대</span></td><td>9월 월~목 출발, 금·토 출발 회피<br><span>직항은 3~4개월 전, 경유 특가는 에어아시아 빅세일/프로모션 시점</span></td><td>4명 약 2,200,000원~3,800,000원<br>6명 약 3,300,000원~5,700,000원</td><td>2026 하계 인천-덴파사르 운항 스케줄 및 에어아시아 인천-발리 경유 특가</td></tr><tr><td>2026년 10월<br><span>발리 누사두아</span></td><td><strong>인천-발리</strong><br><span>대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유</span></td><td>직항 550,000원~1,000,000원, 경유 320,000원~650,000원<br><span>특가 목표: 경유 350,000원~500,000원, 직항 600,000원~750,000원</span></td><td>10월 초~중순 월~목 출발<br><span>직항은 3개월 전, 경유는 프로모션 기간 우선</span></td><td>4명 약 2,200,000원~4,000,000원<br>6명 약 3,300,000원~6,000,000원</td><td>운항 스케줄과 경유 특가 패턴 기반 추정</td></tr><tr><td>2026년 10월<br><span>푸켓 마이카오/나이양</span></td><td><strong>인천-푸켓</strong><br><span>대한항공/아시아나 계열, 진에어/제주항공/티웨이 계열, 태국 경유편 등</span></td><td>약 400,000원~700,000원<br><span>특가 목표: 350,000원~450,000원</span></td><td>10월 하순 일~목 출발<br><span>출발 2개월 전부터 감시, 10월 초중순은 날씨 리스크 때문에 가격만 보고 결정 금지</span></td><td>4명 약 1,600,000원~2,800,000원<br>6명 약 2,400,000원~4,200,000원</td><td>푸켓 월별 비교에서 10월이 평균보다 높고 우기 전환기라는 근거</td></tr><tr><td>2026년 11월<br><span>푸켓 마이카오/나이양</span></td><td><strong>인천-푸켓</strong><br><span>직항 및 방콕/홍콩/싱가포르 경유편</span></td><td>최저가 평균 약 345,000원~500,000원대<br><span>특가 목표: 340,000원~420,000원</span></td><td>11월 일~목 출발, 가능하면 11월 중순 이후<br><span>출발 2~3개월 전 예약, 9월 말~10월 초 특가 확인</span></td><td>4명 약 1,380,000원~2,000,000원<br>6명 약 2,070,000원~3,000,000원</td><td>StubbyPlanner 푸켓 월별 비교: 11월 최저 344,664원</td></tr><tr><td>2026년 11월<br><span>푸꾸옥</span></td><td><strong>인천-푸꾸옥</strong><br><span>비엣젯, 베트남항공/호치민 경유, 기타 OTA 조합</span></td><td>약 440,000원~700,000원<br><span>특가 목표: 400,000원~500,000원</span></td><td>11월 말 평일 출발<br><span>출발 2개월 전부터 직항 특가 감시, 비엣젯 수하물 포함가로 비교</span></td><td>4명 약 1,760,000원~2,800,000원<br>6명 약 2,640,000원~4,200,000원</td><td>Traveloka 11월 참고가 442,764원 및 11월 말~12월 초 평일 저가 패턴</td></tr></tbody></table></div></section>
+    <section id="routes"><h2>이동 경로</h2><p class="lead">부모님 동반 일정은 공항 이동, 식사 이동, 마사지 이동을 따로 보아야 실패 확률이 낮습니다.</p><div class="route-grid">
+            <article class="route-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+              <div>
+                <h3>발리 누사두아 기본 동선</h3>
+                <p class="muted">발리 누사두아 · DPS 공항 기준</p>
+                <ol>
+                  <li>응우라라이 공항에서 누사두아 리조트까지 차량 25~40분</li>
+                  <li>발리 컬렉션과 누사두아 식당가까지 차량 5~15분</li>
+                  <li>엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능</li>
+                </ol>
+                <p><strong>부모님 팁</strong> 도착일에는 리조트 식사, 둘째 날부터 외부 식당·마사지 1회 외출로 잡는 편이 편합니다.</p>
+              </div>
+            </article>
+            
+            <article class="route-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+              <div>
+                <h3>다낭 논느억·미케 기본 동선</h3>
+                <p class="muted">다낭 논느억/미케 · DAD 공항 기준</p>
+                <ol>
+                  <li>다낭 공항에서 논느억·미케 해변 리조트까지 차량 20~25분</li>
+                  <li>미케비치 식당가 10~15분, 한시장·핑크성당 주변 20~25분</li>
+                  <li>퀸스파·팜스파 등 주요 마사지샵까지 차량 15~25분</li>
+                </ol>
+                <p><strong>부모님 팁</strong> 오전 리조트, 오후 한시장, 저녁 식사와 마사지까지 한 번의 외출로 묶기 좋습니다.</p>
+              </div>
+            </article>
+            
+            <article class="route-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+              <div>
+                <h3>나트랑·깜란 기본 동선</h3>
+                <p class="muted">나트랑/깜란 · CXR 공항 기준</p>
+                <ol>
+                  <li>깜란 공항에서 해변 리조트까지 차량 10~20분</li>
+                  <li>나트랑 시내 마담프엉·쌀국수 식당가까지 차량 35~45분</li>
+                  <li>깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분</li>
+                </ol>
+                <p><strong>부모님 팁</strong> 리조트에서 쉬는 날과 시내 외식·마사지 날을 분리하면 이동 피로가 줄어듭니다.</p>
+              </div>
+            </article>
+            
+            <article class="route-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <h3>푸켓 마이카오 기본 동선</h3>
+                <p class="muted">푸켓 마이카오/나이양 · HKT 공항 기준</p>
+                <ol>
+                  <li>푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분</li>
+                  <li>나이양 해변 식당가 15~25분, 푸켓타운·빠통은 50~70분</li>
+                  <li>부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다.</li>
+                </ol>
+                <p><strong>부모님 팁</strong> 11월에도 초반 비가 올 수 있어 수영장과 리조트 식당이 좋은 숙소를 고르는 것이 중요합니다.</p>
+              </div>
+            </article>
+            
+            <article class="route-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 해변" loading="lazy">
+              <div>
+                <h3>푸꾸옥 남부 기본 동선</h3>
+                <p class="muted">푸꾸옥 · PQC 공항 기준</p>
+                <ol>
+                  <li>푸꾸옥 공항에서 남부 켐비치·선셋타운 리조트까지 차량 25~45분</li>
+                  <li>선셋타운·켐비치 식당가까지 차량 10~25분</li>
+                  <li>가족 풀빌라 리조트 내부 스파 이용이 가장 편하고, 외부 이동은 숙소 위치에 따라 편차가 큽니다.</li>
+                </ol>
+                <p><strong>부모님 팁</strong> 11월 말 평일 항공권과 남부 풀빌라를 묶으면 가족 휴양 만족도가 높습니다.</p>
+              </div>
+            </article>
+            </div></section>
+    <section id="resorts"><h2>숙소 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>숙소/객실</th><th>수영장</th><th>가격대</th><th>교통</th></tr></thead><tbody><tr><td>발리 누사두아</td><td><strong>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</strong><br><span>Lagoon Access 객실 조합 / 일부 빌라</span></td><td>대형 야외 라군 풀, 일부 빌라 플런지풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 약 700,000원~1,200,000원대, 빌라 1,000,000원+</td><td>DPS 공항 25~40분, Bali Collection 5~10분</td></tr><tr><td>나트랑/깜란</td><td><strong>Fusion Resort Cam Ranh</strong><br><span>Three-Bedroom Beach Front Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 750,000원~1,400,000원, 프로모션 필요</td><td>CXR 공항 10~15분, 나트랑 시내 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>The Anam Cam Ranh</strong><br><span>Three-Bedroom Hilltop Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 600,000원~1,200,000원</td><td>CXR 공항 15~20분, 나트랑 시내 35~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</strong><br><span>Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 공식 시설상 야외 중심</span></td><td>약 550,000원~1,100,000원</td><td>DAD 공항 20~25분, 미케/한시장 10~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>JW Marriott Phuket Resort &amp; Spa</strong><br><span>Pool Access rooms / Oceanfront Villa with Private Pool</span></td><td>공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 600,000원~1,400,000원, 대형 빌라 1,500,000원+</td><td>HKT 공항 15~25분, 빠통/푸켓타운 50~70분</td></tr><tr><td>푸꾸옥</td><td><strong>Premier Village Phu Quoc Resort</strong><br><span>3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool</span></td><td>모든 빌라 개인풀 + 리조트 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>3BR 약 700,000원~1,600,000원+</td><td>PQC 공항 25~45분, 남부 케이블카/선셋타운 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>New World Phu Quoc Resort</strong><br><span>3-Bedroom Pool Villa / Beachfront Pool Villa 계열</span></td><td>전 객실급 개인풀 중심 + 120m 인피니티 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 700,000원~1,800,000원+</td><td>PQC 공항 25~45분, 켐비치 인접</td></tr></tbody></table></div></section>
+    <section id="places"><h2>맛집·마사지 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>장소</th><th>추천 이유</th><th>가격대</th><th>이동</th></tr></thead><tbody><tr><td>나트랑/깜란</td><td><strong>마담프엉</strong><br><span>맛집</span></td><td>에어컨·청결·한국인 후기 많아 부모님 동반 무난</td><td>1인 15,000원~30,000원</td><td>깜란 리조트에서 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>I-Resort 머드온천</strong><br><span>체험/마사지</span></td><td>비 오는 날 대안으로 좋음</td><td>패키지별 10,000원~50,000원+</td><td>깜란 리조트에서 45~55분</td></tr><tr><td>나트랑/깜란</td><td><strong>오션스파/웰스파 계열</strong><br><span>마사지</span></td><td>네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨</td><td>60~90분 15,000원~40,000원</td><td>숙소 위치 따라 10~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>목식당</strong><br><span>맛집</span></td><td>한국인 해산물 맛집 후기가 많음</td><td>1인 20,000원~60,000원</td><td>논느억/미케에서 10~20분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>냐벱/나벱수아</strong><br><span>맛집</span></td><td>베트남 가정식, 에어컨 좌석 후보</td><td>1인 8천~20,000원</td><td>미케 10~15분, 한시장 20~25분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>퀸스파/팜스파</strong><br><span>마사지</span></td><td>한시장·미케비치 동선에 배치하기 쉬움</td><td>60~90분 15,000원~40,000원</td><td>차로 15~25분</td></tr><tr><td>발리 누사두아</td><td><strong>Warung Nasi Ayam Ibu Oki</strong><br><span>맛집</span></td><td>현지식. 매운맛 확인 필요</td><td>1인 5천~12,000원</td><td>누사두아에서 10~20분</td></tr><tr><td>발리 누사두아</td><td><strong>Bali Collection / 꼬끼 한식당</strong><br><span>맛집</span></td><td>부모님이 향신료에 지칠 때 안전한 선택</td><td>1인 15,000원~30,000원</td><td>차로 5~15분</td></tr><tr><td>발리 누사두아</td><td><strong>M Spa / Bali Refresh Spa</strong><br><span>마사지</span></td><td>누사두아 호텔존 픽업형 마사지 후보</td><td>2시간 30,000원~80,000원</td><td>5~20분, 일부 픽업 가능</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 다이닝 + 나이양 해변 식당</strong><br><span>맛집</span></td><td>마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계</td><td>로컬 10,000원~30,000원, 리조트 30,000원~80,000원</td><td>나이양 15~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 스파 / Orientala Spa Patong</strong><br><span>마사지</span></td><td>부모님 동반이면 장거리보다 리조트 스파 권장</td><td>외부 20,000원~60,000원, 리조트 80,000원~200,000원+</td><td>빠통 55~70분</td></tr><tr><td>푸꾸옥</td><td><strong>선셋타운/켐비치 식당가</strong><br><span>맛집/체험</span></td><td>남부 풀빌라 리조트와 묶기 좋음</td><td>1인 10,000원~40,000원</td><td>남부 리조트에서 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>리조트 스파</strong><br><span>마사지</span></td><td>외부 이동보다 리조트 내 스파가 부모님 동선에 편함</td><td>1인 50,000원~150,000원+</td><td>도보/버기</td></tr></tbody></table></div></section>
+    <section id="crawl"><h2>참고자료</h2><p class="lead">아래 자료는 여행지를 고를 때 본 날씨, 항공권, 숙소, 동선 판단 기준을 위키 문서처럼 정리한 것입니다.</p><div class="reference-grid">
+            <article class="reference-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+              <div>
+                <h3>월별 날씨 판단</h3>
+                <p>발리는 9~10월, 푸켓과 푸꾸옥은 11월, 다낭은 9월 중심으로 보는 판단의 바탕입니다.</p>
+                <ul><li>베트남 중부는 10~11월 우천 리스크가 큼</li><li>발리는 9~10월이 가족 휴양에 안정적</li><li>푸켓은 11월부터 건기 전환</li></ul>
+                <small>누사두아 해변 · 위키미디어 공용</small>
+              </div>
+            </article>
+            
+            <article class="reference-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+              <div>
+                <h3>항공권 판단</h3>
+                <p>인천 출발 기준으로 월별 평균가와 특가 목표가를 나눠 가족 4명·6명 총액으로 환산했습니다.</p>
+                <ul><li>다낭 9월은 300,000원대 특가 목표</li><li>발리는 직항보다 경유 특가가 유리할 때가 많음</li><li>푸켓은 11월 중순 이후 평일 출발 우선</li></ul>
+                <small>다낭 미케 해변 · 위키미디어 공용</small>
+              </div>
+            </article>
+            
+            <article class="reference-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+              <div>
+                <h3>숙소 판단</h3>
+                <p>해변 접근, 개인풀, 4~6인 수용, 식당·마사지 이동거리를 함께 봤습니다.</p>
+                <ul><li>3베드룸 풀빌라는 목표 예산을 넘는 날이 많음</li><li>실내 수영장은 동남아 해변 리조트에서 드문 조건</li><li>부모님 동반은 공항 이동시간이 짧을수록 좋음</li></ul>
+                <small>나트랑 해변 · 위키미디어 공용</small>
+              </div>
+            </article>
+            
+            <article class="reference-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <h3>이동 동선 판단</h3>
+                <p>부모님 동반 일정은 하루 외출 횟수를 줄이고 식사·마사지·쇼핑을 한 번에 묶는 구성이 좋습니다.</p>
+                <ul><li>다낭은 외부 식당 접근성이 가장 좋음</li><li>깜란은 시내 외식일을 따로 잡는 편이 좋음</li><li>푸켓 마이카오는 리조트 체류형으로 설계</li></ul>
+                <small>푸켓 마이카오 해변 · 위키미디어 공용</small>
+              </div>
+            </article>
+            </div></section>
+  </main>
+  <footer style="padding:24px 6vw;background:#172126;color:#dce7ea">2026년 9~11월 가족 휴양지 비교 가이드</footer>
+</body>
+</html>

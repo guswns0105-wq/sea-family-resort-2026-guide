@@ -1,0 +1,93 @@
+[
+  {
+    "destination_id": "da-nang-non-nuoc",
+    "route": "ICN-DAD",
+    "month": "2026-09",
+    "best_departure": "9월 일요일 출발, 5~7박",
+    "book_timing": "출발 1.5~2개월 전부터 가격 알림, 특가면 즉시 결제",
+    "airlines": "제주항공, 티웨이, 에어서울, 베트남항공, 대한항공 등",
+    "avg_roundtrip_krw": "약 37.8만원",
+    "deal_target_krw": "31만~35만원",
+    "family_4_krw": "약 151만~224만원",
+    "family_6_krw": "약 227만~337만원",
+    "basis": "StubbyPlanner 2026년 9월 인천-다낭 평균/최저/요일 데이터"
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "route": "ICN-CXR",
+    "month": "2026-09",
+    "best_departure": "9월 화~목 또는 일요일 출발, 추석/연휴 회피",
+    "book_timing": "출발 2~3개월 전 LCC 특가와 1개월 전 잔여석을 함께 감시",
+    "airlines": "제주항공, 진에어, 티웨이, 에어서울, 비엣젯, 베트남항공 등",
+    "avg_roundtrip_krw": "20만~40만원대",
+    "deal_target_krw": "22만~30만원",
+    "family_4_krw": "약 88만~160만원",
+    "family_6_krw": "약 132만~240만원",
+    "basis": "TripStore 나트랑 평균가/우기 특가 패턴 및 T'way 2026 특가 기사"
+  },
+  {
+    "destination_id": "bali-nusa-dua",
+    "route": "ICN-DPS",
+    "month": "2026-09",
+    "best_departure": "9월 월~목 출발, 금·토 출발 회피",
+    "book_timing": "직항은 3~4개월 전, 경유 특가는 에어아시아 빅세일/프로모션 시점",
+    "airlines": "대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유",
+    "avg_roundtrip_krw": "직항 55만~95만원, 경유 30만~60만원",
+    "deal_target_krw": "경유 30만~45만원, 직항 60만원대",
+    "family_4_krw": "약 220만~380만원",
+    "family_6_krw": "약 330만~570만원",
+    "basis": "2026 하계 인천-덴파사르 운항 스케줄 및 에어아시아 인천-발리 경유 특가"
+  },
+  {
+    "destination_id": "bali-nusa-dua",
+    "route": "ICN-DPS",
+    "month": "2026-10",
+    "best_departure": "10월 초~중순 월~목 출발",
+    "book_timing": "직항은 3개월 전, 경유는 프로모션 기간 우선",
+    "airlines": "대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유",
+    "avg_roundtrip_krw": "직항 55만~100만원, 경유 32만~65만원",
+    "deal_target_krw": "경유 35만~50만원, 직항 60만~75만원",
+    "family_4_krw": "약 220만~400만원",
+    "family_6_krw": "약 330만~600만원",
+    "basis": "운항 스케줄과 경유 특가 패턴 기반 추정"
+  },
+  {
+    "destination_id": "phuket-mai-khao",
+    "route": "ICN-HKT",
+    "month": "2026-10",
+    "best_departure": "10월 하순 일~목 출발",
+    "book_timing": "출발 2개월 전부터 감시, 10월 초중순은 날씨 리스크 때문에 가격만 보고 결정 금지",
+    "airlines": "대한항공/아시아나 계열, 진에어/제주항공/티웨이 계열, 태국 경유편 등",
+    "avg_roundtrip_krw": "약 40만~70만원",
+    "deal_target_krw": "35만~45만원",
+    "family_4_krw": "약 160만~280만원",
+    "family_6_krw": "약 240만~420만원",
+    "basis": "푸켓 월별 비교에서 10월이 평균보다 높고 우기 전환기라는 근거"
+  },
+  {
+    "destination_id": "phuket-mai-khao",
+    "route": "ICN-HKT",
+    "month": "2026-11",
+    "best_departure": "11월 일~목 출발, 가능하면 11월 중순 이후",
+    "book_timing": "출발 2~3개월 전 예약, 9월 말~10월 초 특가 확인",
+    "airlines": "직항 및 방콕/홍콩/싱가포르 경유편",
+    "avg_roundtrip_krw": "최저가 평균 약 34.5만~50만원대",
+    "deal_target_krw": "34만~42만원",
+    "family_4_krw": "약 138만~200만원",
+    "family_6_krw": "약 207만~300만원",
+    "basis": "StubbyPlanner 푸켓 월별 비교: 11월 최저 344,664원"
+  },
+  {
+    "destination_id": "phu-quoc",
+    "route": "ICN-PQC",
+    "month": "2026-11",
+    "best_departure": "11월 말 평일 출발",
+    "book_timing": "출발 2개월 전부터 직항 특가 감시, 비엣젯 수하물 포함가로 비교",
+    "airlines": "비엣젯, 베트남항공/호치민 경유, 기타 OTA 조합",
+    "avg_roundtrip_krw": "약 44만~70만원",
+    "deal_target_krw": "40만~50만원",
+    "family_4_krw": "약 176만~280만원",
+    "family_6_krw": "약 264만~420만원",
+    "basis": "Traveloka 11월 참고가 442,764원 및 11월 말~12월 초 평일 저가 패턴"
+  }
+]
