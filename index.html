@@ -50,14 +50,30 @@
     a { color:var(--sea); font-weight:800; }
     .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
-    .route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid,.guidebook-reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .style-step-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .pocket-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:16px; }
     .resort-guide-grid,.resort-photo-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .place-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .guidebook-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .resort-guide-card,.resort-photo-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
-    .place-card,.review-card,.practical-card,.monthly-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .place-card,.review-card,.practical-card,.monthly-guide-card,.style-step-card,.pocket-guide-card,.guidebook-reference-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .style-step-card { padding:18px; }
+    .style-step-card > span { display:inline-block; padding:5px 9px; border-radius:999px; background:#e8f3f4; color:var(--sea); font-weight:900; font-size:13px; }
+    .style-step-card h3 { margin:10px 0 8px; font-size:21px; }
+    .style-step-card p { color:var(--muted); }
+    .style-step-card ul { padding-left:19px; }
+    .pocket-guide-card { display:grid; grid-template-columns:190px 1fr; }
+    .pocket-guide-card img { width:100%; height:100%; min-height:260px; object-fit:cover; background:#dce7ea; }
+    .pocket-guide-card > div { padding:18px; }
+    .pocket-guide-card h3 { margin:4px 0 10px; font-size:23px; }
+    .pocket-guide-card dl div { border-top:1px solid var(--line); padding-top:8px; }
+    .pocket-guide-card dt { color:var(--sea); }
+    .guidebook-reference-card { padding:18px; }
+    .guidebook-reference-card h3 { margin:0 0 8px; font-size:20px; }
+    .guidebook-reference-card p { color:var(--muted); }
     .monthly-guide-card { display:grid; grid-template-columns:220px 1fr; }
     .monthly-guide-card > img { width:100%; height:100%; min-height:290px; object-fit:cover; background:#dce7ea; }
     .monthly-guide-body { padding:18px; }
@@ -118,7 +134,7 @@
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { nav { position:static; grid-template-columns:1fr; } .nav-group { border-top:1px solid var(--line); padding-top:8px; } .book-index,.rank-grid,.method,.route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid,.review-grid,.resort-guide-grid,.resort-photo-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card,.monthly-guide-card,.resort-photo-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img,.monthly-guide-card > img { height:220px; min-height:220px; } .resort-photo-mosaic { min-height:300px; } header { min-height:62vh; } }
+    @media (max-width:980px) { nav { position:static; grid-template-columns:1fr; } .nav-group { border-top:1px solid var(--line); padding-top:8px; } .book-index,.rank-grid,.method,.route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid,.style-step-grid,.pocket-guide-grid,.guidebook-reference-grid,.review-grid,.resort-guide-grid,.resort-photo-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card,.monthly-guide-card,.resort-photo-card,.pocket-guide-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img,.monthly-guide-card > img,.pocket-guide-card img { height:220px; min-height:220px; } .resort-photo-mosaic { min-height:300px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
@@ -130,7 +146,7 @@
   </header>
   <nav aria-label="가이드북 목차">
     <a class="nav-title" href="#summary">2026 부모님 여행가이드</a>
-    <div class="nav-group"><span>월별 추천</span><div class="nav-links"><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#monthly-guidebooks">가이드북</a></div></div>
+    <div class="nav-group"><span>월별 추천</span><div class="nav-links"><a href="#guidebook-style">가이드식</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#monthly-guidebooks">가이드북</a></div></div>
     <div class="nav-group"><span>예약 전</span><div class="nav-links"><a href="#flights">항공권</a><a href="#hotel-prices">숙소가격</a><a href="#routes">이동</a><a href="#travel-pack">여행팩</a></div></div>
     <div class="nav-group"><span>현지 가이드</span><div class="nav-links"><a href="#guidebook">일정 보정</a><a href="#resort-photos">숙소사진</a><a href="#resorts">숙소</a><a href="#resort-guide">주변</a><a href="#places">맛집</a></div></div>
     <div class="nav-group"><span>검토 자료</span><div class="nav-links"><a href="#reviews">후기</a><a href="#crawl">참고자료</a></div></div>
@@ -150,6 +166,141 @@
         <div><strong>예산 기준</strong><br>숙소는 1박 500,000~600,000원을 목표로 보되, 4~6인 풀빌라는 실제로 700,000원 이상도 자주 나옵니다.</div>
         <div><strong>날씨 기준</strong><br>9월·10월은 발리, 11월은 푸켓과 푸꾸옥이 상대적으로 유리합니다. 다낭은 10~11월 우천 리스크가 큽니다.</div>
       </div>
+    </section>
+    <section id="guidebook-style">
+      <h2>여행 가이드북식으로 보기</h2>
+      <p class="lead">여행 가이드북들이 공통적으로 쓰는 구성처럼, 먼저 시기와 베이스캠프를 고르고 이동·예산·주의사항을 뒤에 붙이는 방식으로 다시 정리했습니다. 아래 포켓 가이드는 가족 회의 때 후보지를 빠르게 비교하는 용도입니다.</p>
+      <div class="style-step-grid">
+            <article class="style-step-card">
+              <span>1단계</span>
+              <h3>달 먼저 고르기</h3>
+              <p>여행 가이드북은 목적지보다 시기를 먼저 정리합니다. 이 페이지에서는 9월 발리, 10월 발리, 11월 푸켓/푸꾸옥을 최상단 기준으로 둡니다.</p>
+              <ul><li>9월: 발리 누사두아가 가장 안정적</li><li>10월: 발리 우선, 푸켓은 조건부</li><li>11월: 푸켓 1위, 푸꾸옥 2위</li></ul>
+            </article>
+            
+            <article class="style-step-card">
+              <span>2단계</span>
+              <h3>베이스캠프 정하기</h3>
+              <p>가이드북처럼 숙소 권역을 먼저 고정하면 맛집, 마사지, 이동비가 같이 정리됩니다.</p>
+              <ul><li>누사두아: 리조트 체류와 Bali Collection</li><li>깜란: 공항 가까운 풀빌라</li><li>마이카오: 조용한 해변 리조트</li><li>푸꾸옥 남부: 풀빌라와 케이블카/선셋타운</li></ul>
+            </article>
+            
+            <article class="style-step-card">
+              <span>3단계</span>
+              <h3>하루 동선 제한</h3>
+              <p>60대 부모님 동반 일정은 하루 한 번 외출이 가장 안정적입니다. 외식과 마사지를 한 묶음으로 붙입니다.</p>
+              <ul><li>공항 이동은 전용 픽업</li><li>식사와 마사지는 같은 권역</li><li>비 오는 날은 리조트 안 일정</li></ul>
+            </article>
+            
+            <article class="style-step-card">
+              <span>4단계</span>
+              <h3>예약 전 재확인</h3>
+              <p>상업 가이드북의 Survival Guide처럼 결제 전 체크해야 할 항목을 마지막 장에 고정합니다.</p>
+              <ul><li>숙소 사진은 예약처/블로그 원문 재확인</li><li>평일/주말 가격 분리 비교</li><li>실내 수영장 여부는 숙소에 직접 확인</li></ul>
+            </article>
+            </div>
+      <div class="pocket-guide-grid">
+            <article class="pocket-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="발리 누사두아 포켓 가이드 이미지" loading="lazy">
+              <div>
+                <p class="muted">인도네시아 · DPS</p>
+                <h3>발리 누사두아</h3>
+                <dl>
+                  <div><dt>베이스</dt><dd>누사두아 리조트 벨트</dd></div>
+                  <div><dt>좋은 이유</dt><dd>9~10월 부모님 동반 안정형 휴양</dd></div>
+                  <div><dt>이동</dt><dd>공항 픽업 25~40분, 외식은 Bali Collection 또는 리조트 셔틀권 우선</dd></div>
+                  <div><dt>하루 예시</dt><dd>오전 수영장, 오후 스파, 저녁 Bali Collection 외식</dd></div>
+                  <div><dt>주의</dt><dd>4~6인 풀빌라는 예산 초과 가능성이 높아 연결 객실 조합도 함께 비교</dd></div>
+                </dl>
+              </div>
+            </article>
+            
+            <article class="pocket-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑/깜란 포켓 가이드 이미지" loading="lazy">
+              <div>
+                <p class="muted">베트남 · CXR</p>
+                <h3>나트랑/깜란</h3>
+                <dl>
+                  <div><dt>베이스</dt><dd>깜란 공항 인근 풀빌라 리조트</dd></div>
+                  <div><dt>좋은 이유</dt><dd>9월 공항 피로를 줄이는 가족 풀빌라</dd></div>
+                  <div><dt>이동</dt><dd>공항 10~20분, 나트랑 시내 외식은 35~45분이라 하루 한 번만 이동</dd></div>
+                  <div><dt>하루 예시</dt><dd>리조트 수영장, 스파 포함 숙소, 저녁은 시내 맛집 한 곳</dd></div>
+                  <div><dt>주의</dt><dd>10~11월은 강우 변수가 있어 리조트 체류형으로만 추천</dd></div>
+                </dl>
+              </div>
+            </article>
+            
+            <article class="pocket-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 논느억/미케 포켓 가이드 이미지" loading="lazy">
+              <div>
+                <p class="muted">베트남 · DAD</p>
+                <h3>다낭 논느억/미케</h3>
+                <dl>
+                  <div><dt>베이스</dt><dd>논느억/미케 해변</dd></div>
+                  <div><dt>좋은 이유</dt><dd>9월 먹거리와 마사지 접근성 중시</dd></div>
+                  <div><dt>이동</dt><dd>공항 20~25분, 미케/한시장/마사지가 차로 10~25분권</dd></div>
+                  <div><dt>하루 예시</dt><dd>오전 리조트, 오후 마사지, 저녁 한식 또는 해산물</dd></div>
+                  <div><dt>주의</dt><dd>10~11월 중부 베트남은 태풍·침수 리스크로 후순위</dd></div>
+                </dl>
+              </div>
+            </article>
+            
+            <article class="pocket-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오/나이양 포켓 가이드 이미지" loading="lazy">
+              <div>
+                <p class="muted">태국 · HKT</p>
+                <h3>푸켓 마이카오/나이양</h3>
+                <dl>
+                  <div><dt>베이스</dt><dd>마이카오/나이양 해변</dd></div>
+                  <div><dt>좋은 이유</dt><dd>11월 조용한 해변과 리조트 품질</dd></div>
+                  <div><dt>이동</dt><dd>공항 15~25분, 빠통/푸켓타운은 50~70분이라 별도 외출일로 분리</dd></div>
+                  <div><dt>하루 예시</dt><dd>오전 해변 산책, 오후 리조트 풀, 저녁 리조트 식당 또는 나이양</dd></div>
+                  <div><dt>주의</dt><dd>주말 숙박비가 높고 외부 상권 이동이 길어 리조트 안 완결성이 중요</dd></div>
+                </dl>
+              </div>
+            </article>
+            
+            <article class="pocket-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 포켓 가이드 이미지" loading="lazy">
+              <div>
+                <p class="muted">베트남 · PQC</p>
+                <h3>푸꾸옥</h3>
+                <dl>
+                  <div><dt>베이스</dt><dd>남부 풀빌라 리조트</dd></div>
+                  <div><dt>좋은 이유</dt><dd>11월 4~6인 가족 풀빌라 체류</dd></div>
+                  <div><dt>이동</dt><dd>공항 25~45분, 케이블카/선셋타운은 남부 숙소에서 짧게 묶기 좋음</dd></div>
+                  <div><dt>하루 예시</dt><dd>풀빌라 조식, 켐비치 산책, 마사지 또는 선셋타운 저녁</dd></div>
+                  <div><dt>주의</dt><dd>리조트별 외부 상권 편차가 크니 식당·마트 접근성을 같이 확인</dd></div>
+                </dl>
+              </div>
+            </article>
+            </div>
+      <h3 style="margin-top:22px">참고한 가이드북 구성</h3>
+      <div class="guidebook-reference-grid">
+            <article class="guidebook-reference-card">
+              <h3>Lonely Planet Bali guide</h3>
+              <p>첫 화면에서 베스트 시즌, 이동 방식, 꼭 할 만한 하루 코스를 빠르게 결정하게 구성.</p>
+              <a href="https://www.lonelyplanet.com/articles/guide-to-bali" target="_blank" rel="noreferrer">참고 페이지 열기</a>
+            </article>
+            
+            <article class="guidebook-reference-card">
+              <h3>Rough Guides Bali travel guide</h3>
+              <p>지역별 하이라이트, 일정 길이, 피해야 할 시기와 이동 팁을 짧은 단락으로 분리.</p>
+              <a href="https://www.roughguides.com/indonesia/bali/" target="_blank" rel="noreferrer">참고 페이지 열기</a>
+            </article>
+            
+            <article class="guidebook-reference-card">
+              <h3>Da Nang family travel guide</h3>
+              <p>가족여행 기준으로 Getting Here, Getting Around, Packing, Safety를 별도 체크리스트화.</p>
+              <a href="https://goexplore.family/country-guides/vietnam/central-vietnam-hue-hoi-an-da-nang/" target="_blank" rel="noreferrer">참고 페이지 열기</a>
+            </article>
+            
+            <article class="guidebook-reference-card">
+              <h3>Phuket transport guide</h3>
+              <p>공항, 리조트 권역, 해변 간 이동을 교통수단별로 나누고 가족에게 쉬운 선택지를 우선 제시.</p>
+              <a href="https://www.hotels.com/go/thailand/getting-around-phuket" target="_blank" rel="noreferrer">참고 페이지 열기</a>
+            </article>
+            </div>
     </section>
     <section id='2026-09'><h2>09월 추천 1·2·3위</h2><div class='rank-grid'>
                 <article class="rank-card rank-1">
@@ -794,95 +945,95 @@
               </div>
             </article>
             </div></section>
-    <section id="resort-photos"><h2>숙소 실제 사진 갤러리</h2><p class="lead">숙소마다 객실, 수영장, 외관 컷을 섞어 반복감을 줄였습니다. 블로그 사진은 카드 아래 사진후기 참고 링크로 연결해 원문에서 바로 확인할 수 있게 했고, 최종 객실 사진은 같은 날짜·인원·객실 타입으로 예약처에서 다시 확인하세요.</p><div class="resort-photo-grid">
+    <section id="resort-photos"><h2>숙소 이미지팩 갤러리</h2><p class="lead">대표 이미지는 직접 생성한 가족 휴양지 분위기 이미지팩으로 교체했습니다. 실제 숙소 사진은 카드 아래 아고다, 호텔스닷컴, 블로그 사진후기, 공식 갤러리 링크에서 같은 날짜·인원·객실 타입으로 다시 확인하세요.</p><div class="resort-photo-grid">
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/07/cc/fa/leonardo-159591-750347-864776.jpg?width=1200&amp;height=630&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/30/d7/45/leonardo-159591-750308-848177.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/c5/89/e5/leonardo-159591-750253-137134.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/ef/d0/e6/leonardo-159591-750313-910738.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-bali-nusa-dua.webp" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/30/d7/45/leonardo-159591-750308-848177.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/c5/89/e5/leonardo-159591-750253-137134.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/ef/d0/e6/leonardo-159591-750313-910738.jpg?width=900&amp;height=700&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">발리 누사두아</p>
                 <h3>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</h3>
                 <p>Lagoon Access 객실 조합 / 일부 빌라</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=The%20Laguna%20Nusa%20Dua%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/South-Kuta-Hotels-The-Laguna-a-Luxury-Collection-Resort-Spa-Nusa-Dua-Bali.159591.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/ggota332/224248785997" target="_blank" rel="noreferrer">발리 누사두아 소피텔 풀빌라 마사지</a><span>2026년 4월 11일</span></li><li><a href="https://blog.naver.com/yinseefe23k/224082473600" target="_blank" rel="noreferrer">발리 리조트 추천 누사두아 메루사카 풀빌라 예약 팁 후기</a><span>2025년 11월 22일</span></li><li><a href="https://blog.naver.com/cjs4124/224059537747" target="_blank" rel="noreferrer">발리 아마르테라 풀빌라 누사두아 부대시설 리조트 마사지...</a><span>2025년 10월 31일</span></li></ul></div>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/cb/4b/c0/leonardo-815200-2828784-591957.jpg?width=1200&amp;height=630&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/28/02/41/leonardo-815200-2828765-481627.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/6e/84/9d/leonardo-815200-2828763-469107.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/57/7d/b8/leonardo-815200-2828766-487336.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-fusion-cam-ranh.webp" alt="Fusion Resort Cam Ranh 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/28/02/41/leonardo-815200-2828765-481627.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/6e/84/9d/leonardo-815200-2828763-469107.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/57/7d/b8/leonardo-815200-2828766-487336.jpg?width=900&amp;height=700&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">나트랑/깜란</p>
                 <h3>Fusion Resort Cam Ranh</h3>
                 <p>Three-Bedroom Beach Front Pool Villa</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Fusion%20Resort%20Cam%20Ranh%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Nha-Trang-Hotels-Fusion-Resort-Cam-Ranh.815200.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://fusionhotelgroup.com/fusionresortcamranh/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/gkgk319/224276768472" target="_blank" rel="noreferrer">나트랑 리조트 풀빌라 추천... 퓨전리조트 마사지 올인클루시브...</a><span>2026년 5월 6일</span></li><li><a href="https://blog.naver.com/jhggyu21/224231941185" target="_blank" rel="noreferrer">나트랑 퓨전리조트 깜란 요가 마사지 풀빌라 올인클루시브 가격</a><span>2026년 3월 28일</span></li><li><a href="https://blog.naver.com/kwonakong/224176180091" target="_blank" rel="noreferrer">나트랑 깜란 마사지 알마리조트 풀빌라 오션스파 추천</a><span>2026년 2월 8일</span></li></ul></div>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/3b/96/0d/expedia_group-2677744-ee4691-613255.jpg?width=1200&amp;height=630&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/49/ed/ff/expedia_group-2677744-128102293-764725.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/fe/b5/28/expedia_group-2677744-99346815-724233.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/49/53/46/expedia_group-2677744-39559645-652523.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-anam-cam-ranh.webp" alt="The Anam Cam Ranh 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/49/ed/ff/expedia_group-2677744-128102293-764725.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/fe/b5/28/expedia_group-2677744-99346815-724233.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/49/53/46/expedia_group-2677744-39559645-652523.jpg?width=900&amp;height=700&amp;crop=true" alt="The Anam Cam Ranh 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">나트랑/깜란</p>
                 <h3>The Anam Cam Ranh</h3>
                 <p>Three-Bedroom Hilltop Pool Villa</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=The%20Anam%20Cam%20Ranh%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Nha-Trang-Hotels-The-Anam.2677744.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.theanam.com/the-anam-cam-ranh" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/gkgk319/224276768472" target="_blank" rel="noreferrer">나트랑 리조트 풀빌라 추천... 퓨전리조트 마사지 올인클루시브...</a><span>2026년 5월 6일</span></li><li><a href="https://blog.naver.com/jhggyu21/224231941185" target="_blank" rel="noreferrer">나트랑 퓨전리조트 깜란 요가 마사지 풀빌라 올인클루시브 가격</a><span>2026년 3월 28일</span></li><li><a href="https://blog.naver.com/kwonakong/224176180091" target="_blank" rel="noreferrer">나트랑 깜란 마사지 알마리조트 풀빌라 오션스파 추천</a><span>2026년 2월 8일</span></li></ul></div>
-                <small>KAYAK/Expedia 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/ee/49/30/leonardo-2733746-738088-189624.jpg?width=1200&amp;height=630&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/d5/7f/ba/leonardo-2733746-738069-997902.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/7f/b4/83/leonardo-2733746-738115-303495.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/b9/e3/a8/leonardo-2733746-738059-778006.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-danang-marriott.webp" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/d5/7f/ba/leonardo-2733746-738069-997902.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/7f/b4/83/leonardo-2733746-738115-303495.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/b9/e3/a8/leonardo-2733746-738059-778006.jpg?width=900&amp;height=700&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">다낭 논느억/미케</p>
                 <h3>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</h3>
                 <p>Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Danang%20Marriott%20Non%20Nuoc%20Beach%20Villas%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Da-Nang-Hotels-Vinpearl-Resort-Spa-Da-Nang.2733746.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/ene0410/224295765858" target="_blank" rel="noreferrer">다낭 한달살기 한식당 6곳 부모님과 다낭 가족여행 맛집 추천</a><span>2026년 5월 25일</span></li><li><a href="https://blog.naver.com/singlemom_bonnie/224276126761" target="_blank" rel="noreferrer">다낭숙소추천 BEST, 부모님 모시고 다녀온 다낭가족여행 일정...</a><span>2026년 5월 6일</span></li><li><a href="https://blog.naver.com/vudflehd/224225869092" target="_blank" rel="noreferrer">vs 리조트 비교 | 위치,가격,추천 | 아이 + 부모님 가족여행 기준...</a><span>2026년 3월 22일</span></li></ul></div>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/ac/8d/03/leonardo-99731-767997-292199.jpg?width=1200&amp;height=630&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/52/0c/d0/leonardo-99731-768024-521484.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/b2/ea/d7/leonardo-99731-767870-481412.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/01/4e/a3/leonardo-99731-767845-498214.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-jw-phuket.webp" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/52/0c/d0/leonardo-99731-768024-521484.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/b2/ea/d7/leonardo-99731-767870-481412.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/01/4e/a3/leonardo-99731-767845-498214.jpg?width=900&amp;height=700&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">푸켓 마이카오/나이양</p>
                 <h3>JW Marriott Phuket Resort &amp; Spa</h3>
                 <p>Pool Access rooms / Oceanfront Villa with Private Pool</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=JW%20Marriott%20Phuket%20Resort%20Spa%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Mai-Khao-Hotels-JW-Marriott-Phuket-Resort-Spa.99731.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/stunningzinni/224282921446" target="_blank" rel="noreferrer">태국 푸켓 휴양지, 푸껫 럭셔리 풀빌라 리조트 &#x27;스리판와...</a><span>2026년 5월 12일</span></li><li><a href="https://blog.naver.com/5985dfdf/224249851220" target="_blank" rel="noreferrer">푸켓 반얀트리 리조트 풀빌라 신혼여행숙소추천 마사지샵추천 !!</a><span>2026년 4월 12일</span></li><li><a href="https://blog.naver.com/upup5959/224232675022" target="_blank" rel="noreferrer">푸켓 반얀트리 5성급리조트 풀빌라 신혼여행숙소추천 마사지...</a><span>2026년 3월 28일</span></li></ul></div>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/6d/fd/c2/ice-3672689-d7f7bb-326994.jpg?width=1200&amp;height=630&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/a4/b5/f8/expedia_group-3672689-170360498-264062.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/6f/97/d3/ice-3672689-d1411d-259316.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/15/60/7c/expedia_group-3672689-55338778-478473.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-premier-phu-quoc.webp" alt="Premier Village Phu Quoc Resort 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/a4/b5/f8/expedia_group-3672689-170360498-264062.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/6f/97/d3/ice-3672689-d1411d-259316.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/15/60/7c/expedia_group-3672689-55338778-478473.jpg?width=900&amp;height=700&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">푸꾸옥</p>
                 <h3>Premier Village Phu Quoc Resort</h3>
                 <p>3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Premier%20Village%20Phu%20Quoc%20Resort%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Phu-Quoc-Hotels-Premier-Village-Phu-Quoc-Resort.3672689.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.premiervillage-phuquoc.com/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/uni7741/224248754015" target="_blank" rel="noreferrer">푸꾸옥 리조트 뉴월드 풀빌라 3베드룸 가족 푸꾸옥 숙소 추천</a><span>2026년 4월 11일</span></li><li><a href="https://blog.naver.com/ashi8888/224229154686" target="_blank" rel="noreferrer">푸꾸옥 베스트웨스턴 풀빌라 중부 가족 리조트 어때요</a><span>2026년 4월 3일</span></li><li><a href="https://blog.naver.com/4081332/224234215939" target="_blank" rel="noreferrer">푸꾸옥 가족 단독 풀빌라 패키지 여행 :: 리조트 추천, 맛집ok...</a><span>2026년 3월 30일</span></li></ul></div>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-photo-card">
-              <div class="resort-photo-mosaic"><img src="https://content.r9cdn.net/rimg/himg/e4/a4/3d/leonardo-7254922-2454503-693713.jpg?width=1200&amp;height=800&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/8f/d7/96/expedia_group-7254922-245397456-649177.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/65/f8/d6/expedia_group-7254922-218591903-464243.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/38/97/cf/leonardo-7254922-2454514-760940.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 4" loading="lazy"></div>
+              <div class="resort-photo-mosaic"><img src="assets/generated-resorts/gen-new-world-phu-quoc.webp" alt="New World Phu Quoc Resort 숙소 사진 1" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/8f/d7/96/expedia_group-7254922-245397456-649177.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 2" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/65/f8/d6/expedia_group-7254922-218591903-464243.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 3" loading="lazy"><img src="https://content.r9cdn.net/rimg/himg/38/97/cf/leonardo-7254922-2454514-760940.jpg?width=900&amp;height=700&amp;crop=true" alt="New World Phu Quoc Resort 숙소 사진 4" loading="lazy"></div>
               <div>
                 <p class="muted">푸꾸옥</p>
                 <h3>New World Phu Quoc Resort</h3>
                 <p>3-Bedroom Pool Villa / Beachfront Pool Villa 계열</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=New%20World%20Phu%20Quoc%20Resort%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com.au/Phu-Quoc-Hotels-New-World-Phu-Quoc-Resort.7254922.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://phuquoc.newworldhotels.com/en/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
                 <div class="blog-review-links"><strong>블로그 사진후기 참고</strong><ul><li><a href="https://blog.naver.com/uni7741/224248754015" target="_blank" rel="noreferrer">푸꾸옥 리조트 뉴월드 풀빌라 3베드룸 가족 푸꾸옥 숙소 추천</a><span>2026년 4월 11일</span></li><li><a href="https://blog.naver.com/ashi8888/224229154686" target="_blank" rel="noreferrer">푸꾸옥 베스트웨스턴 풀빌라 중부 가족 리조트 어때요</a><span>2026년 4월 3일</span></li><li><a href="https://blog.naver.com/4081332/224234215939" target="_blank" rel="noreferrer">푸꾸옥 가족 단독 풀빌라 패키지 여행 :: 리조트 추천, 맛집ok...</a><span>2026년 3월 30일</span></li></ul></div>
-                <small>KAYAK/Expedia 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             </div></section>
     <section id="resorts"><h2>숙소 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>숙소/객실</th><th>수영장</th><th>가격대</th><th>교통</th></tr></thead><tbody><tr><td>발리 누사두아</td><td><strong>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</strong><br><span>Lagoon Access 객실 조합 / 일부 빌라</span><p class='source-links'><a href="https://www.agoda.com/search?text=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=The%20Laguna%20Nusa%20Dua%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/South-Kuta-Hotels-The-Laguna-a-Luxury-Collection-Resort-Spa-Nusa-Dua-Bali.159591.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>대형 야외 라군 풀, 일부 빌라 플런지풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 약 700,000원~1,200,000원대, 빌라 1,000,000원+</td><td>DPS 공항 25~40분, Bali Collection 5~10분</td></tr><tr><td>나트랑/깜란</td><td><strong>Fusion Resort Cam Ranh</strong><br><span>Three-Bedroom Beach Front Pool Villa</span><p class='source-links'><a href="https://www.agoda.com/search?text=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Fusion%20Resort%20Cam%20Ranh%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Nha-Trang-Hotels-Fusion-Resort-Cam-Ranh.815200.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://fusionhotelgroup.com/fusionresortcamranh/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 750,000원~1,400,000원, 프로모션 필요</td><td>CXR 공항 10~15분, 나트랑 시내 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>The Anam Cam Ranh</strong><br><span>Three-Bedroom Hilltop Pool Villa</span><p class='source-links'><a href="https://www.agoda.com/search?text=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=The%20Anam%20Cam%20Ranh%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Nha-Trang-Hotels-The-Anam.2677744.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.theanam.com/the-anam-cam-ranh" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 600,000원~1,200,000원</td><td>CXR 공항 15~20분, 나트랑 시내 35~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</strong><br><span>Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa</span><p class='source-links'><a href="https://www.agoda.com/search?text=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Danang%20Marriott%20Non%20Nuoc%20Beach%20Villas%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Da-Nang-Hotels-Vinpearl-Resort-Spa-Da-Nang.2733746.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 공식 시설상 야외 중심</span></td><td>약 550,000원~1,100,000원</td><td>DAD 공항 20~25분, 미케/한시장 10~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>JW Marriott Phuket Resort &amp; Spa</strong><br><span>Pool Access rooms / Oceanfront Villa with Private Pool</span><p class='source-links'><a href="https://www.agoda.com/search?text=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=JW%20Marriott%20Phuket%20Resort%20Spa%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Mai-Khao-Hotels-JW-Marriott-Phuket-Resort-Spa.99731.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 600,000원~1,400,000원, 대형 빌라 1,500,000원+</td><td>HKT 공항 15~25분, 빠통/푸켓타운 50~70분</td></tr><tr><td>푸꾸옥</td><td><strong>Premier Village Phu Quoc Resort</strong><br><span>3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool</span><p class='source-links'><a href="https://www.agoda.com/search?text=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=Premier%20Village%20Phu%20Quoc%20Resort%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com/Phu-Quoc-Hotels-Premier-Village-Phu-Quoc-Resort.3672689.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://www.premiervillage-phuquoc.com/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>모든 빌라 개인풀 + 리조트 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>3BR 약 700,000원~1,600,000원+</td><td>PQC 공항 25~45분, 남부 케이블카/선셋타운 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>New World Phu Quoc Resort</strong><br><span>3-Bedroom Pool Villa / Beachfront Pool Villa 계열</span><p class='source-links'><a href="https://www.agoda.com/search?text=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://search.naver.com/search.naver?where=blog&amp;query=New%20World%20Phu%20Quoc%20Resort%20%EC%88%99%EC%86%8C%20%EC%82%AC%EC%A7%84" target="_blank" rel="noreferrer">블로그 사진후기</a><a href="https://www.kayak.com.au/Phu-Quoc-Hotels-New-World-Phu-Quoc-Resort.7254922.ksp" target="_blank" rel="noreferrer">예약처 대표사진</a><a href="https://phuquoc.newworldhotels.com/en/" target="_blank" rel="noreferrer">공식 갤러리</a></p></td><td>전 객실급 개인풀 중심 + 120m 인피니티 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 700,000원~1,800,000원+</td><td>PQC 공항 25~45분, 켐비치 인접</td></tr></tbody></table></div></section>
     <section id="resort-guide"><h2>숙소별 가이드북</h2><p class="lead">숙소 주변에서 부모님과 가기 좋은 장소를 이동시간 기준으로 묶었습니다. 카드 이미지는 예약처 공개 대표 이미지와 공식 갤러리 링크를 우선 반영했습니다.</p><div class="resort-guide-grid">
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/07/cc/fa/leonardo-159591-750347-864776.jpg?width=1200&amp;height=630&amp;crop=true" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-bali-nusa-dua.webp" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">발리 누사두아</p>
                 <h3>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</h3>
@@ -890,12 +1041,12 @@
                 <ul><li><strong>발리 컬렉션</strong><span>차량 5~10분</span><p>식당, 카페, 기념품을 한 번에 해결하기 좋음</p></li><li><strong>워터블로우 누사두아</strong><span>차량 5~10분</span><p>짧은 산책과 사진 포인트</p></li><li><strong>게게르 비치</strong><span>차량 10~15분</span><p>부드러운 모래와 비교적 잔잔한 분위기</p></li><li><strong>M Spa / Bali Refresh Spa</strong><span>차량 5~20분</span><p>2시간 마사지와 호텔 픽업형 상품 후보</p></li></ul>
                 <p><strong>하루 구성</strong> 오전 리조트 수영장 → 점심 발리 컬렉션 → 오후 마사지 → 저녁 리조트 식사</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/cb/4b/c0/leonardo-815200-2828784-591957.jpg?width=1200&amp;height=630&amp;crop=true" alt="Fusion Resort Cam Ranh 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-fusion-cam-ranh.webp" alt="Fusion Resort Cam Ranh 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">나트랑/깜란</p>
                 <h3>Fusion Resort Cam Ranh</h3>
@@ -903,12 +1054,12 @@
                 <ul><li><strong>바이다이 해변</strong><span>리조트 인접</span><p>긴 모래 해변과 리조트 산책</p></li><li><strong>오션스파/깜란 픽업형 스파</strong><span>차량 10~25분</span><p>리조트 근처 마사지 후보</p></li><li><strong>마담프엉 나트랑</strong><span>차량 35~45분</span><p>에어컨 있는 베트남 가정식 식사 후보</p></li><li><strong>아이리조트 머드온천</strong><span>차량 45~55분</span><p>비 오는 날 반나절 체험</p></li></ul>
                 <p><strong>하루 구성</strong> 오전 풀빌라 휴식 → 오후 스파 → 다음 날 나트랑 시내 외식·머드온천</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Fusion%20Resort%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://fusionhotelgroup.com/fusionresortcamranh/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/3b/96/0d/expedia_group-2677744-ee4691-613255.jpg?width=1200&amp;height=630&amp;crop=true" alt="The Anam Cam Ranh 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-anam-cam-ranh.webp" alt="The Anam Cam Ranh 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">나트랑/깜란</p>
                 <h3>The Anam Cam Ranh</h3>
@@ -916,12 +1067,12 @@
                 <ul><li><strong>바이다이 해변</strong><span>리조트 인접</span><p>부모님 산책과 사진</p></li><li><strong>나트랑 시내 식당가</strong><span>차량 35~45분</span><p>마담프엉, 쌀국수, 카페 동선</p></li><li><strong>웰스파/시내 스파</strong><span>차량 35~45분</span><p>외식과 함께 묶는 마사지</p></li><li><strong>빈원더스/케이블카</strong><span>차량+이동</span><p>컨디션 좋을 때 하루 일정</p></li></ul>
                 <p><strong>하루 구성</strong> 리조트 2일 체류 + 하루만 나트랑 시내 외출로 잡는 구성이 편함</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=The%20Anam%20Cam%20Ranh" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://www.theanam.com/the-anam-cam-ranh" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK/Expedia 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/ee/49/30/leonardo-2733746-738088-189624.jpg?width=1200&amp;height=630&amp;crop=true" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-danang-marriott.webp" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">다낭 논느억/미케</p>
                 <h3>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</h3>
@@ -929,12 +1080,12 @@
                 <ul><li><strong>오행산</strong><span>차량 5~10분</span><p>동굴과 전망, 단 계단이 있어 부모님 컨디션 확인</p></li><li><strong>미케비치 식당가</strong><span>차량 10~15분</span><p>목식당, 나벱수아 등 저녁 후보</p></li><li><strong>한시장·핑크성당</strong><span>차량 20~25분</span><p>쇼핑과 카페를 묶기 좋음</p></li><li><strong>호이안 올드타운</strong><span>차량 35~45분</span><p>등불 야경, 단 야간 이동 피로 주의</p></li></ul>
                 <p><strong>하루 구성</strong> 오전 리조트 → 오후 한시장 → 저녁 미케비치 맛집 → 마사지</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/ac/8d/03/leonardo-99731-767997-292199.jpg?width=1200&amp;height=630&amp;crop=true" alt="JW Marriott Phuket Resort &amp; Spa 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-jw-phuket.webp" alt="JW Marriott Phuket Resort &amp; Spa 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">푸켓 마이카오/나이양</p>
                 <h3>JW Marriott Phuket Resort &amp; Spa</h3>
@@ -942,12 +1093,12 @@
                 <ul><li><strong>마이카오 해변</strong><span>리조트 인접</span><p>긴 해변 산책, 비치 시설은 리조트 중심</p></li><li><strong>터틀 빌리지</strong><span>도보/차량 5~10분</span><p>간단한 식사, 카페, 쇼핑</p></li><li><strong>나이양 해변</strong><span>차량 15~25분</span><p>해변 식당과 선셋 식사</p></li><li><strong>시리낫 국립공원</strong><span>차량 15~25분</span><p>자연 산책과 조용한 해변</p></li></ul>
                 <p><strong>하루 구성</strong> 리조트 수영장 중심 + 저녁만 나이양 또는 터틀 빌리지 외출</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=JW%20Marriott%20Phuket%20Resort%20Spa" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/6d/fd/c2/ice-3672689-d7f7bb-326994.jpg?width=1200&amp;height=630&amp;crop=true" alt="Premier Village Phu Quoc Resort 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-premier-phu-quoc.webp" alt="Premier Village Phu Quoc Resort 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">푸꾸옥</p>
                 <h3>Premier Village Phu Quoc Resort</h3>
@@ -955,12 +1106,12 @@
                 <ul><li><strong>켐비치</strong><span>리조트 권역</span><p>하얀 모래 해변과 리조트 산책</p></li><li><strong>선셋타운</strong><span>차량 10~20분</span><p>사진, 카페, 저녁 산책</p></li><li><strong>혼똠 케이블카</strong><span>차량 10~25분</span><p>컨디션 좋을 때 반나절 체험</p></li><li><strong>리조트 스파</strong><span>도보/버기</span><p>부모님 동선상 가장 편한 마사지</p></li></ul>
                 <p><strong>하루 구성</strong> 오전 풀빌라 → 오후 선셋타운 → 저녁 리조트 또는 켐비치 식사</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=Premier%20Village%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://www.premiervillage-phuquoc.com/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             
             <article class="resort-guide-card">
-              <img src="https://content.r9cdn.net/rimg/himg/e4/a4/3d/leonardo-7254922-2454503-693713.jpg?width=1200&amp;height=800&amp;crop=true" alt="New World Phu Quoc Resort 숙소 대표 이미지" loading="lazy">
+              <img src="assets/generated-resorts/gen-new-world-phu-quoc.webp" alt="New World Phu Quoc Resort 숙소 대표 이미지" loading="lazy">
               <div>
                 <p class="muted">푸꾸옥</p>
                 <h3>New World Phu Quoc Resort</h3>
@@ -968,7 +1119,7 @@
                 <ul><li><strong>켐비치</strong><span>리조트 인접</span><p>바다와 수영장 중심 휴양</p></li><li><strong>선셋타운</strong><span>차량 10~20분</span><p>사진과 저녁 산책</p></li><li><strong>남부 해산물 식당</strong><span>차량 10~25분</span><p>가벼운 외식 후보</p></li><li><strong>리조트 키즈/가족 시설</strong><span>리조트 내부</span><p>비 오는 날 대안</p></li></ul>
                 <p><strong>하루 구성</strong> 외출을 줄이고 리조트 식당, 스파, 해변 산책을 중심으로 구성</p>
                 <p class="source-links"><a href="https://www.agoda.com/search?text=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">아고다 사진</a><a href="https://www.hotels.com/Hotel-Search?destination=New%20World%20Phu%20Quoc%20Resort" target="_blank" rel="noreferrer">호텔스닷컴 사진</a><a href="https://phuquoc.newworldhotels.com/en/" target="_blank" rel="noreferrer">공식 갤러리</a></p>
-                <small>KAYAK/Expedia 공개 대표 이미지</small>
+                <small>AI 생성 이미지팩, 실제 사진은 아래 링크 확인</small>
               </div>
             </article>
             </div></section>
