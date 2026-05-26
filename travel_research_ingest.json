@@ -1,0 +1,133 @@
+[
+  {
+    "channel": "google_guidebook",
+    "month": "2026-09",
+    "destination_id": "bali-nusa-dua",
+    "family_fit": "상",
+    "summary": "Nusa Dua family guides and Bali weather guides consistently favor the dry-season shoulder. September is repeatedly framed as a strong family month with good weather and fewer peak-season crowds.",
+    "decision": "9월 1위 유지. 부모님 동반은 리조트 권역을 누사두아로 좁히고, 외출은 Bali Collection/스파 중심으로 제한.",
+    "source_urls": [
+      "https://www.littlestepsasia.com/bali/play/neighborhood-guides/ultimate-nusa-dua-family-guide/",
+      "https://www.ministryofvillas.com/nusa-dua/",
+      "https://www.wheressharon.com/wp-content/uploads/guides/The%20Ultimate%20Guide%20to%20a%20Bali%20Family%20Holiday.pdf"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-09",
+    "destination_id": "da-nang-non-nuoc",
+    "family_fit": "중상",
+    "summary": "Da Nang guides split on September: it can still work for value and food trips, but several guides warn that the rainy/typhoon transition begins from September and worsens in October-November.",
+    "decision": "9월 2위 유지, 단 비치 중심보다 맛집·마사지·리조트 수영장 중심. 10~11월 후보에서는 낮게 둠.",
+    "source_urls": [
+      "https://www.indochinatour.com/vietnam-guide/vietnam-weather-danang.html",
+      "https://centralvietnamguide.com/da-nang-weather-by-month/",
+      "https://travelguidestip.com/da-nang-best-time-to-visit/"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-09",
+    "destination_id": "cam-ranh-nha-trang",
+    "family_fit": "중상",
+    "summary": "Nha Trang/Cam Ranh sits outside central Vietnam's worst typhoon framing, but September starts the shorter wet season. Airport-to-resort distance is a major family advantage.",
+    "decision": "9월 3위 유지. 깜란 공항 인근 풀빌라로 제한하면 부모님 피로가 낮음.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Nha_Trang",
+      "https://hr-n.com/wp-content/uploads/2023/01/01.-The-Anam-Cam-Ranh-Fact-Sheet.pdf",
+      "https://cdnc.heyzine.com/files/uploaded/v3/dded0a9507d80c324d145bc1a44eb1ff75b2d8c4.pdf"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-10",
+    "destination_id": "bali-nusa-dua",
+    "family_fit": "상",
+    "summary": "October is the start of Bali's wetter shoulder, but compared with central Vietnam and Phuket's late monsoon, Nusa Dua remains the most stable resort-style option.",
+    "decision": "10월 1위 유지. 실외 일정 욕심을 줄이고 리조트 체류형으로 설계.",
+    "source_urls": [
+      "https://www.ministryofvillas.com/nusa-dua/",
+      "https://www.littlestepsasia.com/bali/play/neighborhood-guides/ultimate-nusa-dua-family-guide/"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-10",
+    "destination_id": "phuket-mai-khao",
+    "family_fit": "중",
+    "summary": "Phuket guides place best beach weather from November onward; October is still late monsoon/transition. Good resorts can work, but family beach certainty is weaker.",
+    "decision": "10월 2위는 조건부 유지. 가격이 좋고 리조트 안 체류가 강할 때만 선택.",
+    "source_urls": [
+      "https://www.asiahighlights.com/thailand/ko-phuket/best-time-to-visit",
+      "https://www.hotels.com/go/thailand/getting-around-phuket",
+      "https://content.phuket101.net/wp-content/uploads/20230213121546/Phuket101-travel-guide.pdf"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-11",
+    "destination_id": "phuket-mai-khao",
+    "family_fit": "상",
+    "summary": "Multiple Phuket guides identify November as the dry-season transition and a strong beach month, though early November can still see rain. Airport proximity favors Mai Khao/Nai Yang for parents.",
+    "decision": "11월 1위 유지. 초반 비 변수를 감안해 리조트 수영장과 스파 품질을 우선.",
+    "source_urls": [
+      "https://www.roughguides.com/articles/phuket-weather-november-travel-tips/",
+      "https://phuket.as/weather/best-time",
+      "https://www.asiahighlights.com/thailand/ko-phuket/best-time-to-visit",
+      "https://www.hotels.com/go/thailand/getting-around-phuket"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-11",
+    "destination_id": "phu-quoc",
+    "family_fit": "상",
+    "summary": "Phu Quoc guides and resort documents consistently mark November-March as dry-season or the start of the best beach period. Pool villas fit 4-6 person families well.",
+    "decision": "11월 2위 유지. 풀빌라 예산이 맞으면 푸켓보다 가족 프라이버시가 좋음.",
+    "source_urls": [
+      "https://phuquoc-villa.com/blog/best-time-visit.html",
+      "https://phuquoc-homestay.com/blog/best-time-visit-phu-quoc/",
+      "https://leisuredoc.auroratravel.asia/Upload/files/phu-quoc-presentation-16404042025-242.pdf"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-10",
+    "destination_id": "cam-ranh-nha-trang",
+    "family_fit": "중",
+    "summary": "나트랑·깜란은 공항-리조트 동선이 짧고 풀빌라 선택지가 있어 가족 체류에 유리하지만, 10월은 우기 전환 리스크가 있어 해변 투어보다 리조트 수영장·스파 중심으로 보는 편이 안전합니다.",
+    "decision": "10월 3위 유지. 부모님 동반이면 시내 이동을 하루 1회 이하로 줄이고, 실내 식사·마사지·리조트 내 프로그램을 먼저 확보.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Nha_Trang",
+      "https://hr-n.com/wp-content/uploads/2023/01/01.-The-Anam-Cam-Ranh-Fact-Sheet.pdf",
+      "https://cdnc.heyzine.com/files/uploaded/v3/dded0a9507d80c324d145bc1a44eb1ff75b2d8c4.pdf"
+    ]
+  },
+  {
+    "channel": "google_guidebook",
+    "month": "2026-11",
+    "destination_id": "bali-nusa-dua",
+    "family_fit": "중",
+    "summary": "발리는 11월부터 우기 초입으로 들어가지만 누사두아는 리조트 완결형 일정, 쇼핑·식사 접근성, 공항 이동 시간이 짧아 가족 예비안으로 남길 가치가 있습니다.",
+    "decision": "11월 3위. 바다 액티비티 기대치를 낮추고 객실, 실내외 수영장, 스파, Bali Collection 접근성을 중심으로 예약.",
+    "source_urls": [
+      "https://www.lonelyplanet.com/articles/guide-to-bali",
+      "https://www.roughguides.com/indonesia/bali/",
+      "https://www.littlestepsasia.com/bali/play/neighborhood-guides/ultimate-nusa-dua-family-guide/"
+    ]
+  },
+  {
+    "channel": "youtube_public_search",
+    "month": "2026-09/10/11",
+    "destination_id": "practical",
+    "family_fit": "참고",
+    "summary": "YouTube는 로그인/댓글 대량 수집 없이 공개 검색 링크만 인제스트. 실제 영상은 출발 전 최근 업로드순으로 가족 리조트 객실, 조식, 수영장, 공항 이동을 확인하는 보조 자료로 둠.",
+    "decision": "HTML에는 유튜브 검색 링크를 직접 제공하고, 영상 내용은 자동 요약 근거로 과신하지 않음.",
+    "source_urls": [
+      "https://www.youtube.com/results?search_query=Bali+Nusa+Dua+family+resort+guide+2026",
+      "https://www.youtube.com/results?search_query=Phuket+family+resort+travel+guide+2026",
+      "https://www.youtube.com/results?search_query=Phu+Quoc+family+resort+travel+guide+2026",
+      "https://www.youtube.com/results?search_query=Da+Nang+family+resort+travel+guide+2026"
+    ]
+  }
+]
