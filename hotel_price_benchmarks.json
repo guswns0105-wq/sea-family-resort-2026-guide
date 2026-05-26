@@ -1,0 +1,122 @@
+[
+  {
+    "destination_id": "bali-nusa-dua",
+    "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+    "month": "2026-09",
+    "weekday_avg_krw": 820000,
+    "weekend_avg_krw": 980000,
+    "source": "KAYAK·아고다·호텔스닷컴 공개 가격 신호와 네이버 숙소 검색 비교",
+    "basis": "KAYAK 최저가 $213 신호를 기준으로, 4~6인 객실 조합/라군 접근 객실은 기존 후보 범위 70만~120만원 안에서 보정.",
+    "family_note": "객실 2개 조합은 80만~100만원대, 풀빌라는 100만원 이상으로 보는 편이 안전."
+  },
+  {
+    "destination_id": "bali-nusa-dua",
+    "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+    "month": "2026-10",
+    "weekday_avg_krw": 870000,
+    "weekend_avg_krw": 1050000,
+    "source": "KAYAK·아고다·호텔스닷컴 공개 가격 신호와 네이버 숙소 검색 비교",
+    "basis": "10월은 발리 건기 끝자락 수요를 반영해 9월 대비 소폭 가산.",
+    "family_note": "금·토 포함 일정이면 3박 숙소비가 280만~320만원대로 올라갈 수 있음."
+  },
+  {
+    "destination_id": "bali-nusa-dua",
+    "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+    "month": "2026-11",
+    "weekday_avg_krw": 720000,
+    "weekend_avg_krw": 900000,
+    "source": "KAYAK·아고다·호텔스닷컴 공개 가격 신호와 네이버 숙소 검색 비교",
+    "basis": "11월은 우기 시작 리스크를 반영해 평일가를 낮게 보되 주말 리조트 수요는 유지.",
+    "family_note": "우천 대비 리조트 체류형이면 가능하지만, 날씨 때문에 가격만 보고 결정하지 말 것."
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "resort": "Fusion Resort Cam Ranh",
+    "month": "2026-09",
+    "weekday_avg_krw": 760000,
+    "weekend_avg_krw": 980000,
+    "source": "KAYAK 공개 가격, 아고다 2026 업데이트 페이지, 네이버 숙소 검색 비교",
+    "basis": "KAYAK은 Fusion Resort Cam Ranh의 최근 평일 평균 $270, 주말 평균 $497 신호를 노출. 4~6인 빌라 후보는 기존 75만~140만원 범위로 보정.",
+    "family_note": "스파 포함형이라 단순 객실가보다 체류 만족도가 높지만, 3베드룸은 주말 100만원 전후를 예상."
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "resort": "Fusion Resort Cam Ranh",
+    "month": "2026-10",
+    "weekday_avg_krw": 700000,
+    "weekend_avg_krw": 920000,
+    "source": "KAYAK 공개 가격, 아고다 2026 업데이트 페이지, 네이버 숙소 검색 비교",
+    "basis": "KAYAK은 10월을 저가 시즌 신호로 표시하지만, 우천 리스크 때문에 리조트 체류형 가격으로 재보정.",
+    "family_note": "가격은 좋아질 수 있으나 외부 일정이 줄어들 수 있어 숙소 시설을 더 중요하게 봐야 함."
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "resort": "The Anam Cam Ranh",
+    "month": "2026-09",
+    "weekday_avg_krw": 650000,
+    "weekend_avg_krw": 820000,
+    "source": "아고다·호텔스닷컴·네이버 숙소 검색 비교",
+    "basis": "기존 후보 범위 60만~120만원 안에서 9월 평일/주말 패턴으로 산정.",
+    "family_note": "객실 2개 조합이면 예산 접근성이 Fusion보다 나을 수 있음."
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "resort": "The Anam Cam Ranh",
+    "month": "2026-10",
+    "weekday_avg_krw": 600000,
+    "weekend_avg_krw": 780000,
+    "source": "아고다·호텔스닷컴·네이버 숙소 검색 비교",
+    "basis": "10월 우천 변수를 반영해 평일 평균은 낮게, 주말은 가족 리조트 수요를 반영.",
+    "family_note": "비 예보가 있으면 객실 등급보다 리조트 식당·스파·실내 동선을 우선."
+  },
+  {
+    "destination_id": "da-nang-non-nuoc",
+    "resort": "Danang Marriott Resort & Spa, Non Nuoc Beach Villas",
+    "month": "2026-09",
+    "weekday_avg_krw": 620000,
+    "weekend_avg_krw": 790000,
+    "source": "KAYAK 공개 가격, Marriott 공식 숙소 정보, 네이버 숙소 검색 비교",
+    "basis": "KAYAK은 해당 숙소 최근 가격 $283~$346 신호를 노출. 가족 빌라형은 기존 55만~110만원 범위로 보정.",
+    "family_note": "9월 다낭 후보 중 예산 접근성이 가장 좋지만, 10~11월은 날씨 리스크로 후순위."
+  },
+  {
+    "destination_id": "phuket-mai-khao",
+    "resort": "JW Marriott Phuket Resort & Spa",
+    "month": "2026-10",
+    "weekday_avg_krw": 760000,
+    "weekend_avg_krw": 980000,
+    "source": "KAYAK Mai Khao 리조트 가격 신호, 아고다·호텔스닷컴·네이버 숙소 검색 비교",
+    "basis": "KAYAK Mai Khao 리조트 데이터는 지역 평균과 요일별 가격 차이를 노출. 10월 우기 말이라 평일가를 낮게 보정.",
+    "family_note": "날씨만 받쳐주면 가격은 11월보다 낫지만, 리조트 안에서 놀 수 있는 일정이어야 함."
+  },
+  {
+    "destination_id": "phuket-mai-khao",
+    "resort": "JW Marriott Phuket Resort & Spa",
+    "month": "2026-11",
+    "weekday_avg_krw": 920000,
+    "weekend_avg_krw": 1180000,
+    "source": "KAYAK Mai Khao 리조트 가격 신호, 아고다·호텔스닷컴·네이버 숙소 검색 비교",
+    "basis": "11월 건기 전환 수요와 주말 프리미엄을 반영. KAYAK 지역 리조트 신호는 주말·일요일 가격 상승을 시사.",
+    "family_note": "11월 1위 후보지만 1박 50만~60만원 목표보다 높을 가능성이 큼. 객실 2개 조합 특가를 우선 탐색."
+  },
+  {
+    "destination_id": "phu-quoc",
+    "resort": "Premier Village Phu Quoc Resort 3BR",
+    "month": "2026-11",
+    "weekday_avg_krw": 850000,
+    "weekend_avg_krw": 1120000,
+    "source": "KAYAK Premier Village 가격 신호, 아고다·호텔스닷컴·네이버 숙소 검색 비교",
+    "basis": "KAYAK은 Premier Village의 럭셔리/프리미어 객실 가격 신호를 노출. 3BR 풀빌라는 기존 70만~160만원 범위로 보정.",
+    "family_note": "4~6인이 한 집처럼 지내기 좋아 총액 대비 만족도가 높지만, 주말은 100만원 이상으로 잡는 편이 안전."
+  },
+  {
+    "destination_id": "phu-quoc",
+    "resort": "New World Phu Quoc Resort",
+    "month": "2026-11",
+    "weekday_avg_krw": 900000,
+    "weekend_avg_krw": 1200000,
+    "source": "KAYAK New World 가격 신호, New World 공식 팩트시트, 네이버 숙소 검색 비교",
+    "basis": "KAYAK은 최근 예약가 $314 신호를 노출하고, 공식 팩트시트는 전 객실 풀빌라·대형 수영장 구성을 확인시켜 줌. 가족 풀빌라는 기존 70만~180만원 범위로 보정.",
+    "family_note": "시설은 강하지만 예산 초과 가능성이 높음. 부모님 동반이면 이동 적은 3박 이상일 때 효율적."
+  }
+]
