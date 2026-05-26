@@ -1,0 +1,59 @@
+{
+  "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/07/cc/fa/leonardo-159591-750347-864776.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/South-Kuta-Hotels-The-Laguna-a-Luxury-Collection-Resort-Spa-Nusa-Dua-Bali.159591.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=The%20Laguna%20a%20Luxury%20Collection%20Resort%20Spa%20Nusa%20Dua%20Bali",
+    "official_url": "https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/overview/"
+  },
+  "Fusion Resort Cam Ranh": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/cb/4b/c0/leonardo-815200-2828784-591957.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/Nha-Trang-Hotels-Fusion-Resort-Cam-Ranh.815200.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=Fusion%20Resort%20Cam%20Ranh",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=Fusion%20Resort%20Cam%20Ranh",
+    "official_url": "https://fusionhotelgroup.com/fusionresortcamranh/"
+  },
+  "The Anam Cam Ranh": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/3b/96/0d/expedia_group-2677744-ee4691-613255.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK/Expedia 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/Nha-Trang-Hotels-The-Anam.2677744.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=The%20Anam%20Cam%20Ranh",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=The%20Anam%20Cam%20Ranh",
+    "official_url": "https://www.theanam.com/the-anam-cam-ranh"
+  },
+  "Danang Marriott Resort & Spa, Non Nuoc Beach Villas": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/ee/49/30/leonardo-2733746-738088-189624.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/Da-Nang-Hotels-Vinpearl-Resort-Spa-Da-Nang.2733746.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=Danang%20Marriott%20Resort%20Spa%20Non%20Nuoc%20Beach%20Villas",
+    "official_url": "https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/overview/"
+  },
+  "JW Marriott Phuket Resort & Spa": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/ac/8d/03/leonardo-99731-767997-292199.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/Mai-Khao-Hotels-JW-Marriott-Phuket-Resort-Spa.99731.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=JW%20Marriott%20Phuket%20Resort%20Spa",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=JW%20Marriott%20Phuket%20Resort%20Spa",
+    "official_url": "https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/"
+  },
+  "Premier Village Phu Quoc Resort": {
+    "image_url": "https://content.r9cdn.net/rimg/himg/6d/fd/c2/ice-3672689-d7f7bb-326994.jpg?width=1200&height=630&crop=true",
+    "image_credit": "KAYAK 공개 대표 이미지",
+    "kayak_url": "https://www.kayak.com/Phu-Quoc-Hotels-Premier-Village-Phu-Quoc-Resort.3672689.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=Premier%20Village%20Phu%20Quoc%20Resort",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=Premier%20Village%20Phu%20Quoc%20Resort",
+    "official_url": "https://www.premiervillage-phuquoc.com/"
+  },
+  "New World Phu Quoc Resort": {
+    "image_url": "https://phuquoc.newworldhotels.com/en/wp-content/uploads/2025/07/NWPQR_Factsheet2025.pdf",
+    "image_credit": "New World Phu Quoc 공식 팩트시트",
+    "kayak_url": "https://www.kayak.com.au/Phu-Quoc-Hotels-New-World-Phu-Quoc-Resort.7254922.ksp",
+    "agoda_url": "https://www.agoda.com/search?text=New%20World%20Phu%20Quoc%20Resort",
+    "hotels_url": "https://www.hotels.com/Hotel-Search?destination=New%20World%20Phu%20Quoc%20Resort",
+    "official_url": "https://phuquoc.newworldhotels.com/en/",
+    "fallback_image_id": "phu-quoc"
+  }
+}
