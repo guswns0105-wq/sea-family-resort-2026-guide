@@ -12,6 +12,7 @@ GitHub Pages에 올릴 때는 저장소 설정에서 Pages source를 `Deploy fro
 - `flights.json`: 월별/노선별 항공권 예상가와 저렴한 출발 패턴
 - `image_pack.json`: 화면에 쓰는 실제 여행지 이미지 묶음
 - `routes.json`: 공항, 숙소, 식당, 마사지 이동 경로
+- `guidebook_insights.json`: 네이버 블로그와 구글 여행가이드 참고 후 일정 보정안
 - `resort_guidebook.json`: 숙소별 이미지, 공식 사진 링크, 근처 갈만한 곳, 하루 동선
 - `food_and_spa.json`: 맛집·마사지별 음식 이미지, 추천 메뉴, 가격대, 부모님 동선 팁
 - `crawl_evidence.json`: 내부 분석용 검색 근거

@@ -1,0 +1,67 @@
+[
+  {
+    "destination_id": "bali-nusa-dua",
+    "title": "발리 누사두아: 리조트 체류형으로 설계",
+    "naver_signal": "네이버 블로그에서는 누사두아 가족 리조트·풀빌라·마사지 후기가 주로 호텔존 체류와 픽업형 스파에 집중됩니다.",
+    "google_signal": "2026 가족 여행가이드들은 누사두아를 포장도로, 보행 동선, 잔잔한 해변, 공항 20~30분권 때문에 조부모 동반 첫 발리 여행에 맞는 지역으로 설명합니다.",
+    "route_upgrade": "외부 관광은 하루 1개만 넣고, 나머지는 리조트 수영장·해변 산책·발리 컬렉션 식사·마사지로 묶습니다.",
+    "avoid": "우붓·동부 투어를 같은 날 왕복으로 길게 넣으면 60대 부모님에게 피로가 큽니다.",
+    "sample_day": "오전 해변 산책 → 낮 리조트 휴식 → 16시 발리 컬렉션 → 저녁 마사지 픽업",
+    "source_urls": [
+      "https://balifamilytravels.com/blog/nusa-dua-family-resort-guide",
+      "https://bali-travel-guide.net/areas/nusa-dua"
+    ]
+  },
+  {
+    "destination_id": "cam-ranh-nha-trang",
+    "title": "깜란/나트랑: 공항 가까운 풀빌라 휴양 + 시내 외식일 분리",
+    "naver_signal": "네이버 블로그 결과는 2025~2026년 깜란 풀빌라, 오션스파, 무료 픽업 마사지, 가족 단위 수영장 후기가 많습니다.",
+    "google_signal": "깜란 여행가이드들은 롱비치 리조트가 공항에서 5~10분권이고, 리조트 안 식사·수영장·스파를 중심으로 쉬는 일정을 추천합니다.",
+    "route_upgrade": "나트랑 시내 맛집과 머드온천은 하루에 몰아서 다녀오고, 다른 날은 숙소 반경 안에서 움직입니다.",
+    "avoid": "매일 나트랑 시내 왕복 70~90분을 넣으면 리조트 휴양 장점이 사라집니다.",
+    "sample_day": "오전 풀빌라·수영장 → 오후 픽업 스파 → 다음 날 점심 마담프엉 + 머드온천",
+    "source_urls": [
+      "https://www.alma-resort.com/cam-ranh-itinerary/",
+      "https://www.alma-resort.com/blog/cam-ranh-travel-guide/"
+    ]
+  },
+  {
+    "destination_id": "da-nang-non-nuoc",
+    "title": "다낭: 9월 한정, 먹거리·마사지·쇼핑을 한 번에",
+    "naver_signal": "네이버 블로그에서는 다낭 부모님 여행, 한시장, 미케비치 맛집, 마사지 동선을 함께 묶은 후기가 많아 자유여행 난이도가 낮습니다.",
+    "google_signal": "2026 다낭 가족 일정 가이드들은 미케비치 오전 산책, 로컬 음식, 가족형 액티비티를 조합하되 무더운 낮에는 실내·마사지 시간을 권합니다.",
+    "route_upgrade": "오전은 해변·리조트, 오후는 한시장·핑크성당·저녁 맛집·마사지 한 번의 차량 동선으로 묶습니다.",
+    "avoid": "10~11월 중부 베트남 우천 리스크가 커서, 부모님 동반이면 다낭은 9월 후보로 제한합니다.",
+    "sample_day": "오전 미케비치 산책 → 낮 리조트 휴식 → 15시 한시장 → 저녁 목식당 → 마사지",
+    "source_urls": [
+      "https://www.itimaker.com/blog/danang-family-itinerary",
+      "https://www.danang.intercontinental.com/wp-content/uploads/2025/05/Activities-Schedule-April-2026.pdf"
+    ]
+  },
+  {
+    "destination_id": "phuket-mai-khao",
+    "title": "푸켓 마이카오: 조용한 북부 리조트 체류형",
+    "naver_signal": "네이버 블로그와 후기 흐름은 푸켓 풀빌라·리조트 스파 만족도는 높지만, 빠통·푸켓타운 외부 동선은 길다는 쪽으로 갈립니다.",
+    "google_signal": "2026 푸켓 가족 호텔 가이드들은 마이카오를 조용한 북부 해변, 긴 비개발 해변, 리조트 시설 중심 가족 여행지로 분류합니다.",
+    "route_upgrade": "숙소 선택 단계에서 식당·수영장·스파 품질을 우선하고, 외부 일정은 나이양 또는 터틀 빌리지 정도로 줄입니다.",
+    "avoid": "빠통 마사지·야시장 왕복은 2시간 이상 잡힐 수 있어 60대 부모님과 매일 넣기 어렵습니다.",
+    "sample_day": "오전 해변 산책 → 낮 수영장 → 17시 터틀 빌리지 또는 나이양 식사 → 리조트 복귀",
+    "source_urls": [
+      "https://hotelierschoice.com/guides/phuket/phuket-families/",
+      "https://www.phuket.net/visit-phuket/about/info/climate/"
+    ]
+  },
+  {
+    "destination_id": "phu-quoc",
+    "title": "푸꾸옥 남부: 켐비치·선셋타운·케이블카를 한 권역으로",
+    "naver_signal": "네이버 블로그에서는 푸꾸옥 가족 풀빌라, 뉴월드·프리미어 빌리지, 남부 맛집·스파 이동 편의 후기가 반복됩니다.",
+    "google_signal": "2026 푸꾸옥 가이드들은 켐비치, 선셋타운, 혼똠 케이블카를 남부 리조트권 일정으로 묶는 방식을 추천합니다.",
+    "route_upgrade": "남부 숙소를 잡으면 켐비치·선셋타운·케이블카를 하루로 묶고, 나머지는 리조트 휴식으로 둡니다.",
+    "avoid": "북부 빈원더스·사파리와 남부 선셋타운을 같은 날 왕복하면 이동 피로가 큽니다.",
+    "sample_day": "오전 켐비치 → 낮 리조트 휴식 → 16시 케이블카 또는 선셋타운 → 저녁 리조트 스파",
+    "source_urls": [
+      "https://localvietnam.com/phu-quoc/khem-beach-phu-quoc/",
+      "https://www.insidephuquoc.com/blog/5-days-in-phu-quoc/"
+    ]
+  }
+]

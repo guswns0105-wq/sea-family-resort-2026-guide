@@ -38,14 +38,24 @@
     a { color:var(--sea); font-weight:800; }
     .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
-    .route-grid,.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .route-grid,.reference-grid,.guidebook-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .resort-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .place-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .guidebook-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .resort-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .place-card,.review-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
+    .guidebook-card > img { width:100%; height:230px; object-fit:cover; background:#dce7ea; }
+    .guidebook-card > div { padding:18px; }
+    .guidebook-card h3 { margin:4px 0 12px; font-size:22px; }
+    .guidebook-card dl { display:grid; gap:10px; }
+    .guidebook-card dl div { display:grid; gap:4px; border-top:1px solid var(--line); padding-top:10px; }
+    .guidebook-card dt { font-weight:900; color:var(--sea); }
+    .guidebook-card dd { margin:0; color:var(--muted); }
+    .source-links { display:flex; gap:8px; flex-wrap:wrap; }
+    .source-links a { display:inline-block; padding:7px 10px; border-radius:999px; background:#eef6f4; color:var(--sea); font-weight:900; text-decoration:none; }
     .resort-guide-card > img { width:100%; height:260px; object-fit:cover; background:#dce7ea; }
     .resort-guide-card > div { padding:18px; }
     .resort-guide-card h3 { margin:4px 0 10px; font-size:22px; }
@@ -70,7 +80,7 @@
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid,.resort-guide-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.guidebook-grid,.review-grid,.resort-guide-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
@@ -81,7 +91,7 @@
     </div>
   </header>
   <nav>
-    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#resort-guide">숙소 가이드북</a><a href="#places">맛집·마사지</a><a href="#reviews">2026 후기</a><a href="#crawl">참고자료</a>
+    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#guidebook">가이드 보정</a><a href="#resorts">숙소</a><a href="#resort-guide">숙소 가이드북</a><a href="#places">맛집·마사지</a><a href="#reviews">2026 후기</a><a href="#crawl">참고자료</a>
   </nav>
   <main>
     <section id="summary">
@@ -298,6 +308,87 @@
                   <li>가족 풀빌라 리조트 내부 스파 이용이 가장 편하고, 외부 이동은 숙소 위치에 따라 편차가 큽니다.</li>
                 </ol>
                 <p><strong>부모님 팁</strong> 11월 말 평일 항공권과 남부 풀빌라를 묶으면 가족 휴양 만족도가 높습니다.</p>
+              </div>
+            </article>
+            </div></section>
+    <section id="guidebook"><h2>네이버·구글 가이드 반영</h2><p class="lead">네이버 블로그 후기와 구글에서 확인한 2026 여행가이드북의 공통점을 일정에 반영했습니다. 핵심은 하루 외출 횟수를 줄이고, 숙소 권역 안에서 식사·마사지·산책을 묶는 것입니다.</p><div class="guidebook-grid">
+            <article class="guidebook-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="발리 누사두아 여행가이드 참고 이미지" loading="lazy">
+              <div>
+                <p class="muted">발리 누사두아</p>
+                <h3>발리 누사두아: 리조트 체류형으로 설계</h3>
+                <dl>
+                  <div><dt>네이버 블로그 신호</dt><dd>네이버 블로그에서는 누사두아 가족 리조트·풀빌라·마사지 후기가 주로 호텔존 체류와 픽업형 스파에 집중됩니다.</dd></div>
+                  <div><dt>구글 가이드 신호</dt><dd>2026 가족 여행가이드들은 누사두아를 포장도로, 보행 동선, 잔잔한 해변, 공항 20~30분권 때문에 조부모 동반 첫 발리 여행에 맞는 지역으로 설명합니다.</dd></div>
+                  <div><dt>HTML 보정</dt><dd>외부 관광은 하루 1개만 넣고, 나머지는 리조트 수영장·해변 산책·발리 컬렉션 식사·마사지로 묶습니다.</dd></div>
+                  <div><dt>피할 것</dt><dd>우붓·동부 투어를 같은 날 왕복으로 길게 넣으면 60대 부모님에게 피로가 큽니다.</dd></div>
+                </dl>
+                <p><strong>추천 하루</strong> 오전 해변 산책 → 낮 리조트 휴식 → 16시 발리 컬렉션 → 저녁 마사지 픽업</p>
+                <p class="source-links"><a href="https://balifamilytravels.com/blog/nusa-dua-family-resort-guide" target="_blank" rel="noreferrer">참고</a> <a href="https://bali-travel-guide.net/areas/nusa-dua" target="_blank" rel="noreferrer">참고</a></p>
+              </div>
+            </article>
+            
+            <article class="guidebook-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑/깜란 여행가이드 참고 이미지" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란</p>
+                <h3>깜란/나트랑: 공항 가까운 풀빌라 휴양 + 시내 외식일 분리</h3>
+                <dl>
+                  <div><dt>네이버 블로그 신호</dt><dd>네이버 블로그 결과는 2025~2026년 깜란 풀빌라, 오션스파, 무료 픽업 마사지, 가족 단위 수영장 후기가 많습니다.</dd></div>
+                  <div><dt>구글 가이드 신호</dt><dd>깜란 여행가이드들은 롱비치 리조트가 공항에서 5~10분권이고, 리조트 안 식사·수영장·스파를 중심으로 쉬는 일정을 추천합니다.</dd></div>
+                  <div><dt>HTML 보정</dt><dd>나트랑 시내 맛집과 머드온천은 하루에 몰아서 다녀오고, 다른 날은 숙소 반경 안에서 움직입니다.</dd></div>
+                  <div><dt>피할 것</dt><dd>매일 나트랑 시내 왕복 70~90분을 넣으면 리조트 휴양 장점이 사라집니다.</dd></div>
+                </dl>
+                <p><strong>추천 하루</strong> 오전 풀빌라·수영장 → 오후 픽업 스파 → 다음 날 점심 마담프엉 + 머드온천</p>
+                <p class="source-links"><a href="https://www.alma-resort.com/cam-ranh-itinerary/" target="_blank" rel="noreferrer">참고</a> <a href="https://www.alma-resort.com/blog/cam-ranh-travel-guide/" target="_blank" rel="noreferrer">참고</a></p>
+              </div>
+            </article>
+            
+            <article class="guidebook-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 논느억/미케 여행가이드 참고 이미지" loading="lazy">
+              <div>
+                <p class="muted">다낭 논느억/미케</p>
+                <h3>다낭: 9월 한정, 먹거리·마사지·쇼핑을 한 번에</h3>
+                <dl>
+                  <div><dt>네이버 블로그 신호</dt><dd>네이버 블로그에서는 다낭 부모님 여행, 한시장, 미케비치 맛집, 마사지 동선을 함께 묶은 후기가 많아 자유여행 난이도가 낮습니다.</dd></div>
+                  <div><dt>구글 가이드 신호</dt><dd>2026 다낭 가족 일정 가이드들은 미케비치 오전 산책, 로컬 음식, 가족형 액티비티를 조합하되 무더운 낮에는 실내·마사지 시간을 권합니다.</dd></div>
+                  <div><dt>HTML 보정</dt><dd>오전은 해변·리조트, 오후는 한시장·핑크성당·저녁 맛집·마사지 한 번의 차량 동선으로 묶습니다.</dd></div>
+                  <div><dt>피할 것</dt><dd>10~11월 중부 베트남 우천 리스크가 커서, 부모님 동반이면 다낭은 9월 후보로 제한합니다.</dd></div>
+                </dl>
+                <p><strong>추천 하루</strong> 오전 미케비치 산책 → 낮 리조트 휴식 → 15시 한시장 → 저녁 목식당 → 마사지</p>
+                <p class="source-links"><a href="https://www.itimaker.com/blog/danang-family-itinerary" target="_blank" rel="noreferrer">참고</a> <a href="https://www.danang.intercontinental.com/wp-content/uploads/2025/05/Activities-Schedule-April-2026.pdf" target="_blank" rel="noreferrer">참고</a></p>
+              </div>
+            </article>
+            
+            <article class="guidebook-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오/나이양 여행가이드 참고 이미지" loading="lazy">
+              <div>
+                <p class="muted">푸켓 마이카오/나이양</p>
+                <h3>푸켓 마이카오: 조용한 북부 리조트 체류형</h3>
+                <dl>
+                  <div><dt>네이버 블로그 신호</dt><dd>네이버 블로그와 후기 흐름은 푸켓 풀빌라·리조트 스파 만족도는 높지만, 빠통·푸켓타운 외부 동선은 길다는 쪽으로 갈립니다.</dd></div>
+                  <div><dt>구글 가이드 신호</dt><dd>2026 푸켓 가족 호텔 가이드들은 마이카오를 조용한 북부 해변, 긴 비개발 해변, 리조트 시설 중심 가족 여행지로 분류합니다.</dd></div>
+                  <div><dt>HTML 보정</dt><dd>숙소 선택 단계에서 식당·수영장·스파 품질을 우선하고, 외부 일정은 나이양 또는 터틀 빌리지 정도로 줄입니다.</dd></div>
+                  <div><dt>피할 것</dt><dd>빠통 마사지·야시장 왕복은 2시간 이상 잡힐 수 있어 60대 부모님과 매일 넣기 어렵습니다.</dd></div>
+                </dl>
+                <p><strong>추천 하루</strong> 오전 해변 산책 → 낮 수영장 → 17시 터틀 빌리지 또는 나이양 식사 → 리조트 복귀</p>
+                <p class="source-links"><a href="https://hotelierschoice.com/guides/phuket/phuket-families/" target="_blank" rel="noreferrer">참고</a> <a href="https://www.phuket.net/visit-phuket/about/info/climate/" target="_blank" rel="noreferrer">참고</a></p>
+              </div>
+            </article>
+            
+            <article class="guidebook-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 여행가이드 참고 이미지" loading="lazy">
+              <div>
+                <p class="muted">푸꾸옥</p>
+                <h3>푸꾸옥 남부: 켐비치·선셋타운·케이블카를 한 권역으로</h3>
+                <dl>
+                  <div><dt>네이버 블로그 신호</dt><dd>네이버 블로그에서는 푸꾸옥 가족 풀빌라, 뉴월드·프리미어 빌리지, 남부 맛집·스파 이동 편의 후기가 반복됩니다.</dd></div>
+                  <div><dt>구글 가이드 신호</dt><dd>2026 푸꾸옥 가이드들은 켐비치, 선셋타운, 혼똠 케이블카를 남부 리조트권 일정으로 묶는 방식을 추천합니다.</dd></div>
+                  <div><dt>HTML 보정</dt><dd>남부 숙소를 잡으면 켐비치·선셋타운·케이블카를 하루로 묶고, 나머지는 리조트 휴식으로 둡니다.</dd></div>
+                  <div><dt>피할 것</dt><dd>북부 빈원더스·사파리와 남부 선셋타운을 같은 날 왕복하면 이동 피로가 큽니다.</dd></div>
+                </dl>
+                <p><strong>추천 하루</strong> 오전 켐비치 → 낮 리조트 휴식 → 16시 케이블카 또는 선셋타운 → 저녁 리조트 스파</p>
+                <p class="source-links"><a href="https://localvietnam.com/phu-quoc/khem-beach-phu-quoc/" target="_blank" rel="noreferrer">참고</a> <a href="https://www.insidephuquoc.com/blog/5-days-in-phu-quoc/" target="_blank" rel="noreferrer">참고</a></p>
               </div>
             </article>
             </div></section>
