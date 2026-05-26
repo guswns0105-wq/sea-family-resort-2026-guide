@@ -40,10 +40,11 @@
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
     .route-grid,.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .resort-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .place-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .resort-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
-    .review-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .place-card,.review-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
     .resort-guide-card > img { width:100%; height:260px; object-fit:cover; background:#dce7ea; }
     .resort-guide-card > div { padding:18px; }
@@ -52,6 +53,14 @@
     .resort-guide-card li { border-top:1px solid var(--line); padding-top:10px; }
     .resort-guide-card li span { float:right; color:var(--sea); font-weight:900; font-size:13px; }
     .resort-guide-card li p { margin:4px 0 0; color:var(--muted); }
+    .place-card img { width:100%; height:230px; object-fit:cover; background:#dce7ea; }
+    .place-card div { padding:18px; }
+    .place-card h3 { margin:4px 0 10px; font-size:22px; }
+    .place-card dl { display:grid; gap:8px; margin-top:12px; }
+    .place-card dl div { padding:0; display:grid; grid-template-columns:84px 1fr; gap:10px; }
+    .place-card dt { font-weight:900; color:var(--sea); }
+    .place-card dd { margin:0; color:var(--muted); }
+    .place-card small { color:var(--muted); }
     .review-card img { width:100%; height:180px; object-fit:cover; background:#dce7ea; }
     .review-card div { padding:16px; }
     .review-card span { color:var(--muted); font-size:13px; font-weight:800; }
@@ -61,7 +70,7 @@
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid,.resort-guide-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid,.resort-guide-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
@@ -378,7 +387,215 @@
               </div>
             </article>
             </div></section>
-    <section id="places"><h2>맛집·마사지 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>장소</th><th>추천 이유</th><th>가격대</th><th>이동</th></tr></thead><tbody><tr><td>나트랑/깜란</td><td><strong>마담프엉</strong><br><span>맛집</span></td><td>에어컨·청결·한국인 후기 많아 부모님 동반 무난</td><td>1인 15,000원~30,000원</td><td>깜란 리조트에서 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>I-Resort 머드온천</strong><br><span>체험/마사지</span></td><td>비 오는 날 대안으로 좋음</td><td>패키지별 10,000원~50,000원+</td><td>깜란 리조트에서 45~55분</td></tr><tr><td>나트랑/깜란</td><td><strong>오션스파/웰스파 계열</strong><br><span>마사지</span></td><td>네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨</td><td>60~90분 15,000원~40,000원</td><td>숙소 위치 따라 10~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>목식당</strong><br><span>맛집</span></td><td>한국인 해산물 맛집 후기가 많음</td><td>1인 20,000원~60,000원</td><td>논느억/미케에서 10~20분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>냐벱/나벱수아</strong><br><span>맛집</span></td><td>베트남 가정식, 에어컨 좌석 후보</td><td>1인 8천~20,000원</td><td>미케 10~15분, 한시장 20~25분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>퀸스파/팜스파</strong><br><span>마사지</span></td><td>한시장·미케비치 동선에 배치하기 쉬움</td><td>60~90분 15,000원~40,000원</td><td>차로 15~25분</td></tr><tr><td>발리 누사두아</td><td><strong>Warung Nasi Ayam Ibu Oki</strong><br><span>맛집</span></td><td>현지식. 매운맛 확인 필요</td><td>1인 5천~12,000원</td><td>누사두아에서 10~20분</td></tr><tr><td>발리 누사두아</td><td><strong>Bali Collection / 꼬끼 한식당</strong><br><span>맛집</span></td><td>부모님이 향신료에 지칠 때 안전한 선택</td><td>1인 15,000원~30,000원</td><td>차로 5~15분</td></tr><tr><td>발리 누사두아</td><td><strong>M Spa / Bali Refresh Spa</strong><br><span>마사지</span></td><td>누사두아 호텔존 픽업형 마사지 후보</td><td>2시간 30,000원~80,000원</td><td>5~20분, 일부 픽업 가능</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 다이닝 + 나이양 해변 식당</strong><br><span>맛집</span></td><td>마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계</td><td>로컬 10,000원~30,000원, 리조트 30,000원~80,000원</td><td>나이양 15~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 스파 / Orientala Spa Patong</strong><br><span>마사지</span></td><td>부모님 동반이면 장거리보다 리조트 스파 권장</td><td>외부 20,000원~60,000원, 리조트 80,000원~200,000원+</td><td>빠통 55~70분</td></tr><tr><td>푸꾸옥</td><td><strong>선셋타운/켐비치 식당가</strong><br><span>맛집/체험</span></td><td>남부 풀빌라 리조트와 묶기 좋음</td><td>1인 10,000원~40,000원</td><td>남부 리조트에서 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>리조트 스파</strong><br><span>마사지</span></td><td>외부 이동보다 리조트 내 스파가 부모님 동선에 편함</td><td>1인 50,000원~150,000원+</td><td>도보/버기</td></tr></tbody></table></div></section>
+    <section id="places"><h2>맛집·마사지 후보</h2><p class="lead">음식 사진은 재배포 가능한 공개 이미지로 구성했습니다. 실제 매장 사진과 최신 메뉴판은 원문 후기와 지도 앱에서 결제 전 한 번 더 확인하세요.</p><div class="place-grid">
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vietnamese_cuisine_-_table_serving.jpg/960px-Vietnamese_cuisine_-_table_serving.jpg" alt="베트남 가정식 한상" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란 · 맛집</p>
+                <h3>마담프엉</h3>
+                <p><strong>대표 음식/코스</strong> 반쎄오, 분짜, 해산물 볶음밥처럼 익숙한 베트남 가정식 위주로 주문</p>
+                <p><strong>부모님 팁</strong> 향이 강한 메뉴는 피하고 볶음밥·쌀국수·해산물 요리부터 고르면 실패 확률이 낮음</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 15,000원~30,000원</dd></div>
+                  <div><dt>이동</dt><dd>깜란 리조트에서 35~45분</dd></div>
+                  <div><dt>판단</dt><dd>에어컨·청결·한국인 후기 많아 부모님 동반 무난</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Michael Osmenda</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란 · 체험/마사지</p>
+                <h3>I-Resort 머드온천</h3>
+                <p><strong>대표 음식/코스</strong> 식사보다는 머드온천·온수풀 체험 중심, 전후 식사는 나트랑 시내와 묶기</p>
+                <p><strong>부모님 팁</strong> 계단과 젖은 바닥이 있어 미끄럼 방지 신발과 짧은 동선 선택 권장</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>패키지별 10,000원~50,000원+</dd></div>
+                  <div><dt>이동</dt><dd>깜란 리조트에서 45~55분</dd></div>
+                  <div><dt>판단</dt><dd>비 오는 날 대안으로 좋음</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Nha Trang beach</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg" alt="동남아 마사지 예시" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란 · 마사지</p>
+                <h3>오션스파/웰스파 계열</h3>
+                <p><strong>대표 음식/코스</strong> 식사 후 60~90분 발·전신 마사지로 마무리하기 좋은 코스</p>
+                <p><strong>부모님 팁</strong> 픽업 가능 여부, 계단 없는 룸, 강도 약하게 요청 가능 여부를 예약 전 확인</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>60~90분 15,000원~40,000원</dd></div>
+                  <div><dt>이동</dt><dd>숙소 위치 따라 10~45분</dd></div>
+                  <div><dt>판단</dt><dd>네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Peter van der Sluijs</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vietnamese_cuisine_food_%2838834614444%29.jpg/960px-Vietnamese_cuisine_food_%2838834614444%29.jpg" alt="베트남 해산물과 현지 음식" loading="lazy">
+              <div>
+                <p class="muted">다낭 논느억/미케 · 맛집</p>
+                <h3>목식당</h3>
+                <p><strong>대표 음식/코스</strong> 랍스터·새우·조개·오징어 등 해산물을 고르고 조리법을 선택하는 방식</p>
+                <p><strong>부모님 팁</strong> 가격이 올라가기 쉬워 kg 단가와 조리비를 먼저 확인하면 편함</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 20,000원~60,000원</dd></div>
+                  <div><dt>이동</dt><dd>논느억/미케에서 10~20분</dd></div>
+                  <div><dt>판단</dt><dd>한국인 해산물 맛집 후기가 많음</dd></div>
+                </dl>
+                <small>Wikimedia Commons · dronepicr</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Vietnamese_cuisine_Hoi_An_%2838834203544%29.jpg/960px-Vietnamese_cuisine_Hoi_An_%2838834203544%29.jpg" alt="베트남 중부 가정식" loading="lazy">
+              <div>
+                <p class="muted">다낭 논느억/미케 · 맛집</p>
+                <h3>냐벱/나벱수아</h3>
+                <p><strong>대표 음식/코스</strong> 반쎄오, 모닝글로리, 분짜, 쌀국수 등 가족이 나눠 먹기 쉬운 메뉴</p>
+                <p><strong>부모님 팁</strong> 에어컨 좌석과 한국어 메뉴가 있으면 부모님 첫 현지식으로 적합</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 8천~20,000원</dd></div>
+                  <div><dt>이동</dt><dd>미케 10~15분, 한시장 20~25분</dd></div>
+                  <div><dt>판단</dt><dd>베트남 가정식, 에어컨 좌석 후보</dd></div>
+                </dl>
+                <small>Wikimedia Commons · dronepicr</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg" alt="동남아 마사지 예시" loading="lazy">
+              <div>
+                <p class="muted">다낭 논느억/미케 · 마사지</p>
+                <h3>퀸스파/팜스파</h3>
+                <p><strong>대표 음식/코스</strong> 저녁 식사 전후 발마사지나 아로마 마사지로 한시장 동선과 묶기</p>
+                <p><strong>부모님 팁</strong> 쇼핑 후 바로 쉬는 일정으로 잡으면 부모님 피로 누적을 줄일 수 있음</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>60~90분 15,000원~40,000원</dd></div>
+                  <div><dt>이동</dt><dd>차로 15~25분</dd></div>
+                  <div><dt>판단</dt><dd>한시장·미케비치 동선에 배치하기 쉬움</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Peter van der Sluijs</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg" alt="발리식 나시 아얌" loading="lazy">
+              <div>
+                <p class="muted">발리 누사두아 · 맛집</p>
+                <h3>Warung Nasi Ayam Ibu Oki</h3>
+                <p><strong>대표 음식/코스</strong> 나시 아얌, 나시 짬뿌르 계열의 닭고기·밥·반찬 한 접시</p>
+                <p><strong>부모님 팁</strong> 삼발 소스는 따로 요청하고, 매운맛을 못 드시면 흰밥과 닭고기 위주로 주문</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 5천~12,000원</dd></div>
+                  <div><dt>이동</dt><dd>누사두아에서 10~20분</dd></div>
+                  <div><dt>판단</dt><dd>현지식. 매운맛 확인 필요</dd></div>
+                </dl>
+                <small>Wikimedia Commons · RT. Hakimi</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg" alt="발리 현지식 한 접시" loading="lazy">
+              <div>
+                <p class="muted">발리 누사두아 · 맛집</p>
+                <h3>Bali Collection / 꼬끼 한식당</h3>
+                <p><strong>대표 음식/코스</strong> 발리 컬렉션 안에서 한식, 카페, 간단한 현지식을 선택 가능</p>
+                <p><strong>부모님 팁</strong> 현지식이 맞지 않는 날의 안전판. 짧은 이동으로 식사와 쇼핑을 같이 해결</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 15,000원~30,000원</dd></div>
+                  <div><dt>이동</dt><dd>차로 5~15분</dd></div>
+                  <div><dt>판단</dt><dd>부모님이 향신료에 지칠 때 안전한 선택</dd></div>
+                </dl>
+                <small>Wikimedia Commons · RT. Hakimi</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg" alt="발리 마사지 예시" loading="lazy">
+              <div>
+                <p class="muted">발리 누사두아 · 마사지</p>
+                <h3>M Spa / Bali Refresh Spa</h3>
+                <p><strong>대표 음식/코스</strong> 식사 후 2시간 발리니스 마사지 또는 아로마 마사지</p>
+                <p><strong>부모님 팁</strong> 호텔 픽업형으로 예약하면 밤 이동 부담이 줄어듦</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>2시간 30,000원~80,000원</dd></div>
+                  <div><dt>이동</dt><dd>5~20분, 일부 픽업 가능</dd></div>
+                  <div><dt>판단</dt><dd>누사두아 호텔존 픽업형 마사지 후보</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Peter van der Sluijs</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kung_yang.JPG/960px-Kung_yang.JPG" alt="태국식 새우구이" loading="lazy">
+              <div>
+                <p class="muted">푸켓 마이카오/나이양 · 맛집</p>
+                <h3>리조트 다이닝 + 나이양 해변 식당</h3>
+                <p><strong>대표 음식/코스</strong> 팟타이, 볶음밥, 똠얌, 해산물구이 등 리조트·해변 식당 기본 메뉴</p>
+                <p><strong>부모님 팁</strong> 밤 늦게 멀리 나가기보다 리조트 1~2끼와 나이양 외식 1회를 섞는 구성이 안정적</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>로컬 10,000원~30,000원, 리조트 30,000원~80,000원</dd></div>
+                  <div><dt>이동</dt><dd>나이양 15~25분</dd></div>
+                  <div><dt>판단</dt><dd>마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Takeaway</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg" alt="스파 마사지 예시" loading="lazy">
+              <div>
+                <p class="muted">푸켓 마이카오/나이양 · 마사지</p>
+                <h3>리조트 스파 / Orientala Spa Patong</h3>
+                <p><strong>대표 음식/코스</strong> 리조트 안에서 타이 마사지·아로마 마사지 중심으로 선택</p>
+                <p><strong>부모님 팁</strong> 빠통까지 이동은 길어 부모님 컨디션이 좋을 때만 추천</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>외부 20,000원~60,000원, 리조트 80,000원~200,000원+</dd></div>
+                  <div><dt>이동</dt><dd>빠통 55~70분</dd></div>
+                  <div><dt>판단</dt><dd>부모님 동반이면 장거리보다 리조트 스파 권장</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Peter van der Sluijs</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phu_Quoc_Beach.jpg/960px-Phu_Quoc_Beach.jpg" alt="푸꾸옥 해변과 식당가 분위기" loading="lazy">
+              <div>
+                <p class="muted">푸꾸옥 · 맛집/체험</p>
+                <h3>선셋타운/켐비치 식당가</h3>
+                <p><strong>대표 음식/코스</strong> 해산물구이, 볶음밥, 베트남식 면요리, 선셋타운 카페를 함께 보기</p>
+                <p><strong>부모님 팁</strong> 해질녘 산책과 저녁 식사를 한 번에 묶으면 이동 횟수가 줄어듦</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 10,000원~40,000원</dd></div>
+                  <div><dt>이동</dt><dd>남부 리조트에서 10~25분</dd></div>
+                  <div><dt>판단</dt><dd>남부 풀빌라 리조트와 묶기 좋음</dd></div>
+                </dl>
+                <small>Wikimedia Commons · FrogsLegs71</small>
+              </div>
+            </article>
+            
+            <article class="place-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg" alt="리조트 스파 마사지 예시" loading="lazy">
+              <div>
+                <p class="muted">푸꾸옥 · 마사지</p>
+                <h3>리조트 스파</h3>
+                <p><strong>대표 음식/코스</strong> 리조트 안에서 아로마 마사지 또는 발마사지 후 바로 객실 복귀</p>
+                <p><strong>부모님 팁</strong> 비 오는 날이나 장거리 이동 후 회복 일정으로 가장 편함</p>
+                <dl>
+                  <div><dt>가격대</dt><dd>1인 50,000원~150,000원+</dd></div>
+                  <div><dt>이동</dt><dd>도보/버기</dd></div>
+                  <div><dt>판단</dt><dd>외부 이동보다 리조트 내 스파가 부모님 동선에 편함</dd></div>
+                </dl>
+                <small>Wikimedia Commons · Peter van der Sluijs</small>
+              </div>
+            </article>
+            </div></section>
     <section id="reviews"><h2>2026 최신 블로그 후기</h2><p class="lead">최신 블로그 후기의 본문 사진은 원문에서 확인할 수 있도록 연결했습니다. 공개 사이트 안에는 재배포 가능한 대표 이미지팩을 사용했습니다.</p><div class="review-grid">
             <article class="review-card">
               <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">

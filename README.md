@@ -13,6 +13,7 @@ GitHub Pages에 올릴 때는 저장소 설정에서 Pages source를 `Deploy fro
 - `image_pack.json`: 화면에 쓰는 실제 여행지 이미지 묶음
 - `routes.json`: 공항, 숙소, 식당, 마사지 이동 경로
 - `resort_guidebook.json`: 숙소별 이미지, 공식 사진 링크, 근처 갈만한 곳, 하루 동선
+- `food_and_spa.json`: 맛집·마사지별 음식 이미지, 추천 메뉴, 가격대, 부모님 동선 팁
 - `crawl_evidence.json`: 내부 분석용 검색 근거
 
 전체 분석 데이터는 `C:\Users\guswn\opencrab-ontology-packs\sea_family_resort_2026_crawled_pack`에 생성됩니다.
