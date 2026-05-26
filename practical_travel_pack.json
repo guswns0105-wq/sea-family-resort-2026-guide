@@ -1,0 +1,93 @@
+[
+  {
+    "category": "건강·약",
+    "title": "60대 부모님 건강 준비",
+    "evidence_summary": "CDC 여행자 건강 자료는 출발 4~6주 전 상담, 상비약, 모기 회피, 식수·음식 주의, 열질환 예방을 반복해서 강조합니다.",
+    "actions": [
+      "복용약은 영문 처방전 또는 약품명 사진과 함께 기내가방에 보관",
+      "지사제, 경구수분보충염, 해열진통제, 밴드, 모기기피제, 자외선차단제를 1가방에 모으기",
+      "오전 10시~오후 4시 야외 이동을 줄이고, 낮에는 리조트·마사지·카페 시간으로 설계"
+    ],
+    "parent_tip": "고혈압·당뇨·심장질환이 있으면 여행자보험 보장 범위와 현지 병원 접근성을 항공권 결제 전에 확인합니다.",
+    "source_urls": [
+      "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+    ]
+  },
+  {
+    "category": "교통",
+    "title": "공항 픽업과 Grab/Gojek/Bolt 원칙",
+    "evidence_summary": "발리·푸켓·푸꾸옥 2026 교통가이드는 앱 호출이 편하지만 공항·비·심야·외곽에서는 대기와 취소가 생긴다고 설명합니다.",
+    "actions": [
+      "첫날 공항→숙소는 호텔 픽업 또는 사전 예약 차량으로 고정",
+      "앱 호출은 낮 시간 짧은 이동에 쓰고, 장거리 관광일은 전용차 6~8시간으로 묶기",
+      "기사와 만나기 전 차량번호·앱 이름을 확인하고 호객 택시는 피하기"
+    ],
+    "parent_tip": "부모님 동반 4~6인은 일반 승용보다 6인승 밴을 잡아야 캐리어와 승하차가 편합니다.",
+    "source_urls": [
+      "https://go2-bali.com/guides/how-to-get-around-bali/",
+      "https://www.phuketitinerary.com/phuket-transport-guide",
+      "https://phuquoc.pages.dev/posts/can-you-use-grab-in-phu-quoc/"
+    ]
+  },
+  {
+    "category": "통신·결제",
+    "title": "eSIM, 현지 SIM, 카드·현금 배분",
+    "evidence_summary": "베트남·발리 여행가이드는 eSIM을 미리 준비하면 도착 직후 Grab 호출과 가족 연락이 쉬우며, 현지 소액결제는 현금이 여전히 필요하다고 봅니다.",
+    "actions": [
+      "대표자 2명은 출국 전 eSIM을 설치하고, 한 명은 현지 통신사 SIM 또는 로밍 백업",
+      "카드는 해외결제 가능한 카드 2장 이상, 현금은 공항 소액+시내 환전으로 나눠 보관",
+      "Grab, WhatsApp, Google Maps, 번역 앱, 항공사 앱은 한국에서 로그인 완료"
+    ],
+    "parent_tip": "부모님 휴대폰에는 호텔명, 객실번호, 자녀 연락처, 여행자보험 연락처를 잠금화면 메모로 남겨둡니다.",
+    "source_urls": [
+      "https://www.vietnam-insider.com/vietnam/guides/sim-esim",
+      "https://www.trip.com/travel-guide/guidebook/bali-7659/"
+    ]
+  },
+  {
+    "category": "음식·물",
+    "title": "부모님 배탈 방지 식사 원칙",
+    "evidence_summary": "CDC는 여행자 설사에서 수분·전해질 보충이 중요하고, 음식·물 선택을 보수적으로 하라고 안내합니다.",
+    "actions": [
+      "얼음 많은 길거리 음료보다 생수, 병음료, 리조트·평점 높은 식당 우선",
+      "첫날은 한식·리조트식 또는 익숙한 볶음밥·쌀국수로 시작",
+      "해산물 식당은 kg 단가, 조리비, 익힘 정도를 주문 전 확인"
+    ],
+    "parent_tip": "부모님이 향신료에 민감하면 매운 소스는 따로 달라고 요청하고, 한식 후보를 하루 1곳 이상 남겨둡니다.",
+    "source_urls": [
+      "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+    ]
+  },
+  {
+    "category": "비 오는 날",
+    "title": "우천·컨디션 저하 대체 일정",
+    "evidence_summary": "다낭 10~11월, 푸켓 10월 전환기처럼 날씨 변수가 있는 지역은 리조트 내부 시설과 실내 동선을 미리 잡아두는 편이 안전합니다.",
+    "actions": [
+      "숙소 예약 전 실내 식당 수, 스파, 라운지, 실내 또는 반실내 액티비티를 확인",
+      "비 오는 날은 마사지, 카페, 쇼핑몰, 리조트 식사로 바꾸고 장거리 투어는 취소 가능 상품 선택",
+      "보트·섬투어는 전날 해상 예보와 부모님 컨디션을 보고 결정"
+    ],
+    "parent_tip": "60대 부모님 동반이면 비 오는 날에도 숙소에서 하루를 보내도 아깝지 않은 리조트를 고르는 것이 보험입니다.",
+    "source_urls": [
+      "https://www.phuket101.net/phuket-weather-in-october/",
+      "https://www.vietnamtourism.com/en/weather"
+    ]
+  },
+  {
+    "category": "해변·물놀이",
+    "title": "해변 안전과 수영장 우선순위",
+    "evidence_summary": "CDC와 푸켓 안전 가이드는 경고 깃발, 지정 수영구역, 보트 안전, 우기 이안류를 주의하라고 안내합니다.",
+    "actions": [
+      "바다는 사진·산책 중심, 수영은 리조트 수영장 중심으로 계획",
+      "해변에서는 경고 깃발과 구조요원 유무 확인, 파도 높으면 입수 금지",
+      "스노클링·보트투어는 구명조끼, 탑승 시간, 승하선 난이도를 확인"
+    ],
+    "parent_tip": "실내 수영장 조건은 동남아 해변 리조트에서 희귀하므로, 비 오는 날 대안은 스파·라운지·키즈/패밀리 시설까지 같이 봐야 합니다.",
+    "source_urls": [
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam",
+      "https://content.phuket101.net/wp-content/uploads/20181110151755/Phuket-Travel-Safety-Guide.pdf"
+    ]
+  }
+]
