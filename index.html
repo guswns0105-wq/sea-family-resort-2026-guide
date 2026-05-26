@@ -39,28 +39,35 @@
     .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
     .route-grid,.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .review-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
+    .review-card img { width:100%; height:180px; object-fit:cover; background:#dce7ea; }
+    .review-card div { padding:16px; }
+    .review-card span { color:var(--muted); font-size:13px; font-weight:800; }
+    .review-card h3 { margin:8px 0; font-size:18px; }
+    .review-card p { color:var(--muted); font-size:14px; }
     .route-card div,.reference-card div { padding:16px 16px 16px 0; }
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
   <header>
     <div>
-      <h1>2026년 9·10·11월 부모님 동반 동남아 휴양지 가이드</h1>
+      <h1>2026년 최신판 부모님 동반 동남아 휴양지 가이드</h1>
       <p>4~6인 가족 기준으로 날씨, 항공권, 숙소, 맛집, 마사지 동선을 한 번에 비교했습니다.</p>
     </div>
   </header>
   <nav>
-    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#places">맛집·마사지</a><a href="#crawl">참고자료</a>
+    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#places">맛집·마사지</a><a href="#reviews">2026 후기</a><a href="#crawl">참고자료</a>
   </nav>
   <main>
     <section id="summary">
-      <h2>결론</h2>
+      <h2>2026년 최신판 결론</h2>
       <p class="lead">9월은 발리 누사두아, 10월도 발리 누사두아, 11월은 푸켓과 푸꾸옥이 강합니다. 다낭은 먹거리와 마사지 접근성은 최고지만 10~11월 중부 베트남 날씨 리스크 때문에 9월 후보로 제한했습니다.</p>
       <div class="method">
         <div><strong>부모님 동선</strong><br>공항에서 숙소까지 짧고, 하루 한 번 외출해도 식사와 마사지가 해결되는 지역을 우선했습니다.</div>
@@ -278,6 +285,127 @@
             </div></section>
     <section id="resorts"><h2>숙소 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>숙소/객실</th><th>수영장</th><th>가격대</th><th>교통</th></tr></thead><tbody><tr><td>발리 누사두아</td><td><strong>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</strong><br><span>Lagoon Access 객실 조합 / 일부 빌라</span></td><td>대형 야외 라군 풀, 일부 빌라 플런지풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 약 700,000원~1,200,000원대, 빌라 1,000,000원+</td><td>DPS 공항 25~40분, Bali Collection 5~10분</td></tr><tr><td>나트랑/깜란</td><td><strong>Fusion Resort Cam Ranh</strong><br><span>Three-Bedroom Beach Front Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 750,000원~1,400,000원, 프로모션 필요</td><td>CXR 공항 10~15분, 나트랑 시내 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>The Anam Cam Ranh</strong><br><span>Three-Bedroom Hilltop Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 600,000원~1,200,000원</td><td>CXR 공항 15~20분, 나트랑 시내 35~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</strong><br><span>Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 공식 시설상 야외 중심</span></td><td>약 550,000원~1,100,000원</td><td>DAD 공항 20~25분, 미케/한시장 10~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>JW Marriott Phuket Resort &amp; Spa</strong><br><span>Pool Access rooms / Oceanfront Villa with Private Pool</span></td><td>공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 600,000원~1,400,000원, 대형 빌라 1,500,000원+</td><td>HKT 공항 15~25분, 빠통/푸켓타운 50~70분</td></tr><tr><td>푸꾸옥</td><td><strong>Premier Village Phu Quoc Resort</strong><br><span>3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool</span></td><td>모든 빌라 개인풀 + 리조트 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>3BR 약 700,000원~1,600,000원+</td><td>PQC 공항 25~45분, 남부 케이블카/선셋타운 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>New World Phu Quoc Resort</strong><br><span>3-Bedroom Pool Villa / Beachfront Pool Villa 계열</span></td><td>전 객실급 개인풀 중심 + 120m 인피니티 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 700,000원~1,800,000원+</td><td>PQC 공항 25~45분, 켐비치 인접</td></tr></tbody></table></div></section>
     <section id="places"><h2>맛집·마사지 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>장소</th><th>추천 이유</th><th>가격대</th><th>이동</th></tr></thead><tbody><tr><td>나트랑/깜란</td><td><strong>마담프엉</strong><br><span>맛집</span></td><td>에어컨·청결·한국인 후기 많아 부모님 동반 무난</td><td>1인 15,000원~30,000원</td><td>깜란 리조트에서 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>I-Resort 머드온천</strong><br><span>체험/마사지</span></td><td>비 오는 날 대안으로 좋음</td><td>패키지별 10,000원~50,000원+</td><td>깜란 리조트에서 45~55분</td></tr><tr><td>나트랑/깜란</td><td><strong>오션스파/웰스파 계열</strong><br><span>마사지</span></td><td>네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨</td><td>60~90분 15,000원~40,000원</td><td>숙소 위치 따라 10~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>목식당</strong><br><span>맛집</span></td><td>한국인 해산물 맛집 후기가 많음</td><td>1인 20,000원~60,000원</td><td>논느억/미케에서 10~20분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>냐벱/나벱수아</strong><br><span>맛집</span></td><td>베트남 가정식, 에어컨 좌석 후보</td><td>1인 8천~20,000원</td><td>미케 10~15분, 한시장 20~25분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>퀸스파/팜스파</strong><br><span>마사지</span></td><td>한시장·미케비치 동선에 배치하기 쉬움</td><td>60~90분 15,000원~40,000원</td><td>차로 15~25분</td></tr><tr><td>발리 누사두아</td><td><strong>Warung Nasi Ayam Ibu Oki</strong><br><span>맛집</span></td><td>현지식. 매운맛 확인 필요</td><td>1인 5천~12,000원</td><td>누사두아에서 10~20분</td></tr><tr><td>발리 누사두아</td><td><strong>Bali Collection / 꼬끼 한식당</strong><br><span>맛집</span></td><td>부모님이 향신료에 지칠 때 안전한 선택</td><td>1인 15,000원~30,000원</td><td>차로 5~15분</td></tr><tr><td>발리 누사두아</td><td><strong>M Spa / Bali Refresh Spa</strong><br><span>마사지</span></td><td>누사두아 호텔존 픽업형 마사지 후보</td><td>2시간 30,000원~80,000원</td><td>5~20분, 일부 픽업 가능</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 다이닝 + 나이양 해변 식당</strong><br><span>맛집</span></td><td>마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계</td><td>로컬 10,000원~30,000원, 리조트 30,000원~80,000원</td><td>나이양 15~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 스파 / Orientala Spa Patong</strong><br><span>마사지</span></td><td>부모님 동반이면 장거리보다 리조트 스파 권장</td><td>외부 20,000원~60,000원, 리조트 80,000원~200,000원+</td><td>빠통 55~70분</td></tr><tr><td>푸꾸옥</td><td><strong>선셋타운/켐비치 식당가</strong><br><span>맛집/체험</span></td><td>남부 풀빌라 리조트와 묶기 좋음</td><td>1인 10,000원~40,000원</td><td>남부 리조트에서 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>리조트 스파</strong><br><span>마사지</span></td><td>외부 이동보다 리조트 내 스파가 부모님 동선에 편함</td><td>1인 50,000원~150,000원+</td><td>도보/버기</td></tr></tbody></table></div></section>
+    <section id="reviews"><h2>2026 최신 블로그 후기</h2><p class="lead">최신 블로그 후기의 본문 사진은 원문에서 확인할 수 있도록 연결했습니다. 공개 사이트 안에는 재배포 가능한 대표 이미지팩을 사용했습니다.</p><div class="review-grid">
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+              <div>
+                <span>2026년 5월 25일 · 다낭 논느억/미케</span>
+                <h3>다낭 한달살기 한식당 6곳 부모님과 다낭 가족여행 맛집 추천</h3>
+                <p>다낭 한달살기 한식당 6곳 부모님과 다낭 가족여행 맛집 추천 copyright by 여행하는 반짝씨 부모님과 함께 하는 해외여행에선 현지음식도 좋지만 아무래도 어르신들껜 한식처럼 익숙한 맛이 필요하죠 특히...</p>
+                <a href="https://blog.naver.com/ene0410/224295765858" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <span>2026년 5월 12일 · 푸켓 마이카오/나이양</span>
+                <h3>태국 푸켓 휴양지, 푸껫 럭셔리 풀빌라 리조트 &#x27;스리판와...</h3>
+                <p>스리판와 리조트 여행 정보 Summary • 비수기 가격: 룸 타입에 따라 약 40~80만 원대 / 풀빌라: 60 ~90만... 가족 여행으로 힐링 하러 가면 정말 좋아하십니다 세계에서 가장 아름다운 루프탑 바 TOP 10에 항상...</p>
+                <a href="https://blog.naver.com/stunningzinni/224282921446" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+              <div>
+                <span>2026년 5월 6일 · 나트랑/깜란</span>
+                <h3>나트랑 리조트 풀빌라 추천... 퓨전리조트 마사지 올인클루시브...</h3>
+                <p>저는 나트랑 풀빌라 찾다가 가게 되었는데 22년에 리뉴얼을 해서 룸 컨디션도 너무 좋았던 곳이라 강력 추천드리고 싶습니다. 자세히 소개해 드릴게요! 나트랑 퓨전리조트 나트랑 깜란 리조트 중에서도 인기가...</p>
+                <a href="https://blog.naver.com/gkgk319/224276768472" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+              <div>
+                <span>2026년 5월 6일 · 다낭 논느억/미케</span>
+                <h3>다낭숙소추천 BEST, 부모님 모시고 다녀온 다낭가족여행 일정...</h3>
+                <p>다낭가족여행 일정은 1일차 도착·시내 가볍게, 2일차 풀빌라 휴식, 3일차 바나힐, 4일차 호이안, 5일차 마사지+공항. 부모님 컨디션 살피면서 짜는 게 핵심이에요. 어른들 좋아하시는 곳 한두 군데 넣고, 나머지는...</p>
+                <a href="https://blog.naver.com/singlemom_bonnie/224276126761" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <span>2026년 4월 12일 · 푸켓 마이카오/나이양</span>
+                <h3>푸켓 반얀트리 리조트 풀빌라 신혼여행숙소추천 마사지샵추천 !!</h3>
+                <p>푸켓 반얀트리 리조트 풀빌라 신혼여행숙소추천 마사지샵추천 !! 가볼만한곳 맛집: 단지 내에 있는... 연인이나 가족이랑 특별한 날 오면 절대 후회 안 할 숙소임. 푸켓에서 진정한 휴양을 원한다면 반얀트리만한...</p>
+                <a href="https://blog.naver.com/5985dfdf/224249851220" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
+              <div>
+                <span>2026년 4월 11일 · 발리 누사두아</span>
+                <h3>발리 누사두아 소피텔 풀빌라 마사지</h3>
+                <p>우리는 발리 누사두아 소피텔 리조트에서 2박 풀빌라에서 2박 머물기로 했다. 풀빌라는 다르긴... 마사지 무료 마사지 쿠폰을 챙겨서 예약해둔 시간에 맞춰 방문한다. 발리에서 1일 1마사지를 받았지만 날씨가...</p>
+                <a href="https://blog.naver.com/ggota332/224248785997" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 해변" loading="lazy">
+              <div>
+                <span>2026년 4월 11일 · 푸꾸옥</span>
+                <h3>푸꾸옥 리조트 뉴월드 풀빌라 3베드룸 가족 푸꾸옥 숙소 추천</h3>
+                <p>푸꾸옥 리조트 뉴월드 풀빌라 3베드룸 가족 푸꾸옥 숙소 추천 글·사진 by 둔켈 푸꾸옥 여행 떠날때 크게... 공항, 맛집, 스파샵 등 다녀오기 정말 편하거든요. 1. 푸꾸옥 뉴월드 리조트 체크인 주로 남부 지역에...</p>
+                <a href="https://blog.naver.com/uni7741/224248754015" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 해변" loading="lazy">
+              <div>
+                <span>2026년 4월 3일 · 푸꾸옥</span>
+                <h3>푸꾸옥 베스트웨스턴 풀빌라 중부 가족 리조트 어때요</h3>
+                <p>시설까지 완벽한 푸꾸옥 가족 리조트네요. 스파도 잊지 못할 경험이었어요. 커플룸에 들어가니까 은은한 조명에 아로마 향이 퍼져있었고 마사지를 받으면서 며칠간의 여행 피로가 싹 풀리더라고요. 6. 조식...</p>
+                <a href="https://blog.naver.com/ashi8888/224229154686" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 해변" loading="lazy">
+              <div>
+                <span>2026년 3월 30일 · 푸꾸옥</span>
+                <h3>푸꾸옥 가족 단독 풀빌라 패키지 여행 :: 리조트 추천, 맛집ok...</h3>
+                <p>푸꾸옥 가족 단독 풀빌라 패키지 여행 푸꾸옥 패키지 여행 리조트 추천, 부산출발 가능, 맛집ok, 단독 투어 할인 안녕하세요 하나투어, 모두투어와 함께 하는 모든여행사 꽃송입니다 ^-^ 오늘은 몸도 편하고...</p>
+                <a href="https://blog.naver.com/4081332/224234215939" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑 해변" loading="lazy">
+              <div>
+                <span>2026년 3월 28일 · 나트랑/깜란</span>
+                <h3>나트랑 퓨전리조트 깜란 요가 마사지 풀빌라 올인클루시브 가격</h3>
+                <p>나트랑 퓨전리조트 깜란 요가 마사지 풀빌라 올인클루시브 가격 안녕하세요. 또리와토리입니다. 오늘은... 특히 조용한 휴식에 집중하고 싶은 커플이나 프라이빗한 수영장이 필요한 가족 여행객들에게 강력히...</p>
+                <a href="https://blog.naver.com/jhggyu21/224231941185" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <span>2026년 3월 28일 · 푸켓 마이카오/나이양</span>
+                <h3>푸켓 반얀트리 5성급리조트 풀빌라 신혼여행숙소추천 마사지...</h3>
+                <p>푸켓 반얀트리 5성급리조트 풀빌라 신혼여행숙소추천 마사지샵추천 !! 주변 인프라와 맛집 탐방 팁 쇼핑: 리조트 근처 &#x27;커넬 빌리지&#x27;에 가면 소품샵이나 짐톰슨 아웃렛이 있어서 구경하기 좋음. 좀 더 큰...</p>
+                <a href="https://blog.naver.com/upup5959/224232675022" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            
+            <article class="review-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 미케 해변" loading="lazy">
+              <div>
+                <span>2026년 3월 22일 · 다낭 논느억/미케</span>
+                <h3>vs 리조트 비교 | 위치,가격,추천 | 아이 + 부모님 가족여행 기준...</h3>
+                <p>중요하다 다낭 호텔 (시내 숙소) 장단점 ✔️ 장점 - 공항, 맛집, 카페 이동 편함 - Grab 이용하기... 가능 ✔️ 부모님 편안함 다낭 리조트 추천 (가족여행 기준) 1. Hyatt Regency Danang Resort and Spa 하얏트...</p>
+                <a href="https://blog.naver.com/vudflehd/224225869092" target="_blank" rel="noreferrer">블로그 사진과 후기 보기</a>
+              </div>
+            </article>
+            </div></section>
     <section id="crawl"><h2>참고자료</h2><p class="lead">아래 자료는 여행지를 고를 때 본 날씨, 항공권, 숙소, 동선 판단 기준을 위키 문서처럼 정리한 것입니다.</p><div class="reference-grid">
             <article class="reference-card">
               <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="누사두아 해변" loading="lazy">
