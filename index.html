@@ -39,10 +39,19 @@
     .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
     .route-grid,.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .resort-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .resort-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .review-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
+    .resort-guide-card > img { width:100%; height:260px; object-fit:cover; background:#dce7ea; }
+    .resort-guide-card > div { padding:18px; }
+    .resort-guide-card h3 { margin:4px 0 10px; font-size:22px; }
+    .resort-guide-card ul { display:grid; gap:10px; padding-left:0; list-style:none; }
+    .resort-guide-card li { border-top:1px solid var(--line); padding-top:10px; }
+    .resort-guide-card li span { float:right; color:var(--sea); font-weight:900; font-size:13px; }
+    .resort-guide-card li p { margin:4px 0 0; color:var(--muted); }
     .review-card img { width:100%; height:180px; object-fit:cover; background:#dce7ea; }
     .review-card div { padding:16px; }
     .review-card span { color:var(--muted); font-size:13px; font-weight:800; }
@@ -52,7 +61,7 @@
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+    @media (max-width:980px) { .rank-grid,.method,.route-grid,.reference-grid,.review-grid,.resort-guide-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
@@ -63,7 +72,7 @@
     </div>
   </header>
   <nav>
-    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#places">맛집·마사지</a><a href="#reviews">2026 후기</a><a href="#crawl">참고자료</a>
+    <a href="#summary">요약</a><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#flights">항공권</a><a href="#routes">이동 경로</a><a href="#resorts">숙소</a><a href="#resort-guide">숙소 가이드북</a><a href="#places">맛집·마사지</a><a href="#reviews">2026 후기</a><a href="#crawl">참고자료</a>
   </nav>
   <main>
     <section id="summary">
@@ -284,6 +293,91 @@
             </article>
             </div></section>
     <section id="resorts"><h2>숙소 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>숙소/객실</th><th>수영장</th><th>가격대</th><th>교통</th></tr></thead><tbody><tr><td>발리 누사두아</td><td><strong>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</strong><br><span>Lagoon Access 객실 조합 / 일부 빌라</span></td><td>대형 야외 라군 풀, 일부 빌라 플런지풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 약 700,000원~1,200,000원대, 빌라 1,000,000원+</td><td>DPS 공항 25~40분, Bali Collection 5~10분</td></tr><tr><td>나트랑/깜란</td><td><strong>Fusion Resort Cam Ranh</strong><br><span>Three-Bedroom Beach Front Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 750,000원~1,400,000원, 프로모션 필요</td><td>CXR 공항 10~15분, 나트랑 시내 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>The Anam Cam Ranh</strong><br><span>Three-Bedroom Hilltop Pool Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 600,000원~1,200,000원</td><td>CXR 공항 15~20분, 나트랑 시내 35~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</strong><br><span>Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa</span></td><td>개인 풀 + 공용 야외 풀<br><span>실내: 공식 시설상 야외 중심</span></td><td>약 550,000원~1,100,000원</td><td>DAD 공항 20~25분, 미케/한시장 10~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>JW Marriott Phuket Resort &amp; Spa</strong><br><span>Pool Access rooms / Oceanfront Villa with Private Pool</span></td><td>공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>객실 조합 600,000원~1,400,000원, 대형 빌라 1,500,000원+</td><td>HKT 공항 15~25분, 빠통/푸켓타운 50~70분</td></tr><tr><td>푸꾸옥</td><td><strong>Premier Village Phu Quoc Resort</strong><br><span>3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool</span></td><td>모든 빌라 개인풀 + 리조트 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>3BR 약 700,000원~1,600,000원+</td><td>PQC 공항 25~45분, 남부 케이블카/선셋타운 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>New World Phu Quoc Resort</strong><br><span>3-Bedroom Pool Villa / Beachfront Pool Villa 계열</span></td><td>전 객실급 개인풀 중심 + 120m 인피니티 야외 풀<br><span>실내: 실내 수영장 확인 어려움</span></td><td>약 700,000원~1,800,000원+</td><td>PQC 공항 25~45분, 켐비치 인접</td></tr></tbody></table></div></section>
+    <section id="resort-guide"><h2>숙소별 가이드북</h2><p class="lead">숙소 주변에서 부모님과 가기 좋은 장소를 이동시간 기준으로 묶었습니다. 카드 이미지는 공개 이미지팩의 지역 대표 사진이며, 실제 숙소 사진은 공식 사진 링크에서 확인할 수 있습니다.</p><div class="resort-guide-grid">
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua 주변 누사두아 해변" loading="lazy">
+              <div>
+                <p class="muted">발리 누사두아</p>
+                <h3>The Laguna, a Luxury Collection Resort &amp; Spa, Nusa Dua</h3>
+                <p><strong>추천 가족</strong> 조용한 해변 산책과 리조트 체류를 중시하는 부모님 동반 가족</p>
+                <ul><li><strong>발리 컬렉션</strong><span>차량 5~10분</span><p>식당, 카페, 기념품을 한 번에 해결하기 좋음</p></li><li><strong>워터블로우 누사두아</strong><span>차량 5~10분</span><p>짧은 산책과 사진 포인트</p></li><li><strong>게게르 비치</strong><span>차량 10~15분</span><p>부드러운 모래와 비교적 잔잔한 분위기</p></li><li><strong>M Spa / Bali Refresh Spa</strong><span>차량 5~20분</span><p>2시간 마사지와 호텔 픽업형 상품 후보</p></li></ul>
+                <p><strong>하루 구성</strong> 오전 리조트 수영장 → 점심 발리 컬렉션 → 오후 마사지 → 저녁 리조트 식사</p>
+                <a href="https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/photos/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="Fusion Resort Cam Ranh 주변 나트랑 해변" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란</p>
+                <h3>Fusion Resort Cam Ranh</h3>
+                <p><strong>추천 가족</strong> 공항 이동을 줄이고 풀빌라와 스파 중심으로 쉬고 싶은 가족</p>
+                <ul><li><strong>바이다이 해변</strong><span>리조트 인접</span><p>긴 모래 해변과 리조트 산책</p></li><li><strong>오션스파/깜란 픽업형 스파</strong><span>차량 10~25분</span><p>리조트 근처 마사지 후보</p></li><li><strong>마담프엉 나트랑</strong><span>차량 35~45분</span><p>에어컨 있는 베트남 가정식 식사 후보</p></li><li><strong>아이리조트 머드온천</strong><span>차량 45~55분</span><p>비 오는 날 반나절 체험</p></li></ul>
+                <p><strong>하루 구성</strong> 오전 풀빌라 휴식 → 오후 스파 → 다음 날 나트랑 시내 외식·머드온천</p>
+                <a href="https://fusionresorts.com/camranh/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="The Anam Cam Ranh 주변 나트랑 해변" loading="lazy">
+              <div>
+                <p class="muted">나트랑/깜란</p>
+                <h3>The Anam Cam Ranh</h3>
+                <p><strong>추천 가족</strong> 조용하고 고급스러운 깜란 해변 리조트를 원하는 가족</p>
+                <ul><li><strong>바이다이 해변</strong><span>리조트 인접</span><p>부모님 산책과 사진</p></li><li><strong>나트랑 시내 식당가</strong><span>차량 35~45분</span><p>마담프엉, 쌀국수, 카페 동선</p></li><li><strong>웰스파/시내 스파</strong><span>차량 35~45분</span><p>외식과 함께 묶는 마사지</p></li><li><strong>빈원더스/케이블카</strong><span>차량+이동</span><p>컨디션 좋을 때 하루 일정</p></li></ul>
+                <p><strong>하루 구성</strong> 리조트 2일 체류 + 하루만 나트랑 시내 외출로 잡는 구성이 편함</p>
+                <a href="https://www.theanam.com/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas 주변 다낭 미케 해변" loading="lazy">
+              <div>
+                <p class="muted">다낭 논느억/미케</p>
+                <h3>Danang Marriott Resort &amp; Spa, Non Nuoc Beach Villas</h3>
+                <p><strong>추천 가족</strong> 먹거리, 마사지, 쇼핑 접근성을 중요하게 보는 9월 가족여행</p>
+                <ul><li><strong>오행산</strong><span>차량 5~10분</span><p>동굴과 전망, 단 계단이 있어 부모님 컨디션 확인</p></li><li><strong>미케비치 식당가</strong><span>차량 10~15분</span><p>목식당, 나벱수아 등 저녁 후보</p></li><li><strong>한시장·핑크성당</strong><span>차량 20~25분</span><p>쇼핑과 카페를 묶기 좋음</p></li><li><strong>호이안 올드타운</strong><span>차량 35~45분</span><p>등불 야경, 단 야간 이동 피로 주의</p></li></ul>
+                <p><strong>하루 구성</strong> 오전 리조트 → 오후 한시장 → 저녁 미케비치 맛집 → 마사지</p>
+                <a href="https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/photos/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="JW Marriott Phuket Resort &amp; Spa 주변 푸켓 마이카오 해변" loading="lazy">
+              <div>
+                <p class="muted">푸켓 마이카오/나이양</p>
+                <h3>JW Marriott Phuket Resort &amp; Spa</h3>
+                <p><strong>추천 가족</strong> 11월 조용한 리조트 체류와 공항 접근성을 중시하는 가족</p>
+                <ul><li><strong>마이카오 해변</strong><span>리조트 인접</span><p>긴 해변 산책, 비치 시설은 리조트 중심</p></li><li><strong>터틀 빌리지</strong><span>도보/차량 5~10분</span><p>간단한 식사, 카페, 쇼핑</p></li><li><strong>나이양 해변</strong><span>차량 15~25분</span><p>해변 식당과 선셋 식사</p></li><li><strong>시리낫 국립공원</strong><span>차량 15~25분</span><p>자연 산책과 조용한 해변</p></li></ul>
+                <p><strong>하루 구성</strong> 리조트 수영장 중심 + 저녁만 나이양 또는 터틀 빌리지 외출</p>
+                <a href="https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/photos/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="Premier Village Phu Quoc Resort 주변 푸꾸옥 해변" loading="lazy">
+              <div>
+                <p class="muted">푸꾸옥</p>
+                <h3>Premier Village Phu Quoc Resort</h3>
+                <p><strong>추천 가족</strong> 11월 말 평일 항공권과 남부 풀빌라를 묶고 싶은 가족</p>
+                <ul><li><strong>켐비치</strong><span>리조트 권역</span><p>하얀 모래 해변과 리조트 산책</p></li><li><strong>선셋타운</strong><span>차량 10~20분</span><p>사진, 카페, 저녁 산책</p></li><li><strong>혼똠 케이블카</strong><span>차량 10~25분</span><p>컨디션 좋을 때 반나절 체험</p></li><li><strong>리조트 스파</strong><span>도보/버기</span><p>부모님 동선상 가장 편한 마사지</p></li></ul>
+                <p><strong>하루 구성</strong> 오전 풀빌라 → 오후 선셋타운 → 저녁 리조트 또는 켐비치 식사</p>
+                <a href="https://www.premiervillage-phuquoc.com/ko/our-villas/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            
+            <article class="resort-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="New World Phu Quoc Resort 주변 푸꾸옥 해변" loading="lazy">
+              <div>
+                <p class="muted">푸꾸옥</p>
+                <h3>New World Phu Quoc Resort</h3>
+                <p><strong>추천 가족</strong> 켐비치 앞 대형 풀빌라와 리조트 식당을 중시하는 가족</p>
+                <ul><li><strong>켐비치</strong><span>리조트 인접</span><p>바다와 수영장 중심 휴양</p></li><li><strong>선셋타운</strong><span>차량 10~20분</span><p>사진과 저녁 산책</p></li><li><strong>남부 해산물 식당</strong><span>차량 10~25분</span><p>가벼운 외식 후보</p></li><li><strong>리조트 키즈/가족 시설</strong><span>리조트 내부</span><p>비 오는 날 대안</p></li></ul>
+                <p><strong>하루 구성</strong> 외출을 줄이고 리조트 식당, 스파, 해변 산책을 중심으로 구성</p>
+                <a href="https://phuquoc.newworldhotels.com/en/" target="_blank" rel="noreferrer">숙소 공식 사진 보기</a>
+              </div>
+            </article>
+            </div></section>
     <section id="places"><h2>맛집·마사지 후보</h2><div class="table-wrap"><table><thead><tr><th>지역</th><th>장소</th><th>추천 이유</th><th>가격대</th><th>이동</th></tr></thead><tbody><tr><td>나트랑/깜란</td><td><strong>마담프엉</strong><br><span>맛집</span></td><td>에어컨·청결·한국인 후기 많아 부모님 동반 무난</td><td>1인 15,000원~30,000원</td><td>깜란 리조트에서 35~45분</td></tr><tr><td>나트랑/깜란</td><td><strong>I-Resort 머드온천</strong><br><span>체험/마사지</span></td><td>비 오는 날 대안으로 좋음</td><td>패키지별 10,000원~50,000원+</td><td>깜란 리조트에서 45~55분</td></tr><tr><td>나트랑/깜란</td><td><strong>오션스파/웰스파 계열</strong><br><span>마사지</span></td><td>네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨</td><td>60~90분 15,000원~40,000원</td><td>숙소 위치 따라 10~45분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>목식당</strong><br><span>맛집</span></td><td>한국인 해산물 맛집 후기가 많음</td><td>1인 20,000원~60,000원</td><td>논느억/미케에서 10~20분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>냐벱/나벱수아</strong><br><span>맛집</span></td><td>베트남 가정식, 에어컨 좌석 후보</td><td>1인 8천~20,000원</td><td>미케 10~15분, 한시장 20~25분</td></tr><tr><td>다낭 논느억/미케</td><td><strong>퀸스파/팜스파</strong><br><span>마사지</span></td><td>한시장·미케비치 동선에 배치하기 쉬움</td><td>60~90분 15,000원~40,000원</td><td>차로 15~25분</td></tr><tr><td>발리 누사두아</td><td><strong>Warung Nasi Ayam Ibu Oki</strong><br><span>맛집</span></td><td>현지식. 매운맛 확인 필요</td><td>1인 5천~12,000원</td><td>누사두아에서 10~20분</td></tr><tr><td>발리 누사두아</td><td><strong>Bali Collection / 꼬끼 한식당</strong><br><span>맛집</span></td><td>부모님이 향신료에 지칠 때 안전한 선택</td><td>1인 15,000원~30,000원</td><td>차로 5~15분</td></tr><tr><td>발리 누사두아</td><td><strong>M Spa / Bali Refresh Spa</strong><br><span>마사지</span></td><td>누사두아 호텔존 픽업형 마사지 후보</td><td>2시간 30,000원~80,000원</td><td>5~20분, 일부 픽업 가능</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 다이닝 + 나이양 해변 식당</strong><br><span>맛집</span></td><td>마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계</td><td>로컬 10,000원~30,000원, 리조트 30,000원~80,000원</td><td>나이양 15~25분</td></tr><tr><td>푸켓 마이카오/나이양</td><td><strong>리조트 스파 / Orientala Spa Patong</strong><br><span>마사지</span></td><td>부모님 동반이면 장거리보다 리조트 스파 권장</td><td>외부 20,000원~60,000원, 리조트 80,000원~200,000원+</td><td>빠통 55~70분</td></tr><tr><td>푸꾸옥</td><td><strong>선셋타운/켐비치 식당가</strong><br><span>맛집/체험</span></td><td>남부 풀빌라 리조트와 묶기 좋음</td><td>1인 10,000원~40,000원</td><td>남부 리조트에서 10~25분</td></tr><tr><td>푸꾸옥</td><td><strong>리조트 스파</strong><br><span>마사지</span></td><td>외부 이동보다 리조트 내 스파가 부모님 동선에 편함</td><td>1인 50,000원~150,000원+</td><td>도보/버기</td></tr></tbody></table></div></section>
     <section id="reviews"><h2>2026 최신 블로그 후기</h2><p class="lead">최신 블로그 후기의 본문 사진은 원문에서 확인할 수 있도록 연결했습니다. 공개 사이트 안에는 재배포 가능한 대표 이미지팩을 사용했습니다.</p><div class="review-grid">
             <article class="review-card">
