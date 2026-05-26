@@ -1,0 +1,1421 @@
+[
+  {
+    "month": "2026-09",
+    "rank": 1,
+    "destination_id": "bali-nusa-dua",
+    "destination": "발리 누사두아",
+    "country": "인도네시아",
+    "score": 94,
+    "headline": "9월은 발리 누사두아가 가장 안정적",
+    "reason": "발리 9월은 건기 후반이라 강우 리스크가 낮고, 누사두아는 부모님 동반 리조트 휴양에 안정적입니다.",
+    "weather": "9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.",
+    "caution": "4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.",
+    "airport": "DPS",
+    "file": "guidebooks/2026-09-rank-1-bali-nusa-dua.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "bali-nusa-dua",
+      "route": "ICN-DPS",
+      "month": "2026-09",
+      "best_departure": "9월 월~목 출발, 금·토 출발 회피",
+      "book_timing": "직항은 3~4개월 전, 경유 특가는 에어아시아 빅세일/프로모션 시점",
+      "airlines": "대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유",
+      "avg_roundtrip_krw": "직항 55만~95만원, 경유 30만~60만원",
+      "deal_target_krw": "경유 30만~45만원, 직항 60만원대",
+      "family_4_krw": "약 220만~380만원",
+      "family_6_krw": "약 330만~570만원",
+      "basis": "2026 하계 인천-덴파사르 운항 스케줄 및 에어아시아 인천-발리 경유 특가"
+    },
+    "route": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아 기본 동선",
+      "airport_to_resort": "응우라라이 공항에서 누사두아 리조트까지 차량 25~40분",
+      "resort_to_food": "발리 컬렉션과 누사두아 식당가까지 차량 5~15분",
+      "resort_to_spa": "엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능",
+      "parent_tip": "도착일에는 리조트 식사, 둘째 날부터 외부 식당·마사지 1회 외출로 잡는 편이 편합니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "name": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "room": "Lagoon Access 객실 조합 / 일부 빌라",
+        "pool": "대형 야외 라군 풀, 일부 빌라 플런지풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "객실 조합 약 70만~120만원대, 빌라 100만원+",
+        "transport": "DPS 공항 25~40분, Bali Collection 5~10분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "image_id": "bali-nusa-dua",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/photos/",
+        "best_for": "조용한 해변 산책과 리조트 체류를 중시하는 부모님 동반 가족",
+        "nearby": [
+          [
+            "발리 컬렉션",
+            "차량 5~10분",
+            "식당, 카페, 기념품을 한 번에 해결하기 좋음"
+          ],
+          [
+            "워터블로우 누사두아",
+            "차량 5~10분",
+            "짧은 산책과 사진 포인트"
+          ],
+          [
+            "게게르 비치",
+            "차량 10~15분",
+            "부드러운 모래와 비교적 잔잔한 분위기"
+          ],
+          [
+            "M Spa / Bali Refresh Spa",
+            "차량 5~20분",
+            "2시간 마사지와 호텔 픽업형 상품 후보"
+          ]
+        ],
+        "day_plan": "오전 리조트 수영장 → 점심 발리 컬렉션 → 오후 마사지 → 저녁 리조트 식사"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Warung Nasi Ayam Ibu Oki",
+        "price": "1인 5천~1.2만원",
+        "transport": "누사두아에서 10~20분",
+        "note": "현지식. 매운맛 확인 필요",
+        "dish": "나시 아얌, 나시 짬뿌르 계열의 닭고기·밥·반찬 한 접시",
+        "parent_fit": "삼발 소스는 따로 요청하고, 매운맛을 못 드시면 흰밥과 닭고기 위주로 주문",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리식 나시 아얌",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Bali Collection / 꼬끼 한식당",
+        "price": "1인 1.5만~3만원",
+        "transport": "차로 5~15분",
+        "note": "부모님이 향신료에 지칠 때 안전한 선택",
+        "dish": "발리 컬렉션 안에서 한식, 카페, 간단한 현지식을 선택 가능",
+        "parent_fit": "현지식이 맞지 않는 날의 안전판. 짧은 이동으로 식사와 쇼핑을 같이 해결",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리 현지식 한 접시",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "마사지",
+        "name": "M Spa / Bali Refresh Spa",
+        "price": "2시간 3만~8만원",
+        "transport": "5~20분, 일부 픽업 가능",
+        "note": "누사두아 호텔존 픽업형 마사지 후보",
+        "dish": "식사 후 2시간 발리니스 마사지 또는 아로마 마사지",
+        "parent_fit": "호텔 픽업형으로 예약하면 밤 이동 부담이 줄어듦",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "발리 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아: 리조트 체류형으로 설계",
+      "naver_signal": "네이버 블로그에서는 누사두아 가족 리조트·풀빌라·마사지 후기가 주로 호텔존 체류와 픽업형 스파에 집중됩니다.",
+      "google_signal": "2026 가족 여행가이드들은 누사두아를 포장도로, 보행 동선, 잔잔한 해변, 공항 20~30분권 때문에 조부모 동반 첫 발리 여행에 맞는 지역으로 설명합니다.",
+      "route_upgrade": "외부 관광은 하루 1개만 넣고, 나머지는 리조트 수영장·해변 산책·발리 컬렉션 식사·마사지로 묶습니다.",
+      "avoid": "우붓·동부 투어를 같은 날 왕복으로 길게 넣으면 60대 부모님에게 피로가 큽니다.",
+      "sample_day": "오전 해변 산책 → 낮 리조트 휴식 → 16시 발리 컬렉션 → 저녁 마사지 픽업",
+      "source_urls": [
+        "https://balifamilytravels.com/blog/nusa-dua-family-resort-guide",
+        "https://bali-travel-guide.net/areas/nusa-dua"
+      ]
+    },
+    "decision": [
+      "09월 1위 후보로는 9월은 발리 누사두아가 가장 안정적",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-09",
+    "rank": 2,
+    "destination_id": "da-nang-non-nuoc",
+    "destination": "다낭 논느억/미케",
+    "country": "베트남",
+    "score": 88,
+    "headline": "9월 다낭은 접근성과 먹거리 최강",
+    "reason": "9월까지는 다낭 해변 리조트와 한시장·미케비치 맛집·마사지 동선을 묶기 좋습니다.",
+    "weather": "9월은 가능하지만 10~11월 중부 베트남은 태풍·침수 리스크가 커서 후순위.",
+    "caution": "10~11월 출발이면 날씨 리스크 때문에 다른 지역 우선.",
+    "airport": "DAD",
+    "file": "guidebooks/2026-09-rank-2-da-nang-non-nuoc.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "da-nang-non-nuoc",
+      "route": "ICN-DAD",
+      "month": "2026-09",
+      "best_departure": "9월 일요일 출발, 5~7박",
+      "book_timing": "출발 1.5~2개월 전부터 가격 알림, 특가면 즉시 결제",
+      "airlines": "제주항공, 티웨이, 에어서울, 베트남항공, 대한항공 등",
+      "avg_roundtrip_krw": "약 37.8만원",
+      "deal_target_krw": "31만~35만원",
+      "family_4_krw": "약 151만~224만원",
+      "family_6_krw": "약 227만~337만원",
+      "basis": "StubbyPlanner 2026년 9월 인천-다낭 평균/최저/요일 데이터"
+    },
+    "route": {
+      "destination_id": "da-nang-non-nuoc",
+      "title": "다낭 논느억·미케 기본 동선",
+      "airport_to_resort": "다낭 공항에서 논느억·미케 해변 리조트까지 차량 20~25분",
+      "resort_to_food": "미케비치 식당가 10~15분, 한시장·핑크성당 주변 20~25분",
+      "resort_to_spa": "퀸스파·팜스파 등 주요 마사지샵까지 차량 15~25분",
+      "parent_tip": "오전 리조트, 오후 한시장, 저녁 식사와 마사지까지 한 번의 외출로 묶기 좋습니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "da-nang-non-nuoc",
+        "name": "Danang Marriott Resort & Spa, Non Nuoc Beach Villas",
+        "room": "Premier 3-Bedroom Villa / 3-Bedroom Ocean Villa",
+        "pool": "개인 풀 + 공용 야외 풀",
+        "indoor_pool": "공식 시설상 야외 중심",
+        "nightly_krw": "약 55만~110만원",
+        "transport": "DAD 공항 20~25분, 미케/한시장 10~25분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "da-nang-non-nuoc",
+        "resort": "Danang Marriott Resort & Spa, Non Nuoc Beach Villas",
+        "image_id": "da-nang-non-nuoc",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/dadnn-danang-marriott-resort-and-spa-non-nuoc-beach-villas/photos/",
+        "best_for": "먹거리, 마사지, 쇼핑 접근성을 중요하게 보는 9월 가족여행",
+        "nearby": [
+          [
+            "오행산",
+            "차량 5~10분",
+            "동굴과 전망, 단 계단이 있어 부모님 컨디션 확인"
+          ],
+          [
+            "미케비치 식당가",
+            "차량 10~15분",
+            "목식당, 나벱수아 등 저녁 후보"
+          ],
+          [
+            "한시장·핑크성당",
+            "차량 20~25분",
+            "쇼핑과 카페를 묶기 좋음"
+          ],
+          [
+            "호이안 올드타운",
+            "차량 35~45분",
+            "등불 야경, 단 야간 이동 피로 주의"
+          ]
+        ],
+        "day_plan": "오전 리조트 → 오후 한시장 → 저녁 미케비치 맛집 → 마사지"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "da-nang-non-nuoc",
+        "type": "맛집",
+        "name": "목식당",
+        "price": "1인 2만~6만원",
+        "transport": "논느억/미케에서 10~20분",
+        "note": "한국인 해산물 맛집 후기가 많음",
+        "dish": "랍스터·새우·조개·오징어 등 해산물을 고르고 조리법을 선택하는 방식",
+        "parent_fit": "가격이 올라가기 쉬워 kg 단가와 조리비를 먼저 확인하면 편함",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vietnamese_cuisine_food_%2838834614444%29.jpg/960px-Vietnamese_cuisine_food_%2838834614444%29.jpg",
+        "image_alt": "베트남 해산물과 현지 음식",
+        "image_credit": "Wikimedia Commons · dronepicr"
+      },
+      {
+        "destination_id": "da-nang-non-nuoc",
+        "type": "맛집",
+        "name": "냐벱/나벱수아",
+        "price": "1인 8천~2만원",
+        "transport": "미케 10~15분, 한시장 20~25분",
+        "note": "베트남 가정식, 에어컨 좌석 후보",
+        "dish": "반쎄오, 모닝글로리, 분짜, 쌀국수 등 가족이 나눠 먹기 쉬운 메뉴",
+        "parent_fit": "에어컨 좌석과 한국어 메뉴가 있으면 부모님 첫 현지식으로 적합",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Vietnamese_cuisine_Hoi_An_%2838834203544%29.jpg/960px-Vietnamese_cuisine_Hoi_An_%2838834203544%29.jpg",
+        "image_alt": "베트남 중부 가정식",
+        "image_credit": "Wikimedia Commons · dronepicr"
+      },
+      {
+        "destination_id": "da-nang-non-nuoc",
+        "type": "마사지",
+        "name": "퀸스파/팜스파",
+        "price": "60~90분 1.5만~4만원",
+        "transport": "차로 15~25분",
+        "note": "한시장·미케비치 동선에 배치하기 쉬움",
+        "dish": "저녁 식사 전후 발마사지나 아로마 마사지로 한시장 동선과 묶기",
+        "parent_fit": "쇼핑 후 바로 쉬는 일정으로 잡으면 부모님 피로 누적을 줄일 수 있음",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "동남아 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "da-nang-non-nuoc",
+      "title": "다낭: 9월 한정, 먹거리·마사지·쇼핑을 한 번에",
+      "naver_signal": "네이버 블로그에서는 다낭 부모님 여행, 한시장, 미케비치 맛집, 마사지 동선을 함께 묶은 후기가 많아 자유여행 난이도가 낮습니다.",
+      "google_signal": "2026 다낭 가족 일정 가이드들은 미케비치 오전 산책, 로컬 음식, 가족형 액티비티를 조합하되 무더운 낮에는 실내·마사지 시간을 권합니다.",
+      "route_upgrade": "오전은 해변·리조트, 오후는 한시장·핑크성당·저녁 맛집·마사지 한 번의 차량 동선으로 묶습니다.",
+      "avoid": "10~11월 중부 베트남 우천 리스크가 커서, 부모님 동반이면 다낭은 9월 후보로 제한합니다.",
+      "sample_day": "오전 미케비치 산책 → 낮 리조트 휴식 → 15시 한시장 → 저녁 목식당 → 마사지",
+      "source_urls": [
+        "https://www.itimaker.com/blog/danang-family-itinerary",
+        "https://www.danang.intercontinental.com/wp-content/uploads/2025/05/Activities-Schedule-April-2026.pdf"
+      ]
+    },
+    "decision": [
+      "09월 2위 후보로는 9월 다낭은 접근성과 먹거리 최강",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 다낭 공항에서 논느억·미케 해변 리조트까지 차량 20~25분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 퀸스파·팜스파 등 주요 마사지샵까지 차량 15~25분 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-09",
+    "rank": 3,
+    "destination_id": "cam-ranh-nha-trang",
+    "destination": "나트랑/깜란",
+    "country": "베트남",
+    "score": 86,
+    "headline": "9월 깜란은 풀빌라 휴양형으로 적합",
+    "reason": "우기 시작 변수는 있지만 공항-리조트 이동이 짧고 3베드룸 풀빌라 후보가 많습니다.",
+    "weather": "9월부터 짧은 우기지만 깜란은 공항과 리조트가 가까워 휴양형 일정에 적합. 10~11월은 강우 변수 상승.",
+    "caution": "나트랑 시내 맛집은 리조트에서 차로 35~45분이라 외식일을 따로 잡는 편이 좋음.",
+    "airport": "CXR",
+    "file": "guidebooks/2026-09-rank-3-cam-ranh-nha-trang.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "cam-ranh-nha-trang",
+      "route": "ICN-CXR",
+      "month": "2026-09",
+      "best_departure": "9월 화~목 또는 일요일 출발, 추석/연휴 회피",
+      "book_timing": "출발 2~3개월 전 LCC 특가와 1개월 전 잔여석을 함께 감시",
+      "airlines": "제주항공, 진에어, 티웨이, 에어서울, 비엣젯, 베트남항공 등",
+      "avg_roundtrip_krw": "20만~40만원대",
+      "deal_target_krw": "22만~30만원",
+      "family_4_krw": "약 88만~160만원",
+      "family_6_krw": "약 132만~240만원",
+      "basis": "TripStore 나트랑 평균가/우기 특가 패턴 및 T'way 2026 특가 기사"
+    },
+    "route": {
+      "destination_id": "cam-ranh-nha-trang",
+      "title": "나트랑·깜란 기본 동선",
+      "airport_to_resort": "깜란 공항에서 해변 리조트까지 차량 10~20분",
+      "resort_to_food": "나트랑 시내 마담프엉·쌀국수 식당가까지 차량 35~45분",
+      "resort_to_spa": "깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분",
+      "parent_tip": "리조트에서 쉬는 날과 시내 외식·마사지 날을 분리하면 이동 피로가 줄어듭니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "name": "Fusion Resort Cam Ranh",
+        "room": "Three-Bedroom Beach Front Pool Villa",
+        "pool": "개인 풀 + 공용 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "약 75만~140만원, 프로모션 필요",
+        "transport": "CXR 공항 10~15분, 나트랑 시내 35~45분"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "name": "The Anam Cam Ranh",
+        "room": "Three-Bedroom Hilltop Pool Villa",
+        "pool": "개인 풀 + 공용 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "약 60만~120만원",
+        "transport": "CXR 공항 15~20분, 나트랑 시내 35~45분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "resort": "Fusion Resort Cam Ranh",
+        "image_id": "cam-ranh-nha-trang",
+        "official_photo_url": "https://fusionresorts.com/camranh/",
+        "best_for": "공항 이동을 줄이고 풀빌라와 스파 중심으로 쉬고 싶은 가족",
+        "nearby": [
+          [
+            "바이다이 해변",
+            "리조트 인접",
+            "긴 모래 해변과 리조트 산책"
+          ],
+          [
+            "오션스파/깜란 픽업형 스파",
+            "차량 10~25분",
+            "리조트 근처 마사지 후보"
+          ],
+          [
+            "마담프엉 나트랑",
+            "차량 35~45분",
+            "에어컨 있는 베트남 가정식 식사 후보"
+          ],
+          [
+            "아이리조트 머드온천",
+            "차량 45~55분",
+            "비 오는 날 반나절 체험"
+          ]
+        ],
+        "day_plan": "오전 풀빌라 휴식 → 오후 스파 → 다음 날 나트랑 시내 외식·머드온천"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "resort": "The Anam Cam Ranh",
+        "image_id": "cam-ranh-nha-trang",
+        "official_photo_url": "https://www.theanam.com/",
+        "best_for": "조용하고 고급스러운 깜란 해변 리조트를 원하는 가족",
+        "nearby": [
+          [
+            "바이다이 해변",
+            "리조트 인접",
+            "부모님 산책과 사진"
+          ],
+          [
+            "나트랑 시내 식당가",
+            "차량 35~45분",
+            "마담프엉, 쌀국수, 카페 동선"
+          ],
+          [
+            "웰스파/시내 스파",
+            "차량 35~45분",
+            "외식과 함께 묶는 마사지"
+          ],
+          [
+            "빈원더스/케이블카",
+            "차량+이동",
+            "컨디션 좋을 때 하루 일정"
+          ]
+        ],
+        "day_plan": "리조트 2일 체류 + 하루만 나트랑 시내 외출로 잡는 구성이 편함"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "맛집",
+        "name": "마담프엉",
+        "price": "1인 1.5만~3만원",
+        "transport": "깜란 리조트에서 35~45분",
+        "note": "에어컨·청결·한국인 후기 많아 부모님 동반 무난",
+        "dish": "반쎄오, 분짜, 해산물 볶음밥처럼 익숙한 베트남 가정식 위주로 주문",
+        "parent_fit": "향이 강한 메뉴는 피하고 볶음밥·쌀국수·해산물 요리부터 고르면 실패 확률이 낮음",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vietnamese_cuisine_-_table_serving.jpg/960px-Vietnamese_cuisine_-_table_serving.jpg",
+        "image_alt": "베트남 가정식 한상",
+        "image_credit": "Wikimedia Commons · Michael Osmenda"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "체험/마사지",
+        "name": "I-Resort 머드온천",
+        "price": "패키지별 1만~5만원+",
+        "transport": "깜란 리조트에서 45~55분",
+        "note": "비 오는 날 대안으로 좋음",
+        "dish": "식사보다는 머드온천·온수풀 체험 중심, 전후 식사는 나트랑 시내와 묶기",
+        "parent_fit": "계단과 젖은 바닥이 있어 미끄럼 방지 신발과 짧은 동선 선택 권장",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg",
+        "image_alt": "나트랑 해변",
+        "image_credit": "Wikimedia Commons · Nha Trang beach"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "마사지",
+        "name": "오션스파/웰스파 계열",
+        "price": "60~90분 1.5만~4만원",
+        "transport": "숙소 위치 따라 10~45분",
+        "note": "네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨",
+        "dish": "식사 후 60~90분 발·전신 마사지로 마무리하기 좋은 코스",
+        "parent_fit": "픽업 가능 여부, 계단 없는 룸, 강도 약하게 요청 가능 여부를 예약 전 확인",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "동남아 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "cam-ranh-nha-trang",
+      "title": "깜란/나트랑: 공항 가까운 풀빌라 휴양 + 시내 외식일 분리",
+      "naver_signal": "네이버 블로그 결과는 2025~2026년 깜란 풀빌라, 오션스파, 무료 픽업 마사지, 가족 단위 수영장 후기가 많습니다.",
+      "google_signal": "깜란 여행가이드들은 롱비치 리조트가 공항에서 5~10분권이고, 리조트 안 식사·수영장·스파를 중심으로 쉬는 일정을 추천합니다.",
+      "route_upgrade": "나트랑 시내 맛집과 머드온천은 하루에 몰아서 다녀오고, 다른 날은 숙소 반경 안에서 움직입니다.",
+      "avoid": "매일 나트랑 시내 왕복 70~90분을 넣으면 리조트 휴양 장점이 사라집니다.",
+      "sample_day": "오전 풀빌라·수영장 → 오후 픽업 스파 → 다음 날 점심 마담프엉 + 머드온천",
+      "source_urls": [
+        "https://www.alma-resort.com/cam-ranh-itinerary/",
+        "https://www.alma-resort.com/blog/cam-ranh-travel-guide/"
+      ]
+    },
+    "decision": [
+      "09월 3위 후보로는 9월 깜란은 풀빌라 휴양형으로 적합",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 깜란 공항에서 해변 리조트까지 차량 10~20분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-10",
+    "rank": 1,
+    "destination_id": "bali-nusa-dua",
+    "destination": "발리 누사두아",
+    "country": "인도네시아",
+    "score": 90,
+    "headline": "10월도 발리 누사두아 우선",
+    "reason": "10월은 건기에서 우기로 넘어가는 시기지만 다낭·나트랑보다 태풍 리스크가 낮아 가족 휴양에 낫습니다.",
+    "weather": "9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.",
+    "caution": "4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.",
+    "airport": "DPS",
+    "file": "guidebooks/2026-10-rank-1-bali-nusa-dua.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "bali-nusa-dua",
+      "route": "ICN-DPS",
+      "month": "2026-10",
+      "best_departure": "10월 초~중순 월~목 출발",
+      "book_timing": "직항은 3개월 전, 경유는 프로모션 기간 우선",
+      "airlines": "대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유",
+      "avg_roundtrip_krw": "직항 55만~100만원, 경유 32만~65만원",
+      "deal_target_krw": "경유 35만~50만원, 직항 60만~75만원",
+      "family_4_krw": "약 220만~400만원",
+      "family_6_krw": "약 330만~600만원",
+      "basis": "운항 스케줄과 경유 특가 패턴 기반 추정"
+    },
+    "route": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아 기본 동선",
+      "airport_to_resort": "응우라라이 공항에서 누사두아 리조트까지 차량 25~40분",
+      "resort_to_food": "발리 컬렉션과 누사두아 식당가까지 차량 5~15분",
+      "resort_to_spa": "엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능",
+      "parent_tip": "도착일에는 리조트 식사, 둘째 날부터 외부 식당·마사지 1회 외출로 잡는 편이 편합니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "name": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "room": "Lagoon Access 객실 조합 / 일부 빌라",
+        "pool": "대형 야외 라군 풀, 일부 빌라 플런지풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "객실 조합 약 70만~120만원대, 빌라 100만원+",
+        "transport": "DPS 공항 25~40분, Bali Collection 5~10분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "image_id": "bali-nusa-dua",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/photos/",
+        "best_for": "조용한 해변 산책과 리조트 체류를 중시하는 부모님 동반 가족",
+        "nearby": [
+          [
+            "발리 컬렉션",
+            "차량 5~10분",
+            "식당, 카페, 기념품을 한 번에 해결하기 좋음"
+          ],
+          [
+            "워터블로우 누사두아",
+            "차량 5~10분",
+            "짧은 산책과 사진 포인트"
+          ],
+          [
+            "게게르 비치",
+            "차량 10~15분",
+            "부드러운 모래와 비교적 잔잔한 분위기"
+          ],
+          [
+            "M Spa / Bali Refresh Spa",
+            "차량 5~20분",
+            "2시간 마사지와 호텔 픽업형 상품 후보"
+          ]
+        ],
+        "day_plan": "오전 리조트 수영장 → 점심 발리 컬렉션 → 오후 마사지 → 저녁 리조트 식사"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Warung Nasi Ayam Ibu Oki",
+        "price": "1인 5천~1.2만원",
+        "transport": "누사두아에서 10~20분",
+        "note": "현지식. 매운맛 확인 필요",
+        "dish": "나시 아얌, 나시 짬뿌르 계열의 닭고기·밥·반찬 한 접시",
+        "parent_fit": "삼발 소스는 따로 요청하고, 매운맛을 못 드시면 흰밥과 닭고기 위주로 주문",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리식 나시 아얌",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Bali Collection / 꼬끼 한식당",
+        "price": "1인 1.5만~3만원",
+        "transport": "차로 5~15분",
+        "note": "부모님이 향신료에 지칠 때 안전한 선택",
+        "dish": "발리 컬렉션 안에서 한식, 카페, 간단한 현지식을 선택 가능",
+        "parent_fit": "현지식이 맞지 않는 날의 안전판. 짧은 이동으로 식사와 쇼핑을 같이 해결",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리 현지식 한 접시",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "마사지",
+        "name": "M Spa / Bali Refresh Spa",
+        "price": "2시간 3만~8만원",
+        "transport": "5~20분, 일부 픽업 가능",
+        "note": "누사두아 호텔존 픽업형 마사지 후보",
+        "dish": "식사 후 2시간 발리니스 마사지 또는 아로마 마사지",
+        "parent_fit": "호텔 픽업형으로 예약하면 밤 이동 부담이 줄어듦",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "발리 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아: 리조트 체류형으로 설계",
+      "naver_signal": "네이버 블로그에서는 누사두아 가족 리조트·풀빌라·마사지 후기가 주로 호텔존 체류와 픽업형 스파에 집중됩니다.",
+      "google_signal": "2026 가족 여행가이드들은 누사두아를 포장도로, 보행 동선, 잔잔한 해변, 공항 20~30분권 때문에 조부모 동반 첫 발리 여행에 맞는 지역으로 설명합니다.",
+      "route_upgrade": "외부 관광은 하루 1개만 넣고, 나머지는 리조트 수영장·해변 산책·발리 컬렉션 식사·마사지로 묶습니다.",
+      "avoid": "우붓·동부 투어를 같은 날 왕복으로 길게 넣으면 60대 부모님에게 피로가 큽니다.",
+      "sample_day": "오전 해변 산책 → 낮 리조트 휴식 → 16시 발리 컬렉션 → 저녁 마사지 픽업",
+      "source_urls": [
+        "https://balifamilytravels.com/blog/nusa-dua-family-resort-guide",
+        "https://bali-travel-guide.net/areas/nusa-dua"
+      ]
+    },
+    "decision": [
+      "10월 1위 후보로는 10월도 발리 누사두아 우선",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-10",
+    "rank": 2,
+    "destination_id": "phuket-mai-khao",
+    "destination": "푸켓 마이카오/나이양",
+    "country": "태국",
+    "score": 78,
+    "headline": "10월 말 푸켓은 조건부 2위",
+    "reason": "10월 초중순은 우기이나 하순부터 안다만 해안 상황이 개선됩니다. 풀 좋은 리조트를 전제로 둡니다.",
+    "weather": "9~10월은 우기, 11월부터 건기 전환. 11월도 초반에는 비 가능성이 있어 풀 좋은 리조트가 중요.",
+    "caution": "마이카오는 조용하지만 외부 맛집·쇼핑은 30~70분 이동.",
+    "airport": "HKT",
+    "file": "guidebooks/2026-10-rank-2-phuket-mai-khao.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "phuket-mai-khao",
+      "route": "ICN-HKT",
+      "month": "2026-10",
+      "best_departure": "10월 하순 일~목 출발",
+      "book_timing": "출발 2개월 전부터 감시, 10월 초중순은 날씨 리스크 때문에 가격만 보고 결정 금지",
+      "airlines": "대한항공/아시아나 계열, 진에어/제주항공/티웨이 계열, 태국 경유편 등",
+      "avg_roundtrip_krw": "약 40만~70만원",
+      "deal_target_krw": "35만~45만원",
+      "family_4_krw": "약 160만~280만원",
+      "family_6_krw": "약 240만~420만원",
+      "basis": "푸켓 월별 비교에서 10월이 평균보다 높고 우기 전환기라는 근거"
+    },
+    "route": {
+      "destination_id": "phuket-mai-khao",
+      "title": "푸켓 마이카오 기본 동선",
+      "airport_to_resort": "푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분",
+      "resort_to_food": "나이양 해변 식당가 15~25분, 푸켓타운·빠통은 50~70분",
+      "resort_to_spa": "부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다.",
+      "parent_tip": "11월에도 초반 비가 올 수 있어 수영장과 리조트 식당이 좋은 숙소를 고르는 것이 중요합니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "name": "JW Marriott Phuket Resort & Spa",
+        "room": "Pool Access rooms / Oceanfront Villa with Private Pool",
+        "pool": "공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "객실 조합 60만~140만원, 대형 빌라 150만원+",
+        "transport": "HKT 공항 15~25분, 빠통/푸켓타운 50~70분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "resort": "JW Marriott Phuket Resort & Spa",
+        "image_id": "phuket-mai-khao",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/photos/",
+        "best_for": "11월 조용한 리조트 체류와 공항 접근성을 중시하는 가족",
+        "nearby": [
+          [
+            "마이카오 해변",
+            "리조트 인접",
+            "긴 해변 산책, 비치 시설은 리조트 중심"
+          ],
+          [
+            "터틀 빌리지",
+            "도보/차량 5~10분",
+            "간단한 식사, 카페, 쇼핑"
+          ],
+          [
+            "나이양 해변",
+            "차량 15~25분",
+            "해변 식당과 선셋 식사"
+          ],
+          [
+            "시리낫 국립공원",
+            "차량 15~25분",
+            "자연 산책과 조용한 해변"
+          ]
+        ],
+        "day_plan": "리조트 수영장 중심 + 저녁만 나이양 또는 터틀 빌리지 외출"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "type": "맛집",
+        "name": "리조트 다이닝 + 나이양 해변 식당",
+        "price": "로컬 1만~3만원, 리조트 3만~8만원",
+        "transport": "나이양 15~25분",
+        "note": "마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계",
+        "dish": "팟타이, 볶음밥, 똠얌, 해산물구이 등 리조트·해변 식당 기본 메뉴",
+        "parent_fit": "밤 늦게 멀리 나가기보다 리조트 1~2끼와 나이양 외식 1회를 섞는 구성이 안정적",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kung_yang.JPG/960px-Kung_yang.JPG",
+        "image_alt": "태국식 새우구이",
+        "image_credit": "Wikimedia Commons · Takeaway"
+      },
+      {
+        "destination_id": "phuket-mai-khao",
+        "type": "마사지",
+        "name": "리조트 스파 / Orientala Spa Patong",
+        "price": "외부 2만~6만원, 리조트 8만~20만원+",
+        "transport": "빠통 55~70분",
+        "note": "부모님 동반이면 장거리보다 리조트 스파 권장",
+        "dish": "리조트 안에서 타이 마사지·아로마 마사지 중심으로 선택",
+        "parent_fit": "빠통까지 이동은 길어 부모님 컨디션이 좋을 때만 추천",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "스파 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "phuket-mai-khao",
+      "title": "푸켓 마이카오: 조용한 북부 리조트 체류형",
+      "naver_signal": "네이버 블로그와 후기 흐름은 푸켓 풀빌라·리조트 스파 만족도는 높지만, 빠통·푸켓타운 외부 동선은 길다는 쪽으로 갈립니다.",
+      "google_signal": "2026 푸켓 가족 호텔 가이드들은 마이카오를 조용한 북부 해변, 긴 비개발 해변, 리조트 시설 중심 가족 여행지로 분류합니다.",
+      "route_upgrade": "숙소 선택 단계에서 식당·수영장·스파 품질을 우선하고, 외부 일정은 나이양 또는 터틀 빌리지 정도로 줄입니다.",
+      "avoid": "빠통 마사지·야시장 왕복은 2시간 이상 잡힐 수 있어 60대 부모님과 매일 넣기 어렵습니다.",
+      "sample_day": "오전 해변 산책 → 낮 수영장 → 17시 터틀 빌리지 또는 나이양 식사 → 리조트 복귀",
+      "source_urls": [
+        "https://hotelierschoice.com/guides/phuket/phuket-families/",
+        "https://www.phuket.net/visit-phuket/about/info/climate/"
+      ]
+    },
+    "decision": [
+      "10월 2위 후보로는 10월 말 푸켓은 조건부 2위",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다. 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-10",
+    "rank": 3,
+    "destination_id": "cam-ranh-nha-trang",
+    "destination": "나트랑/깜란",
+    "country": "베트남",
+    "score": 74,
+    "headline": "10월 깜란은 리조트 체류형이면 가능",
+    "reason": "강우·풍랑 변수가 있어 외부 관광보다 풀빌라·스파·리조트 식사 중심이면 검토 가능합니다.",
+    "weather": "9월부터 짧은 우기지만 깜란은 공항과 리조트가 가까워 휴양형 일정에 적합. 10~11월은 강우 변수 상승.",
+    "caution": "나트랑 시내 맛집은 리조트에서 차로 35~45분이라 외식일을 따로 잡는 편이 좋음.",
+    "airport": "CXR",
+    "file": "guidebooks/2026-10-rank-3-cam-ranh-nha-trang.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "cam-ranh-nha-trang",
+      "route": "ICN-CXR",
+      "month": "2026-09",
+      "best_departure": "9월 화~목 또는 일요일 출발, 추석/연휴 회피",
+      "book_timing": "출발 2~3개월 전 LCC 특가와 1개월 전 잔여석을 함께 감시",
+      "airlines": "제주항공, 진에어, 티웨이, 에어서울, 비엣젯, 베트남항공 등",
+      "avg_roundtrip_krw": "20만~40만원대",
+      "deal_target_krw": "22만~30만원",
+      "family_4_krw": "약 88만~160만원",
+      "family_6_krw": "약 132만~240만원",
+      "basis": "TripStore 나트랑 평균가/우기 특가 패턴 및 T'way 2026 특가 기사"
+    },
+    "route": {
+      "destination_id": "cam-ranh-nha-trang",
+      "title": "나트랑·깜란 기본 동선",
+      "airport_to_resort": "깜란 공항에서 해변 리조트까지 차량 10~20분",
+      "resort_to_food": "나트랑 시내 마담프엉·쌀국수 식당가까지 차량 35~45분",
+      "resort_to_spa": "깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분",
+      "parent_tip": "리조트에서 쉬는 날과 시내 외식·마사지 날을 분리하면 이동 피로가 줄어듭니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "name": "Fusion Resort Cam Ranh",
+        "room": "Three-Bedroom Beach Front Pool Villa",
+        "pool": "개인 풀 + 공용 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "약 75만~140만원, 프로모션 필요",
+        "transport": "CXR 공항 10~15분, 나트랑 시내 35~45분"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "name": "The Anam Cam Ranh",
+        "room": "Three-Bedroom Hilltop Pool Villa",
+        "pool": "개인 풀 + 공용 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "약 60만~120만원",
+        "transport": "CXR 공항 15~20분, 나트랑 시내 35~45분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "resort": "Fusion Resort Cam Ranh",
+        "image_id": "cam-ranh-nha-trang",
+        "official_photo_url": "https://fusionresorts.com/camranh/",
+        "best_for": "공항 이동을 줄이고 풀빌라와 스파 중심으로 쉬고 싶은 가족",
+        "nearby": [
+          [
+            "바이다이 해변",
+            "리조트 인접",
+            "긴 모래 해변과 리조트 산책"
+          ],
+          [
+            "오션스파/깜란 픽업형 스파",
+            "차량 10~25분",
+            "리조트 근처 마사지 후보"
+          ],
+          [
+            "마담프엉 나트랑",
+            "차량 35~45분",
+            "에어컨 있는 베트남 가정식 식사 후보"
+          ],
+          [
+            "아이리조트 머드온천",
+            "차량 45~55분",
+            "비 오는 날 반나절 체험"
+          ]
+        ],
+        "day_plan": "오전 풀빌라 휴식 → 오후 스파 → 다음 날 나트랑 시내 외식·머드온천"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "resort": "The Anam Cam Ranh",
+        "image_id": "cam-ranh-nha-trang",
+        "official_photo_url": "https://www.theanam.com/",
+        "best_for": "조용하고 고급스러운 깜란 해변 리조트를 원하는 가족",
+        "nearby": [
+          [
+            "바이다이 해변",
+            "리조트 인접",
+            "부모님 산책과 사진"
+          ],
+          [
+            "나트랑 시내 식당가",
+            "차량 35~45분",
+            "마담프엉, 쌀국수, 카페 동선"
+          ],
+          [
+            "웰스파/시내 스파",
+            "차량 35~45분",
+            "외식과 함께 묶는 마사지"
+          ],
+          [
+            "빈원더스/케이블카",
+            "차량+이동",
+            "컨디션 좋을 때 하루 일정"
+          ]
+        ],
+        "day_plan": "리조트 2일 체류 + 하루만 나트랑 시내 외출로 잡는 구성이 편함"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "맛집",
+        "name": "마담프엉",
+        "price": "1인 1.5만~3만원",
+        "transport": "깜란 리조트에서 35~45분",
+        "note": "에어컨·청결·한국인 후기 많아 부모님 동반 무난",
+        "dish": "반쎄오, 분짜, 해산물 볶음밥처럼 익숙한 베트남 가정식 위주로 주문",
+        "parent_fit": "향이 강한 메뉴는 피하고 볶음밥·쌀국수·해산물 요리부터 고르면 실패 확률이 낮음",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vietnamese_cuisine_-_table_serving.jpg/960px-Vietnamese_cuisine_-_table_serving.jpg",
+        "image_alt": "베트남 가정식 한상",
+        "image_credit": "Wikimedia Commons · Michael Osmenda"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "체험/마사지",
+        "name": "I-Resort 머드온천",
+        "price": "패키지별 1만~5만원+",
+        "transport": "깜란 리조트에서 45~55분",
+        "note": "비 오는 날 대안으로 좋음",
+        "dish": "식사보다는 머드온천·온수풀 체험 중심, 전후 식사는 나트랑 시내와 묶기",
+        "parent_fit": "계단과 젖은 바닥이 있어 미끄럼 방지 신발과 짧은 동선 선택 권장",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg",
+        "image_alt": "나트랑 해변",
+        "image_credit": "Wikimedia Commons · Nha Trang beach"
+      },
+      {
+        "destination_id": "cam-ranh-nha-trang",
+        "type": "마사지",
+        "name": "오션스파/웰스파 계열",
+        "price": "60~90분 1.5만~4만원",
+        "transport": "숙소 위치 따라 10~45분",
+        "note": "네이버 블로그에서 깜란 리조트 픽업형 마사지 후기가 다수 검색됨",
+        "dish": "식사 후 60~90분 발·전신 마사지로 마무리하기 좋은 코스",
+        "parent_fit": "픽업 가능 여부, 계단 없는 룸, 강도 약하게 요청 가능 여부를 예약 전 확인",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "동남아 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "cam-ranh-nha-trang",
+      "title": "깜란/나트랑: 공항 가까운 풀빌라 휴양 + 시내 외식일 분리",
+      "naver_signal": "네이버 블로그 결과는 2025~2026년 깜란 풀빌라, 오션스파, 무료 픽업 마사지, 가족 단위 수영장 후기가 많습니다.",
+      "google_signal": "깜란 여행가이드들은 롱비치 리조트가 공항에서 5~10분권이고, 리조트 안 식사·수영장·스파를 중심으로 쉬는 일정을 추천합니다.",
+      "route_upgrade": "나트랑 시내 맛집과 머드온천은 하루에 몰아서 다녀오고, 다른 날은 숙소 반경 안에서 움직입니다.",
+      "avoid": "매일 나트랑 시내 왕복 70~90분을 넣으면 리조트 휴양 장점이 사라집니다.",
+      "sample_day": "오전 풀빌라·수영장 → 오후 픽업 스파 → 다음 날 점심 마담프엉 + 머드온천",
+      "source_urls": [
+        "https://www.alma-resort.com/cam-ranh-itinerary/",
+        "https://www.alma-resort.com/blog/cam-ranh-travel-guide/"
+      ]
+    },
+    "decision": [
+      "10월 3위 후보로는 10월 깜란은 리조트 체류형이면 가능",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 깜란 공항에서 해변 리조트까지 차량 10~20분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-11",
+    "rank": 1,
+    "destination_id": "phuket-mai-khao",
+    "destination": "푸켓 마이카오/나이양",
+    "country": "태국",
+    "score": 89,
+    "headline": "11월은 푸켓이 1순위",
+    "reason": "푸켓은 11월부터 건기 전환으로 해변 리조트 만족도가 올라갑니다. 단 초반 비 변수는 남습니다.",
+    "weather": "9~10월은 우기, 11월부터 건기 전환. 11월도 초반에는 비 가능성이 있어 풀 좋은 리조트가 중요.",
+    "caution": "마이카오는 조용하지만 외부 맛집·쇼핑은 30~70분 이동.",
+    "airport": "HKT",
+    "file": "guidebooks/2026-11-rank-1-phuket-mai-khao.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "phuket-mai-khao",
+      "route": "ICN-HKT",
+      "month": "2026-11",
+      "best_departure": "11월 일~목 출발, 가능하면 11월 중순 이후",
+      "book_timing": "출발 2~3개월 전 예약, 9월 말~10월 초 특가 확인",
+      "airlines": "직항 및 방콕/홍콩/싱가포르 경유편",
+      "avg_roundtrip_krw": "최저가 평균 약 34.5만~50만원대",
+      "deal_target_krw": "34만~42만원",
+      "family_4_krw": "약 138만~200만원",
+      "family_6_krw": "약 207만~300만원",
+      "basis": "StubbyPlanner 푸켓 월별 비교: 11월 최저 344,664원"
+    },
+    "route": {
+      "destination_id": "phuket-mai-khao",
+      "title": "푸켓 마이카오 기본 동선",
+      "airport_to_resort": "푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분",
+      "resort_to_food": "나이양 해변 식당가 15~25분, 푸켓타운·빠통은 50~70분",
+      "resort_to_spa": "부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다.",
+      "parent_tip": "11월에도 초반 비가 올 수 있어 수영장과 리조트 식당이 좋은 숙소를 고르는 것이 중요합니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "name": "JW Marriott Phuket Resort & Spa",
+        "room": "Pool Access rooms / Oceanfront Villa with Private Pool",
+        "pool": "공용 야외 풀, 일부 객실 풀 액세스, 대형 빌라 개인풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "객실 조합 60만~140만원, 대형 빌라 150만원+",
+        "transport": "HKT 공항 15~25분, 빠통/푸켓타운 50~70분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "resort": "JW Marriott Phuket Resort & Spa",
+        "image_id": "phuket-mai-khao",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/photos/",
+        "best_for": "11월 조용한 리조트 체류와 공항 접근성을 중시하는 가족",
+        "nearby": [
+          [
+            "마이카오 해변",
+            "리조트 인접",
+            "긴 해변 산책, 비치 시설은 리조트 중심"
+          ],
+          [
+            "터틀 빌리지",
+            "도보/차량 5~10분",
+            "간단한 식사, 카페, 쇼핑"
+          ],
+          [
+            "나이양 해변",
+            "차량 15~25분",
+            "해변 식당과 선셋 식사"
+          ],
+          [
+            "시리낫 국립공원",
+            "차량 15~25분",
+            "자연 산책과 조용한 해변"
+          ]
+        ],
+        "day_plan": "리조트 수영장 중심 + 저녁만 나이양 또는 터틀 빌리지 외출"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "phuket-mai-khao",
+        "type": "맛집",
+        "name": "리조트 다이닝 + 나이양 해변 식당",
+        "price": "로컬 1만~3만원, 리조트 3만~8만원",
+        "transport": "나이양 15~25분",
+        "note": "마이카오는 외부 상권이 약해 리조트 식사 비중 높게 설계",
+        "dish": "팟타이, 볶음밥, 똠얌, 해산물구이 등 리조트·해변 식당 기본 메뉴",
+        "parent_fit": "밤 늦게 멀리 나가기보다 리조트 1~2끼와 나이양 외식 1회를 섞는 구성이 안정적",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kung_yang.JPG/960px-Kung_yang.JPG",
+        "image_alt": "태국식 새우구이",
+        "image_credit": "Wikimedia Commons · Takeaway"
+      },
+      {
+        "destination_id": "phuket-mai-khao",
+        "type": "마사지",
+        "name": "리조트 스파 / Orientala Spa Patong",
+        "price": "외부 2만~6만원, 리조트 8만~20만원+",
+        "transport": "빠통 55~70분",
+        "note": "부모님 동반이면 장거리보다 리조트 스파 권장",
+        "dish": "리조트 안에서 타이 마사지·아로마 마사지 중심으로 선택",
+        "parent_fit": "빠통까지 이동은 길어 부모님 컨디션이 좋을 때만 추천",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "스파 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "phuket-mai-khao",
+      "title": "푸켓 마이카오: 조용한 북부 리조트 체류형",
+      "naver_signal": "네이버 블로그와 후기 흐름은 푸켓 풀빌라·리조트 스파 만족도는 높지만, 빠통·푸켓타운 외부 동선은 길다는 쪽으로 갈립니다.",
+      "google_signal": "2026 푸켓 가족 호텔 가이드들은 마이카오를 조용한 북부 해변, 긴 비개발 해변, 리조트 시설 중심 가족 여행지로 분류합니다.",
+      "route_upgrade": "숙소 선택 단계에서 식당·수영장·스파 품질을 우선하고, 외부 일정은 나이양 또는 터틀 빌리지 정도로 줄입니다.",
+      "avoid": "빠통 마사지·야시장 왕복은 2시간 이상 잡힐 수 있어 60대 부모님과 매일 넣기 어렵습니다.",
+      "sample_day": "오전 해변 산책 → 낮 수영장 → 17시 터틀 빌리지 또는 나이양 식사 → 리조트 복귀",
+      "source_urls": [
+        "https://hotelierschoice.com/guides/phuket/phuket-families/",
+        "https://www.phuket.net/visit-phuket/about/info/climate/"
+      ]
+    },
+    "decision": [
+      "11월 1위 후보로는 11월은 푸켓이 1순위",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다. 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-11",
+    "rank": 2,
+    "destination_id": "phu-quoc",
+    "destination": "푸꾸옥",
+    "country": "베트남",
+    "score": 87,
+    "headline": "11월 푸꾸옥은 풀빌라 가족여행 강자",
+    "reason": "푸꾸옥은 11월부터 건기권이고 3~5베드룸 개인풀 빌라 리조트가 많아 4~6인 가족에 맞습니다.",
+    "weather": "11월부터 건기권에 들어가 해변 휴양 적합도가 올라감. 9~10월은 우기라 후순위.",
+    "caution": "일부 지역은 해변 상태와 외부 상권 편차가 있어 리조트 선택이 중요.",
+    "airport": "PQC",
+    "file": "guidebooks/2026-11-rank-2-phu-quoc.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "phu-quoc",
+      "route": "ICN-PQC",
+      "month": "2026-11",
+      "best_departure": "11월 말 평일 출발",
+      "book_timing": "출발 2개월 전부터 직항 특가 감시, 비엣젯 수하물 포함가로 비교",
+      "airlines": "비엣젯, 베트남항공/호치민 경유, 기타 OTA 조합",
+      "avg_roundtrip_krw": "약 44만~70만원",
+      "deal_target_krw": "40만~50만원",
+      "family_4_krw": "약 176만~280만원",
+      "family_6_krw": "약 264만~420만원",
+      "basis": "Traveloka 11월 참고가 442,764원 및 11월 말~12월 초 평일 저가 패턴"
+    },
+    "route": {
+      "destination_id": "phu-quoc",
+      "title": "푸꾸옥 남부 기본 동선",
+      "airport_to_resort": "푸꾸옥 공항에서 남부 켐비치·선셋타운 리조트까지 차량 25~45분",
+      "resort_to_food": "선셋타운·켐비치 식당가까지 차량 10~25분",
+      "resort_to_spa": "가족 풀빌라 리조트 내부 스파 이용이 가장 편하고, 외부 이동은 숙소 위치에 따라 편차가 큽니다.",
+      "parent_tip": "11월 말 평일 항공권과 남부 풀빌라를 묶으면 가족 휴양 만족도가 높습니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "phu-quoc",
+        "name": "Premier Village Phu Quoc Resort",
+        "room": "3-Bedroom Garden/Ocean/Beachfront Villa with Private Pool",
+        "pool": "모든 빌라 개인풀 + 리조트 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "3BR 약 70만~160만원+",
+        "transport": "PQC 공항 25~45분, 남부 케이블카/선셋타운 10~25분"
+      },
+      {
+        "destination_id": "phu-quoc",
+        "name": "New World Phu Quoc Resort",
+        "room": "3-Bedroom Pool Villa / Beachfront Pool Villa 계열",
+        "pool": "전 객실급 개인풀 중심 + 120m 인피니티 야외 풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "약 70만~180만원+",
+        "transport": "PQC 공항 25~45분, 켐비치 인접"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "phu-quoc",
+        "resort": "Premier Village Phu Quoc Resort",
+        "image_id": "phu-quoc",
+        "official_photo_url": "https://www.premiervillage-phuquoc.com/ko/our-villas/",
+        "best_for": "11월 말 평일 항공권과 남부 풀빌라를 묶고 싶은 가족",
+        "nearby": [
+          [
+            "켐비치",
+            "리조트 권역",
+            "하얀 모래 해변과 리조트 산책"
+          ],
+          [
+            "선셋타운",
+            "차량 10~20분",
+            "사진, 카페, 저녁 산책"
+          ],
+          [
+            "혼똠 케이블카",
+            "차량 10~25분",
+            "컨디션 좋을 때 반나절 체험"
+          ],
+          [
+            "리조트 스파",
+            "도보/버기",
+            "부모님 동선상 가장 편한 마사지"
+          ]
+        ],
+        "day_plan": "오전 풀빌라 → 오후 선셋타운 → 저녁 리조트 또는 켐비치 식사"
+      },
+      {
+        "destination_id": "phu-quoc",
+        "resort": "New World Phu Quoc Resort",
+        "image_id": "phu-quoc",
+        "official_photo_url": "https://phuquoc.newworldhotels.com/en/",
+        "best_for": "켐비치 앞 대형 풀빌라와 리조트 식당을 중시하는 가족",
+        "nearby": [
+          [
+            "켐비치",
+            "리조트 인접",
+            "바다와 수영장 중심 휴양"
+          ],
+          [
+            "선셋타운",
+            "차량 10~20분",
+            "사진과 저녁 산책"
+          ],
+          [
+            "남부 해산물 식당",
+            "차량 10~25분",
+            "가벼운 외식 후보"
+          ],
+          [
+            "리조트 키즈/가족 시설",
+            "리조트 내부",
+            "비 오는 날 대안"
+          ]
+        ],
+        "day_plan": "외출을 줄이고 리조트 식당, 스파, 해변 산책을 중심으로 구성"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "phu-quoc",
+        "type": "맛집/체험",
+        "name": "선셋타운/켐비치 식당가",
+        "price": "1인 1만~4만원",
+        "transport": "남부 리조트에서 10~25분",
+        "note": "남부 풀빌라 리조트와 묶기 좋음",
+        "dish": "해산물구이, 볶음밥, 베트남식 면요리, 선셋타운 카페를 함께 보기",
+        "parent_fit": "해질녘 산책과 저녁 식사를 한 번에 묶으면 이동 횟수가 줄어듦",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phu_Quoc_Beach.jpg/960px-Phu_Quoc_Beach.jpg",
+        "image_alt": "푸꾸옥 해변과 식당가 분위기",
+        "image_credit": "Wikimedia Commons · FrogsLegs71"
+      },
+      {
+        "destination_id": "phu-quoc",
+        "type": "마사지",
+        "name": "리조트 스파",
+        "price": "1인 5만~15만원+",
+        "transport": "도보/버기",
+        "note": "외부 이동보다 리조트 내 스파가 부모님 동선에 편함",
+        "dish": "리조트 안에서 아로마 마사지 또는 발마사지 후 바로 객실 복귀",
+        "parent_fit": "비 오는 날이나 장거리 이동 후 회복 일정으로 가장 편함",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "리조트 스파 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "phu-quoc",
+      "title": "푸꾸옥 남부: 켐비치·선셋타운·케이블카를 한 권역으로",
+      "naver_signal": "네이버 블로그에서는 푸꾸옥 가족 풀빌라, 뉴월드·프리미어 빌리지, 남부 맛집·스파 이동 편의 후기가 반복됩니다.",
+      "google_signal": "2026 푸꾸옥 가이드들은 켐비치, 선셋타운, 혼똠 케이블카를 남부 리조트권 일정으로 묶는 방식을 추천합니다.",
+      "route_upgrade": "남부 숙소를 잡으면 켐비치·선셋타운·케이블카를 하루로 묶고, 나머지는 리조트 휴식으로 둡니다.",
+      "avoid": "북부 빈원더스·사파리와 남부 선셋타운을 같은 날 왕복하면 이동 피로가 큽니다.",
+      "sample_day": "오전 켐비치 → 낮 리조트 휴식 → 16시 케이블카 또는 선셋타운 → 저녁 리조트 스파",
+      "source_urls": [
+        "https://localvietnam.com/phu-quoc/khem-beach-phu-quoc/",
+        "https://www.insidephuquoc.com/blog/5-days-in-phu-quoc/"
+      ]
+    },
+    "decision": [
+      "11월 2위 후보로는 11월 푸꾸옥은 풀빌라 가족여행 강자",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 푸꾸옥 공항에서 남부 켐비치·선셋타운 리조트까지 차량 25~45분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 가족 풀빌라 리조트 내부 스파 이용이 가장 편하고, 외부 이동은 숙소 위치에 따라 편차가 큽니다. 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  },
+  {
+    "month": "2026-11",
+    "rank": 3,
+    "destination_id": "bali-nusa-dua",
+    "destination": "발리 누사두아",
+    "country": "인도네시아",
+    "score": 78,
+    "headline": "11월 발리는 우기 시작이지만 리조트형 대안",
+    "reason": "비가 시작되는 달이라 9~10월보다 밀리지만, 누사두아 리조트 체류형이면 일정 실패 위험을 줄일 수 있습니다.",
+    "weather": "9~10월은 건기 끝자락이라 해변 휴양 안정성이 높고, 11월은 우기 시작이라 리조트 체류형으로만 추천.",
+    "caution": "4~6인 풀빌라는 1박 50~60만원을 넘기기 쉬워 객실 2~3개 조합도 검토.",
+    "airport": "DPS",
+    "file": "guidebooks/2026-11-rank-3-bali-nusa-dua.md",
+    "generated_at": "2026-05-26T08:28:59.656446+00:00",
+    "flight": {
+      "destination_id": "bali-nusa-dua",
+      "route": "ICN-DPS",
+      "month": "2026-09",
+      "best_departure": "9월 월~목 출발, 금·토 출발 회피",
+      "book_timing": "직항은 3~4개월 전, 경유 특가는 에어아시아 빅세일/프로모션 시점",
+      "airlines": "대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유",
+      "avg_roundtrip_krw": "직항 55만~95만원, 경유 30만~60만원",
+      "deal_target_krw": "경유 30만~45만원, 직항 60만원대",
+      "family_4_krw": "약 220만~380만원",
+      "family_6_krw": "약 330만~570만원",
+      "basis": "2026 하계 인천-덴파사르 운항 스케줄 및 에어아시아 인천-발리 경유 특가"
+    },
+    "route": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아 기본 동선",
+      "airport_to_resort": "응우라라이 공항에서 누사두아 리조트까지 차량 25~40분",
+      "resort_to_food": "발리 컬렉션과 누사두아 식당가까지 차량 5~15분",
+      "resort_to_spa": "엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능",
+      "parent_tip": "도착일에는 리조트 식사, 둘째 날부터 외부 식당·마사지 1회 외출로 잡는 편이 편합니다."
+    },
+    "resorts": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "name": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "room": "Lagoon Access 객실 조합 / 일부 빌라",
+        "pool": "대형 야외 라군 풀, 일부 빌라 플런지풀",
+        "indoor_pool": "실내 수영장 확인 어려움",
+        "nightly_krw": "객실 조합 약 70만~120만원대, 빌라 100만원+",
+        "transport": "DPS 공항 25~40분, Bali Collection 5~10분"
+      }
+    ],
+    "resort_guides": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "resort": "The Laguna, a Luxury Collection Resort & Spa, Nusa Dua",
+        "image_id": "bali-nusa-dua",
+        "official_photo_url": "https://www.marriott.com/en-us/hotels/dpslc-the-laguna-a-luxury-collection-resort-and-spa-nusa-dua-bali/photos/",
+        "best_for": "조용한 해변 산책과 리조트 체류를 중시하는 부모님 동반 가족",
+        "nearby": [
+          [
+            "발리 컬렉션",
+            "차량 5~10분",
+            "식당, 카페, 기념품을 한 번에 해결하기 좋음"
+          ],
+          [
+            "워터블로우 누사두아",
+            "차량 5~10분",
+            "짧은 산책과 사진 포인트"
+          ],
+          [
+            "게게르 비치",
+            "차량 10~15분",
+            "부드러운 모래와 비교적 잔잔한 분위기"
+          ],
+          [
+            "M Spa / Bali Refresh Spa",
+            "차량 5~20분",
+            "2시간 마사지와 호텔 픽업형 상품 후보"
+          ]
+        ],
+        "day_plan": "오전 리조트 수영장 → 점심 발리 컬렉션 → 오후 마사지 → 저녁 리조트 식사"
+      }
+    ],
+    "places": [
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Warung Nasi Ayam Ibu Oki",
+        "price": "1인 5천~1.2만원",
+        "transport": "누사두아에서 10~20분",
+        "note": "현지식. 매운맛 확인 필요",
+        "dish": "나시 아얌, 나시 짬뿌르 계열의 닭고기·밥·반찬 한 접시",
+        "parent_fit": "삼발 소스는 따로 요청하고, 매운맛을 못 드시면 흰밥과 닭고기 위주로 주문",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리식 나시 아얌",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "맛집",
+        "name": "Bali Collection / 꼬끼 한식당",
+        "price": "1인 1.5만~3만원",
+        "transport": "차로 5~15분",
+        "note": "부모님이 향신료에 지칠 때 안전한 선택",
+        "dish": "발리 컬렉션 안에서 한식, 카페, 간단한 현지식을 선택 가능",
+        "parent_fit": "현지식이 맞지 않는 날의 안전판. 짧은 이동으로 식사와 쇼핑을 같이 해결",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nasi_Bali.jpg/960px-Nasi_Bali.jpg",
+        "image_alt": "발리 현지식 한 접시",
+        "image_credit": "Wikimedia Commons · RT. Hakimi"
+      },
+      {
+        "destination_id": "bali-nusa-dua",
+        "type": "마사지",
+        "name": "M Spa / Bali Refresh Spa",
+        "price": "2시간 3만~8만원",
+        "transport": "5~20분, 일부 픽업 가능",
+        "note": "누사두아 호텔존 픽업형 마사지 후보",
+        "dish": "식사 후 2시간 발리니스 마사지 또는 아로마 마사지",
+        "parent_fit": "호텔 픽업형으로 예약하면 밤 이동 부담이 줄어듦",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massage_in_Bali_Indonesia.jpg/960px-Massage_in_Bali_Indonesia.jpg",
+        "image_alt": "발리 마사지 예시",
+        "image_credit": "Wikimedia Commons · Peter van der Sluijs"
+      }
+    ],
+    "insight": {
+      "destination_id": "bali-nusa-dua",
+      "title": "발리 누사두아: 리조트 체류형으로 설계",
+      "naver_signal": "네이버 블로그에서는 누사두아 가족 리조트·풀빌라·마사지 후기가 주로 호텔존 체류와 픽업형 스파에 집중됩니다.",
+      "google_signal": "2026 가족 여행가이드들은 누사두아를 포장도로, 보행 동선, 잔잔한 해변, 공항 20~30분권 때문에 조부모 동반 첫 발리 여행에 맞는 지역으로 설명합니다.",
+      "route_upgrade": "외부 관광은 하루 1개만 넣고, 나머지는 리조트 수영장·해변 산책·발리 컬렉션 식사·마사지로 묶습니다.",
+      "avoid": "우붓·동부 투어를 같은 날 왕복으로 길게 넣으면 60대 부모님에게 피로가 큽니다.",
+      "sample_day": "오전 해변 산책 → 낮 리조트 휴식 → 16시 발리 컬렉션 → 저녁 마사지 픽업",
+      "source_urls": [
+        "https://balifamilytravels.com/blog/nusa-dua-family-resort-guide",
+        "https://bali-travel-guide.net/areas/nusa-dua"
+      ]
+    },
+    "decision": [
+      "11월 3위 후보로는 11월 발리는 우기 시작이지만 리조트형 대안",
+      "60대 부모님 동반 기준은 공항 이동 피로, 리조트 안 수영장/식사 완결성, 마사지 이동 부담을 우선으로 둡니다.",
+      "풀빌라가 예산을 넘으면 같은 리조트의 연결 객실 2~3개 조합을 먼저 비교합니다."
+    ],
+    "daily_plan": [
+      "1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.",
+      "2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.",
+      "3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.",
+      "4일차 이상: 비 오는 날은 외부 투어 대신 실내 식사, 스파, 라운지 시간을 확보."
+    ],
+    "checklist": [
+      "객실은 엘리베이터 접근성, 욕실 미끄럼 방지, 조식 동선을 먼저 확인합니다.",
+      "공항 픽업은 왕복으로 예약하고, 밤 도착이면 첫날 외부 식당 이동을 피합니다.",
+      "마사지샵은 부모님이 편한 강도 조절 가능 여부와 픽업 시간을 예약 전 확인합니다."
+    ]
+  }
+]

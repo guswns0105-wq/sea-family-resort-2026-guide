@@ -50,14 +50,23 @@
     a { color:var(--sea); font-weight:800; }
     .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
     .method div { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
-    .route-grid,.reference-grid,.guidebook-grid,.practical-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .resort-guide-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .place-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     .review-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
     .route-card,.reference-card { display:grid; grid-template-columns:180px 1fr; gap:16px; background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .guidebook-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     .resort-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
-    .place-card,.review-card,.practical-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .place-card,.review-card,.practical-card,.monthly-guide-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .monthly-guide-card { display:grid; grid-template-columns:220px 1fr; }
+    .monthly-guide-card > img { width:100%; height:100%; min-height:290px; object-fit:cover; background:#dce7ea; }
+    .monthly-guide-body { padding:18px; }
+    .monthly-guide-body h3 { margin:2px 0 8px; font-size:24px; }
+    .guide-meta { margin:0; color:var(--sea); font-weight:900; }
+    .monthly-guide-card dl { margin:12px 0; }
+    .monthly-guide-card dl div { border-top:1px solid var(--line); padding-top:8px; }
+    .monthly-guide-card ol { padding-left:20px; color:var(--muted); }
+    .guide-link { display:inline-block; margin-top:6px; padding:9px 12px; border-radius:6px; background:#e8f3f4; text-decoration:none; }
     .route-card img,.reference-card img { width:100%; height:100%; min-height:180px; object-fit:cover; background:#dce7ea; }
     .guidebook-card > img { width:100%; height:230px; object-fit:cover; background:#dce7ea; }
     .guidebook-card > div { padding:18px; }
@@ -96,7 +105,7 @@
     .route-card h3,.reference-card h3 { margin:0 0 6px; }
     .route-card ol,.reference-card ul { margin:10px 0; padding-left:20px; }
     .muted,.reference-card small { color:var(--muted); }
-    @media (max-width:980px) { nav { position:static; grid-template-columns:1fr; } .nav-group { border-top:1px solid var(--line); padding-top:8px; } .book-index,.rank-grid,.method,.route-grid,.reference-grid,.guidebook-grid,.practical-grid,.review-grid,.resort-guide-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img { height:220px; } header { min-height:62vh; } }
+    @media (max-width:980px) { nav { position:static; grid-template-columns:1fr; } .nav-group { border-top:1px solid var(--line); padding-top:8px; } .book-index,.rank-grid,.method,.route-grid,.reference-grid,.guidebook-grid,.practical-grid,.monthly-guide-grid,.review-grid,.resort-guide-grid,.place-grid { grid-template-columns:1fr; } .route-card,.reference-card,.monthly-guide-card { grid-template-columns:1fr; } .route-card div,.reference-card div { padding:16px; } .route-card img,.reference-card img,.monthly-guide-card > img { height:220px; min-height:220px; } header { min-height:62vh; } }
   </style>
 </head>
 <body>
@@ -108,7 +117,7 @@
   </header>
   <nav aria-label="가이드북 목차">
     <a class="nav-title" href="#summary">2026 부모님 여행가이드</a>
-    <div class="nav-group"><span>월별 추천</span><div class="nav-links"><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a></div></div>
+    <div class="nav-group"><span>월별 추천</span><div class="nav-links"><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#monthly-guidebooks">가이드북</a></div></div>
     <div class="nav-group"><span>예약 전</span><div class="nav-links"><a href="#flights">항공권</a><a href="#routes">이동</a><a href="#travel-pack">여행팩</a></div></div>
     <div class="nav-group"><span>현지 가이드</span><div class="nav-links"><a href="#guidebook">일정 보정</a><a href="#resorts">숙소</a><a href="#resort-guide">주변</a><a href="#places">맛집</a></div></div>
     <div class="nav-group"><span>검토 자료</span><div class="nav-links"><a href="#reviews">후기</a><a href="#crawl">참고자료</a></div></div>
@@ -118,7 +127,7 @@
       <h2>2026년 최신판 결론</h2>
       <p class="lead">9월은 발리 누사두아, 10월도 발리 누사두아, 11월은 푸켓과 푸꾸옥이 강합니다. 다낭은 먹거리와 마사지 접근성은 최고지만 10~11월 중부 베트남 날씨 리스크 때문에 9월 후보로 제한했습니다.</p>
       <div class="book-index">
-        <article><span>1</span><h3>먼저 고르기</h3><p>9월·10월·11월 추천 1·2·3위를 보고 가족에게 맞는 달과 지역을 고릅니다.</p><p><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a></p></article>
+        <article><span>1</span><h3>먼저 고르기</h3><p>9월·10월·11월 추천 1·2·3위를 보고 가족에게 맞는 달과 지역을 고릅니다.</p><p><a href="#2026-09">9월</a><a href="#2026-10">10월</a><a href="#2026-11">11월</a><a href="#monthly-guidebooks">가이드북</a></p></article>
         <article><span>2</span><h3>예약 전 확인</h3><p>항공권, 공항 이동, 부모님 여행팩을 보고 예산과 피로도를 먼저 잡습니다.</p><p><a href="#flights">항공권</a><a href="#routes">이동</a><a href="#travel-pack">여행팩</a></p></article>
         <article><span>3</span><h3>현지 하루 짜기</h3><p>가이드 보정, 숙소 주변, 맛집·마사지 후보를 묶어 하루 외출 횟수를 줄입니다.</p><p><a href="#guidebook">보정</a><a href="#resort-guide">숙소 주변</a><a href="#places">맛집</a></p></article>
         <article><span>4</span><h3>근거 확인</h3><p>최신 블로그 후기와 참고자료를 열어 사진, 메뉴판, 날씨, 가격을 출발 전 재확인합니다.</p><p><a href="#reviews">후기</a><a href="#crawl">참고자료</a></p></article>
@@ -265,6 +274,187 @@
                   <small>누사두아 해변 · 위키미디어 공용</small>
                 </article>
                 </div></section>
+    <section id="monthly-guidebooks"><h2>월별 1·2·3위 로컬 가이드북</h2><p class="lead">각 월의 추천 순위별로 항공권, 공항 이동, 숙소 후보, 주변 일정, 맛집과 마사지 후보를 한 파일씩 저장했습니다. 가족 회의 때는 이 카드에서 후보를 열어보고 월별 최종 목적지를 좁히면 됩니다.</p><div class="monthly-guide-grid">
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="발리 누사두아 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">09월 · 1위 · 인도네시아</p>
+                <h3>발리 누사두아</h3>
+                <p class="headline">9월은 발리 누사두아가 가장 안정적</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>직항 550,000원~950,000원, 경유 300,000원~600,000원 · 9월 월~목 출발, 금·토 출발 회피</dd></div>
+                  <div><dt>이동</dt><dd>응우라라이 공항에서 누사두아 리조트까지 차량 25~40분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>Warung Nasi Ayam Ibu Oki</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-09-rank-1-bali-nusa-dua.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/My%20Khe%20Beach%2C%20Da%20Nang%2C%20Vietnam.jpg" alt="다낭 논느억/미케 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">09월 · 2위 · 베트남</p>
+                <h3>다낭 논느억/미케</h3>
+                <p class="headline">9월 다낭은 접근성과 먹거리 최강</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>약 378,000원 · 9월 일요일 출발, 5~7박</dd></div>
+                  <div><dt>이동</dt><dd>다낭 공항에서 논느억·미케 해변 리조트까지 차량 20~25분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>목식당</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 다낭 공항에서 논느억·미케 해변 리조트까지 차량 20~25분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 퀸스파·팜스파 등 주요 마사지샵까지 차량 15~25분 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-09-rank-2-da-nang-non-nuoc.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑/깜란 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">09월 · 3위 · 베트남</p>
+                <h3>나트랑/깜란</h3>
+                <p class="headline">9월 깜란은 풀빌라 휴양형으로 적합</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>200,000원~400,000원대 · 9월 화~목 또는 일요일 출발, 추석/연휴 회피</dd></div>
+                  <div><dt>이동</dt><dd>깜란 공항에서 해변 리조트까지 차량 10~20분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>마담프엉</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 깜란 공항에서 해변 리조트까지 차량 10~20분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-09-rank-3-cam-ranh-nha-trang.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="발리 누사두아 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">10월 · 1위 · 인도네시아</p>
+                <h3>발리 누사두아</h3>
+                <p class="headline">10월도 발리 누사두아 우선</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>직항 550,000원~1,000,000원, 경유 320,000원~650,000원 · 10월 초~중순 월~목 출발</dd></div>
+                  <div><dt>이동</dt><dd>응우라라이 공항에서 누사두아 리조트까지 차량 25~40분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>Warung Nasi Ayam Ibu Oki</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-10-rank-1-bali-nusa-dua.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오/나이양 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">10월 · 2위 · 태국</p>
+                <h3>푸켓 마이카오/나이양</h3>
+                <p class="headline">10월 말 푸켓은 조건부 2위</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>약 400,000원~700,000원 · 10월 하순 일~목 출발</dd></div>
+                  <div><dt>이동</dt><dd>푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>리조트 다이닝 + 나이양 해변 식당</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다. 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-10-rank-2-phuket-mai-khao.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Nha%20Trang%2C%20Vietnam.jpg" alt="나트랑/깜란 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">10월 · 3위 · 베트남</p>
+                <h3>나트랑/깜란</h3>
+                <p class="headline">10월 깜란은 리조트 체류형이면 가능</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>200,000원~400,000원대 · 9월 화~목 또는 일요일 출발, 추석/연휴 회피</dd></div>
+                  <div><dt>이동</dt><dd>깜란 공항에서 해변 리조트까지 차량 10~20분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>마담프엉</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 깜란 공항에서 해변 리조트까지 차량 10~20분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 깜란 리조트 픽업형 스파는 10~25분, 나트랑 시내 스파는 35~45분 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-10-rank-3-cam-ranh-nha-trang.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mai%20Khao%20Beach%20-%20panoramio.jpg" alt="푸켓 마이카오/나이양 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">11월 · 1위 · 태국</p>
+                <h3>푸켓 마이카오/나이양</h3>
+                <p class="headline">11월은 푸켓이 1순위</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>최저가 평균 약 345,000원~500,000원대 · 11월 일~목 출발, 가능하면 11월 중순 이후</dd></div>
+                  <div><dt>이동</dt><dd>푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>리조트 다이닝 + 나이양 해변 식당</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 푸켓 공항에서 마이카오 해변 리조트까지 차량 15~25분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 부모님 동반이면 리조트 스파가 가장 편하고, 빠통 외부 스파는 왕복 이동이 깁니다. 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-11-rank-1-phuket-mai-khao.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phu%20Quoc%20Beach.jpg" alt="푸꾸옥 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">11월 · 2위 · 베트남</p>
+                <h3>푸꾸옥</h3>
+                <p class="headline">11월 푸꾸옥은 풀빌라 가족여행 강자</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>약 440,000원~700,000원 · 11월 말 평일 출발</dd></div>
+                  <div><dt>이동</dt><dd>푸꾸옥 공항에서 남부 켐비치·선셋타운 리조트까지 차량 25~45분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>선셋타운/켐비치 식당가</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 푸꾸옥 공항에서 남부 켐비치·선셋타운 리조트까지 차량 25~45분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 가족 풀빌라 리조트 내부 스파 이용이 가장 편하고, 외부 이동은 숙소 위치에 따라 편차가 큽니다. 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-11-rank-2-phu-quoc.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            
+            <article class="monthly-guide-card">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nusa%20dua%20beach.jpg" alt="발리 누사두아 월별 로컬 가이드북 이미지" loading="lazy">
+              <div class="monthly-guide-body">
+                <p class="guide-meta">11월 · 3위 · 인도네시아</p>
+                <h3>발리 누사두아</h3>
+                <p class="headline">11월 발리는 우기 시작이지만 리조트형 대안</p>
+                <dl>
+                  <div><dt>항공권</dt><dd>직항 550,000원~950,000원, 경유 300,000원~600,000원 · 9월 월~목 출발, 금·토 출발 회피</dd></div>
+                  <div><dt>이동</dt><dd>응우라라이 공항에서 누사두아 리조트까지 차량 25~40분</dd></div>
+                  <div><dt>먹거리/마사지</dt><dd>Warung Nasi Ayam Ibu Oki</dd></div>
+                </dl>
+                <ol>
+                  <li>1일차: 응우라라이 공항에서 누사두아 리조트까지 차량 25~40분 후 리조트 안에서 저녁 식사와 휴식.</li>
+                  <li>2일차: 오전 수영장과 해변 산책, 오후에는 숙소 주변 맛집 또는 리조트 식당 위주로 짧게 이동.</li>
+                  <li>3일차: 엠스파·발리 리프레시 스파 계열은 차량 5~20분, 일부는 호텔 왕복 픽업 가능 일정 후 카페나 야시장 한 곳만 선택.</li>
+                </ol>
+                <a class="guide-link" href="guidebooks/2026-11-rank-3-bali-nusa-dua.md">로컬 가이드북 열기</a>
+              </div>
+            </article>
+            </div></section>
     <section id="flights"><h2>항공권 가격·출발 타이밍</h2><p class="lead">인천 출발 왕복 1인 기준입니다. 실제 결제 전에는 위탁수하물, 좌석, 결제 수수료, 새벽 도착 여부까지 포함해서 다시 비교하세요.</p><div class="table-wrap"><table><thead><tr><th>월/지역</th><th>노선/항공사</th><th>1인 왕복 예상</th><th>가장 저렴한 출발 패턴</th><th>가족 총액</th><th>판단 기준</th></tr></thead><tbody><tr><td>2026년 09월<br><span>다낭 논느억/미케</span></td><td><strong>인천-다낭</strong><br><span>제주항공, 티웨이, 에어서울, 베트남항공, 대한항공 등</span></td><td>약 378,000원<br><span>특가 목표: 310,000원~350,000원</span></td><td>9월 일요일 출발, 5~7박<br><span>출발 1.5~2개월 전부터 가격 알림, 특가면 즉시 결제</span></td><td>4명 약 1,510,000원~2,240,000원<br>6명 약 2,270,000원~3,370,000원</td><td>StubbyPlanner 2026년 9월 인천-다낭 평균/최저/요일 데이터</td></tr><tr><td>2026년 09월<br><span>나트랑/깜란</span></td><td><strong>인천-깜란</strong><br><span>제주항공, 진에어, 티웨이, 에어서울, 비엣젯, 베트남항공 등</span></td><td>200,000원~400,000원대<br><span>특가 목표: 220,000원~300,000원</span></td><td>9월 화~목 또는 일요일 출발, 추석/연휴 회피<br><span>출발 2~3개월 전 LCC 특가와 1개월 전 잔여석을 함께 감시</span></td><td>4명 약 880,000원~1,600,000원<br>6명 약 1,320,000원~2,400,000원</td><td>TripStore 나트랑 평균가/우기 특가 패턴 및 T&#x27;way 2026 특가 기사</td></tr><tr><td>2026년 09월<br><span>발리 누사두아</span></td><td><strong>인천-발리</strong><br><span>대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유</span></td><td>직항 550,000원~950,000원, 경유 300,000원~600,000원<br><span>특가 목표: 경유 300,000원~450,000원, 직항 600,000원대</span></td><td>9월 월~목 출발, 금·토 출발 회피<br><span>직항은 3~4개월 전, 경유 특가는 에어아시아 빅세일/프로모션 시점</span></td><td>4명 약 2,200,000원~3,800,000원<br>6명 약 3,300,000원~5,700,000원</td><td>2026 하계 인천-덴파사르 운항 스케줄 및 에어아시아 인천-발리 경유 특가</td></tr><tr><td>2026년 10월<br><span>발리 누사두아</span></td><td><strong>인천-발리</strong><br><span>대한항공, 가루다인도네시아, 제주항공/라이온에어, 에어아시아 경유</span></td><td>직항 550,000원~1,000,000원, 경유 320,000원~650,000원<br><span>특가 목표: 경유 350,000원~500,000원, 직항 600,000원~750,000원</span></td><td>10월 초~중순 월~목 출발<br><span>직항은 3개월 전, 경유는 프로모션 기간 우선</span></td><td>4명 약 2,200,000원~4,000,000원<br>6명 약 3,300,000원~6,000,000원</td><td>운항 스케줄과 경유 특가 패턴 기반 추정</td></tr><tr><td>2026년 10월<br><span>푸켓 마이카오/나이양</span></td><td><strong>인천-푸켓</strong><br><span>대한항공/아시아나 계열, 진에어/제주항공/티웨이 계열, 태국 경유편 등</span></td><td>약 400,000원~700,000원<br><span>특가 목표: 350,000원~450,000원</span></td><td>10월 하순 일~목 출발<br><span>출발 2개월 전부터 감시, 10월 초중순은 날씨 리스크 때문에 가격만 보고 결정 금지</span></td><td>4명 약 1,600,000원~2,800,000원<br>6명 약 2,400,000원~4,200,000원</td><td>푸켓 월별 비교에서 10월이 평균보다 높고 우기 전환기라는 근거</td></tr><tr><td>2026년 11월<br><span>푸켓 마이카오/나이양</span></td><td><strong>인천-푸켓</strong><br><span>직항 및 방콕/홍콩/싱가포르 경유편</span></td><td>최저가 평균 약 345,000원~500,000원대<br><span>특가 목표: 340,000원~420,000원</span></td><td>11월 일~목 출발, 가능하면 11월 중순 이후<br><span>출발 2~3개월 전 예약, 9월 말~10월 초 특가 확인</span></td><td>4명 약 1,380,000원~2,000,000원<br>6명 약 2,070,000원~3,000,000원</td><td>StubbyPlanner 푸켓 월별 비교: 11월 최저 344,664원</td></tr><tr><td>2026년 11월<br><span>푸꾸옥</span></td><td><strong>인천-푸꾸옥</strong><br><span>비엣젯, 베트남항공/호치민 경유, 기타 OTA 조합</span></td><td>약 440,000원~700,000원<br><span>특가 목표: 400,000원~500,000원</span></td><td>11월 말 평일 출발<br><span>출발 2개월 전부터 직항 특가 감시, 비엣젯 수하물 포함가로 비교</span></td><td>4명 약 1,760,000원~2,800,000원<br>6명 약 2,640,000원~4,200,000원</td><td>Traveloka 11월 참고가 442,764원 및 11월 말~12월 초 평일 저가 패턴</td></tr></tbody></table></div></section>
     <section id="routes"><h2>이동 경로</h2><p class="lead">부모님 동반 일정은 공항 이동, 식사 이동, 마사지 이동을 따로 보아야 실패 확률이 낮습니다.</p><div class="route-grid">
             <article class="route-card">
