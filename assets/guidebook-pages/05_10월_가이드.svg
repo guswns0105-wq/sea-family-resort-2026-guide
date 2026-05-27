@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs><style><![CDATA[
+    .small{font:800 28px -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif;letter-spacing:.08em}
+    .title{font:950 86px -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif}
+    .subtitle{font:760 38px -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif}
+    .body{font:760 34px -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif}
+    .caption{font:800 24px -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',Arial,sans-serif}
+  ]]></style><linearGradient id="sea" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#dbeeed"/><stop offset="1" stop-color="#f7f3ea"/></linearGradient></defs>
+  <rect width="1600" height="1000" fill="#f7f3ea"/><circle cx="1345" cy="145" r="190" fill="url(#sea)"/><circle cx="1450" cy="245" r="68" fill="#e8b15c"/><path d="M1040 680 C1130 620 1240 640 1330 590 C1440 530 1520 570 1600 520 L1600 1000 L1040 1000 Z" fill="#073f42" opacity=".13"/>
+  <rect x="48" y="48" width="1504" height="904" rx="34" fill="#fffdf7" stroke="#d7e1e5" stroke-width="3"/>
+  <text x="96" y="126" fill="#073f42" class="small">10월 가이드 · PAGE 05/20</text>
+  <text x="96" y="245" fill="#162025" class="title"><tspan x="96" dy="0">10월도 발리 우선, 푸켓은</tspan><tspan x="96" dy="1.08em">말부터</tspan></text>
+  <text x="96" y="438" fill="#60707a" class="subtitle"><tspan x="96" dy="0">발리는 건기 끝자락이라 리조트 휴양 성공률이 높음</tspan></text>
+  <line x1="96" y1="520" x2="1504" y2="520" stroke="#d7e1e5" stroke-width="3"/><circle cx="116" cy="573" r="7" fill="#073f42"/><text x="140" y="585" class="body"><tspan x="140" dy="0">푸켓은 전환기라 무료취소와 우천 대체 리조트 필요</tspan></text><circle cx="116" cy="677" r="7" fill="#073f42"/><text x="140" y="689" class="body"><tspan x="140" dy="0">깜란은 비가 와도 리조트 안에서 노는 일정으로 제한</tspan></text>
+  <g transform="translate(1185 700)"><rect x="0" y="0" width="270" height="150" rx="22" fill="#dbeeed"/><rect x="22" y="54" width="54" height="74" rx="8" fill="#fffdf7"/><rect x="92" y="36" width="54" height="92" rx="8" fill="#fffdf7"/><rect x="162" y="64" width="54" height="64" rx="8" fill="#fffdf7"/><path d="M0 120 C62 98 124 138 190 112 C230 98 250 104 270 96 L270 150 L0 150 Z" fill="#073f42" opacity=".7"/></g>
+  <text x="96" y="910" fill="#60707a" class="caption">2026 부모님 동남아 휴양 가이드 · 하루 한 번 외출 · 수영장/스파/숙소 식사 중심</text>
+</svg>
